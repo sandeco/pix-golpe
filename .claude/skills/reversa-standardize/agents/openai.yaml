@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Standardize"
+  short_description: "Padronização: aplica convenções de nomenclatura, formatação e…"
+policy:
+  allow_implicit_invocation: false

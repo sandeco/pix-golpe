@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Depth Inspection"
+  short_description: "Pente-fino do time Bugs: mapeia spec→código→testes→dados de…"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Pricing Size"
+  short_description: "Mede o tamanho estrutural da feature ativa lendo…"
+policy:
+  allow_implicit_invocation: false

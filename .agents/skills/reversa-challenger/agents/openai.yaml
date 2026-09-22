@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Challenger"
+  short_description: "Agente Challenger do Ideation Team, premortem e premissas que matam"
+policy:
+  allow_implicit_invocation: false

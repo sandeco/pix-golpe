@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Framer"
+  short_description: "Agente Framer do Ideation Team, separa problema de solução"
+policy:
+  allow_implicit_invocation: false

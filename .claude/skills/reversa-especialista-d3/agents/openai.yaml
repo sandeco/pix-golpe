@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Especialista D3"
+  short_description: "Engenheiro de Visualização de Dados Sênior especializado em…"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Pre-Spec"
+  short_description: "Agente Pre-Spec do Ideation Team, ponte da decisão para o próximo pipeline"
+policy:
+  allow_implicit_invocation: false

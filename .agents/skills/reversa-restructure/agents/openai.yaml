@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Restructure"
+  short_description: "Refatoração de estrutura interna (método/classe) via catálogo…"
+policy:
+  allow_implicit_invocation: false

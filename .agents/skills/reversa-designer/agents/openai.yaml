@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Designer"
+  short_description: "Quarto agente do Time de Migração, em duas fases"
+policy:
+  allow_implicit_invocation: false

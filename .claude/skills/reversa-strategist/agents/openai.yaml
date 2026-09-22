@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Strategist"
+  short_description: "Terceiro agente do Time de Migração"
+policy:
+  allow_implicit_invocation: false

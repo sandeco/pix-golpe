@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Docs Analyst"
+  short_description: "Analista do Time Reversa Docs"
+policy:
+  allow_implicit_invocation: false

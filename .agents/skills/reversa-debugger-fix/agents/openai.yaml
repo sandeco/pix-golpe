@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Debugger Fix"
+  short_description: "Corretor de bugs do Reversa: reproduz, investiga causa raiz,…"
+policy:
+  allow_implicit_invocation: false

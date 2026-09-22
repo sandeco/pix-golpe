@@ -1,0 +1,3 @@
+interface:
+  display_name: "Reversa Forward"
+  short_description: "Orquestrador do ciclo forward do Reversa: detecta o estágio…"

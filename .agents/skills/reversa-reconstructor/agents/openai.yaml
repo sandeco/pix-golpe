@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Reconstructor"
+  short_description: "Gera um plano de reconstrução bottom-up a partir das specs do…"
+policy:
+  allow_implicit_invocation: false

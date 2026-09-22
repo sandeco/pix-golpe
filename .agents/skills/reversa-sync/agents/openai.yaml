@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Sync"
+  short_description: "Convergência pós-coding do Reversa: destila a feature…"
+policy:
+  allow_implicit_invocation: false

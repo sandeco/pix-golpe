@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Arquitetura 3d"
+  short_description: "Cria visualizações 3D interativas de arquitetura de software…"
+policy:
+  allow_implicit_invocation: false

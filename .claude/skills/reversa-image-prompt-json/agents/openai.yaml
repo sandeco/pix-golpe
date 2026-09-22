@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Image Prompt Json"
+  short_description: "Cria prompts JSON estruturados para geração de imagens com…"
+policy:
+  allow_implicit_invocation: false

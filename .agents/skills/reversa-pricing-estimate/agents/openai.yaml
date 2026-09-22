@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Pricing Estimate"
+  short_description: "Combina profile de cobranca e size da feature ativa para…"
+policy:
+  allow_implicit_invocation: false

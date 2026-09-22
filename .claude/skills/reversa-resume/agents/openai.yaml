@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Resume"
+  short_description: "Retoma uma feature pausada (listada em paused-features de…"
+policy:
+  allow_implicit_invocation: false

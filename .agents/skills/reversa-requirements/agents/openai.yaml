@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Requirements"
+  short_description: "Transforma uma ideia em linguagem natural num documento de…"
+policy:
+  allow_implicit_invocation: false

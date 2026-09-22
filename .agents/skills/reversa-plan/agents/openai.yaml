@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Plan"
+  short_description: "Esboça a abordagem técnica como delta sobre o legado, gerando…"
+policy:
+  allow_implicit_invocation: false

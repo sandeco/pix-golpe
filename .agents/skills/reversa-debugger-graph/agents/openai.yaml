@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Debugger Graph"
+  short_description: "Gerador de views do time Bugs: varre os bug.md, valida…"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Reviewer"
+  short_description: "Revisa criticamente as especificações geradas pelo…"
+policy:
+  allow_implicit_invocation: false

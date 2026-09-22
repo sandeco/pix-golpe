@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Decouple"
+  short_description: "Desacoplamento: reduz dependências diretas (inversão, seams…"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,8 @@
+.env
+target/
+data/
+.reversa/
+_reversa_forward/
+output/
+*.pdf
+__pycache__/

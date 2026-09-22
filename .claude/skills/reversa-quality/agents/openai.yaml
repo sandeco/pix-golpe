@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Quality"
+  short_description: "Auditoria de clareza textual do requirements"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,251 @@
+openapi: 3.1.0
+info:
+  title: pix-golpe (Pix Race) - servidor da demo
+  version: 0.1.0
+  description: |
+    Extraido de src/bin/server.rs pelo Reversa em 2026-09-21. A API HTTP tem uma unica rota de pagina e dois
+    endpoints de upgrade WebSocket. Os eventos trocados pelo WebSocket estao descritos em components.schemas
+    (contrato completo em corrida-em-tempo-real/contracts.md). Sem autenticacao. Bind 0.0.0.0:8080.
+servers:
+  - url: http://localhost:8080
+paths:
+  /:
+    get:
+      summary: Tela da corrida (static/index.html lido do disco a cada request)
+      responses:
+        '200':
+          description: HTML da tela; se o arquivo faltar, HTML com mensagem de erro (ainda 200)
+          content:
+            text/html:
+              schema:
+                type: string
+  /ws:
+    get:
+      summary: WebSocket do navegador
+      description: |
+        Upgrade para WebSocket. Ao conectar, o servidor envia os dois eventos `status` atuais (rust, python).
+        Cliente envia comandos (BrowserCommand); servidor faz broadcast dos eventos (ServerEvent) a todos os browsers.
+      parameters:
+        - in: header
+          name: Upgrade
+          required: true
+          schema: { type: string, enum: [websocket] }
+      responses:
+        '101':
+          description: Switching Protocols
+  /ws/worker:
+    get:
+      summary: WebSocket do worker Python
+      description: |
+        Upgrade para WebSocket. Servidor envia `hello {data_dir}` e depois os eventos de controle (run, message,
+        pace, stop, reset). Worker envia status, decision, trace, error, done; o servidor injeta `side: python`
+        e `truth` (em trace) antes de repassar aos browsers. Um worker novo substitui o anterior.
+      responses:
+        '101':
+          description: Switching Protocols
+components:
+  schemas:
+    BrowserCommand:
+      oneOf:
+        - type: object
+          required: [type]
+          properties:
+            type: { const: start }
+            mode: { type: string, description: 'step | step:<ms> | serial | burst (default step)' }
+        - type: object
+          required: [type]
+          properties:
+            type: { const: pace }
+            mode: { type: string }
+        - type: object
+          required: [type]
+          properties: { type: { const: stop } }
+        - type: object
+          required: [type]
+          properties: { type: { const: report } }
+        - type: object
+          required: [type]
+          properties: { type: { const: reset } }
+    Run:
+      type: object
+      required: [type, run_id, mode, total, concurrency, pace_ms]
+      properties:
+        type: { const: run }
+        run_id: { type: integer, minimum: 0 }
+        mode: { type: string }
+        total: { type: integer }
+        concurrency: { type: integer, enum: [1, 8] }
+        pace_ms: { type: integer }
+    Message:
+      type: object
+      required: [type, run_id, id, ts, remetente, texto, chave]
+      properties:
+        type: { const: message }
+        run_id: { type: integer }
+        id: { type: integer }
+        ts: { type: integer, description: segundos desde t=0 }
+        remetente: { type: string }
+        texto: { type: string }
+        chave: { type: string }
+    Pace:
+      type: object
+      required: [type, run_id, mode, ms]
+      properties:
+        type: { const: pace }
+        run_id: { type: integer }
+        mode: { type: string }
+        ms: { type: integer }
+    Stop:
+      type: object
+      required: [type, run_id]
+      properties:
+        type: { const: stop }
+        run_id: { type: integer }
+    Reset:
+      type: object
+      required: [type]
+      properties:
+        type: { const: reset }
+    Hello:
+      type: object
+      required: [type, data_dir]
+      properties:
+        type: { const: hello }
+        data_dir: { type: string }
+    Status:
+      type: object
+      required: [type, side, state]
+      properties:
+        type: { const: status }
+        side: { type: string, enum: [rust, python] }
+        state: { type: string, enum: [connected, loading, ready, offline] }
+        nodes: { type: integer }
+        edges: { type: integer }
+        load_ms: { type: number }
+        memory_mb: { type: number, nullable: true }
+        model: { type: string }
+    Decision:
+      type: object
+      required: [type, side, run_id, id, latency_ms, golpe, tipo, urgencia, pede_pix, verdict, tokens_in, tokens_out, cost_usd, model]
+      properties:
+        type: { const: decision }
+        side: { type: string, enum: [rust, python] }
+        run_id: { type: integer }
+        id: { type: integer }
+        latency_ms: { type: number }
+        golpe: { type: number, minimum: 0, maximum: 1 }
+        tipo: { type: string, enum: [troca_numero, boleto_falso, falsa_central, premio, pix_errado, cobranca_legitima, pessoal, outro] }
+        tipo_confianca: { type: number, description: so no lado rust }
+        urgencia: { type: number, minimum: 0, maximum: 2 }
+        pede_pix: { type: number, minimum: 0, maximum: 1 }
+        verdict: { type: string, enum: [golpe, revisar, ok] }
+        tokens_in: { type: integer }
+        tokens_out: { type: integer }
+        cost_usd: { type: number }
+        model: { type: string }
+    Trace:
+      type: object
+      required: [type, side, run_id, id, chave, latency_ms, visitados, arestas_sub, laranjas, saque, nodes, edges]
+      properties:
+        type: { const: trace }
+        side: { type: string, enum: [rust, python] }
+        run_id: { type: integer }
+        id: { type: integer }
+        chave: { type: string }
+        latency_ms: { type: number }
+        visitados: { type: integer }
+        arestas_sub: { type: integer }
+        laranjas: { type: array, items: { type: integer } }
+        saque: { type: array, items: { type: integer } }
+        nodes:
+          type: array
+          maxItems: 800
+          items:
+            type: array
+            prefixItems: [{ type: integer }, { type: integer }, { type: number }]
+            description: '[id, prof, suspeita com 3 casas]'
+        edges:
+          type: array
+          maxItems: 1500
+          items:
+            type: array
+            prefixItems: [{ type: integer }, { type: integer }]
+        truth:
+          type: object
+          description: adicionado pelo servidor
+          properties:
+            laranjas_reais: { type: integer }
+            laranjas_acertadas: { type: integer }
+            saque_reais: { type: integer }
+            saque_acertadas: { type: integer }
+    Error:
+      type: object
+      required: [type, side, message]
+      properties:
+        type: { const: error }
+        side: { type: string }
+        run_id: { type: integer }
+        id: { type: integer }
+        message: { type: string }
+    Done:
+      type: object
+      required: [type, side, run_id, totals]
+      properties:
+        type: { const: done }
+        side: { type: string }
+        run_id: { type: integer }
+        totals:
+          type: object
+          properties:
+            messages: { type: integer }
+            golpes: { type: integer }
+            erros: { type: integer }
+            decision_p50_ms: { type: number }
+            decision_p95_ms: { type: number }
+            trace_p50_ms: { type: number }
+            trace_p95_ms: { type: number }
+            cost_usd: { type: number }
+            total_ms: { type: number }
+    ReportSide:
+      type: object
+      properties:
+        avaliadas: { type: integer }
+        matriz:
+          type: object
+          properties:
+            golpe: { type: object, properties: { golpe: { type: integer }, revisar: { type: integer }, ok: { type: integer } } }
+            normal: { type: object, properties: { golpe: { type: integer }, revisar: { type: integer }, ok: { type: integer } } }
+        tp: { type: integer }
+        fp: { type: integer }
+        fn: { type: integer }
+        tn: { type: integer }
+        acuracia: { type: number }
+        precisao: { type: number }
+        recall: { type: number }
+    Report:
+      type: object
+      required: [type, run_id, total, golpes_reais, sides]
+      properties:
+        type: { const: report }
+        run_id: { type: integer }
+        total: { type: integer }
+        golpes_reais: { type: integer }
+        sides:
+          type: object
+          properties:
+            rust: { $ref: '#/components/schemas/ReportSide' }
+            python: { $ref: '#/components/schemas/ReportSide' }
+    ServerEvent:
+      oneOf:
+        - $ref: '#/components/schemas/Run'
+        - $ref: '#/components/schemas/Message'
+        - $ref: '#/components/schemas/Pace'
+        - $ref: '#/components/schemas/Stop'
+        - $ref: '#/components/schemas/Reset'
+        - $ref: '#/components/schemas/Hello'
+        - $ref: '#/components/schemas/Status'
+        - $ref: '#/components/schemas/Decision'
+        - $ref: '#/components/schemas/Trace'
+        - $ref: '#/components/schemas/Error'
+        - $ref: '#/components/schemas/Done'
+        - $ref: '#/components/schemas/Report'

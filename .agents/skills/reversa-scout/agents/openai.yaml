@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Scout"
+  short_description: "Mapeia a superfície do projeto legado — estrutura de pastas,…"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,1635 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>DETECTOR DE GOLPE — Rust + Jev × Python + DeepSeek</title>
+  <style>
+    :root { color-scheme: dark; font-family: "Segoe UI", Arial, sans-serif; background: #080b12; color: #f3f5fa; font-synthesis: none; }
+    * { box-sizing: border-box; }
+    html { scrollbar-gutter: stable; scrollbar-width: thin; scrollbar-color: #1a2130 transparent; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #080b12; }
+    ::-webkit-scrollbar-thumb { background: #1a2130; border-radius: 8px; }
+    ::-webkit-scrollbar-button { display: none; height: 0; }
+    body { margin: 0; }
+    h1, h2, h3, p, dl, dd { margin: 0; }
+    button, select { font: inherit; cursor: pointer; }
+    button:disabled, select:disabled { opacity: .45; cursor: default; }
+    button:focus-visible, select:focus-visible { outline: 3px solid #fff; outline-offset: 5px; }
+    [hidden] { display: none !important; }
+    .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+    #viewport { width: 100%; }
+    #frame { position: relative; width: 1920px; margin-inline: auto; }
+    #stage { position: relative; width: 1920px; padding: 0 32px 24px; display: grid; gap: 18px; background: radial-gradient(ellipse at 12% 0, #ff2d9514, transparent 750px), radial-gradient(ellipse at 90% 0, #6985f61a, transparent 750px), #0b0f18; }
+    .topbar { position: sticky; top: 0; z-index: 10; min-height: 92px; padding: 16px 0; display: flex; align-items: center; justify-content: space-between; gap: 30px; background: #0b0f18f5; border-bottom: 1px solid #ffffff12; backdrop-filter: blur(12px); }
+    h1 { font-size: 42px; font-weight: 900; letter-spacing: -1.8px; }
+    .controls { display: flex; align-items: center; gap: 18px; }
+    .connection { display: flex; align-items: center; gap: 9px; color: #a7b1c1; font-size: 15px; margin-right: 10px; }
+    .connection::before { content: ""; width: 8px; height: 8px; border-radius: 50%; background: #f3bb62; }
+    .connection[data-state="connected"]::before { background: #59e0a4; box-shadow: 0 0 12px #59e0a433; }
+    .mode-control { display: flex; align-items: center; gap: 12px; }
+    .mode-control label { font-size: 17px; color: #a7b1c1; }
+    select { background: #171e2b; color: #f3f5fa; border: 1px solid #354052; border-radius: 12px; padding: 15px 38px 15px 16px; font-size: 19px; }
+    .start { min-width: 170px; height: 57px; padding: 0 28px; border: 0; border-radius: 12px; background: #eef4f8; color: #111923; font-size: 22px; font-weight: 750; }
+    .start:hover:enabled { background: #fff; box-shadow: 0 0 24px #ffffff18; }
+    .start[data-action="stop"] { background: #c72c42; color: #fff; }
+    .start[data-action="stop"]:hover:enabled { background: #e1374f; }
+    .report-button { height: 57px; padding: 0 20px; border: 1px solid #53627c; border-radius: 12px; background: #1b2536; color: #eef4f8; font-size: 19px; font-weight: 650; }
+    .report-button:hover:enabled { background: #29374e; }
+    .race { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px; align-items: start; }
+    .lane { --accent: #ff2d95; --accent-light: #ff8cc6; --accent-dark: #55223f; position: relative; min-width: 0; padding: 20px 24px; border: 1px solid #ff2d9540; border-top: 4px solid var(--accent); border-radius: 22px; background: linear-gradient(155deg, #ff2d950c, transparent 600px), #111722; display: grid; gap: 16px; }
+    .lane.python { --accent: #6985f6; --accent-light: #a7b8ff; --accent-dark: #26355f; border-color: #6985f650; border-top-color: var(--accent); background: linear-gradient(155deg, #6985f612, transparent 600px), #111722; }
+    .lane h2 { color: var(--accent); font-size: 29px; line-height: 34px; font-weight: 750; letter-spacing: -.8px; }
+    .lane-top { display: grid; grid-template-columns: 330px minmax(0, 1fr); gap: 20px; align-items: center; }
+    .counter { display: grid; gap: 10px; }
+    .count-line { display: flex; align-items: baseline; gap: 12px; white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .processed { font-size: 100px; font-weight: 800; line-height: 1; letter-spacing: -5px; color: var(--accent); }
+    .out-of { color: #a6b1c2; font-size: 34px; font-weight: 500; letter-spacing: -1px; }
+    .counter-caption { min-height: 26px; display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .stopped { padding: 3px 9px; border: 1px solid var(--accent); border-radius: 7px; background: var(--accent-dark); color: var(--accent-light); font-size: 14px; font-weight: 700; }
+    .counter-label { font-size: 13px; letter-spacing: 2px; font-weight: 650; color: #9da9ba; }
+    .progress { height: 14px; border-radius: 9px; overflow: hidden; background: var(--accent-dark); }
+    .progress-fill { height: 100%; width: 0; border-radius: inherit; background: var(--accent); transition: width 140ms linear; }
+    .speed { display: grid; gap: 6px; margin: 0; }
+    .speed-row { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; font-variant-numeric: tabular-nums; }
+    .speed-row dt { font-size: 13px; letter-spacing: 1px; font-weight: 650; color: #9da9ba; }
+    .speed-row dd { margin: 0; font-size: 22px; font-weight: 750; color: var(--accent-light); white-space: nowrap; }
+    .speed-row dd small { font-size: 13px; font-weight: 500; color: #a6b1c2; margin-left: 5px; }
+    .current-message { min-width: 0; display: grid; grid-template-rows: 148px 42px; gap: 8px; }
+    .bubble { min-width: 0; border: 1px solid #ffffff12; background: #1b2331; color: inherit; text-align: left; padding: 12px 16px; border-radius: 6px 16px 16px 16px; overflow: hidden; }
+    .bubble:disabled { opacity: 1; }
+    .bubble:enabled { border-color: var(--accent); }
+    .bubble:enabled:hover { background: var(--accent-dark); }
+    .bubble .sender { display: block; }
+    .sender { font-size: 15px; font-weight: 650; color: #b8c4d5; line-height: 20px; margin-bottom: 4px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .sender::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 10px; border-radius: 50%; background: var(--accent); }
+    .message-text { font-size: 24px; line-height: 1.3; font-weight: 450; overflow-wrap: anywhere; white-space: pre-wrap; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .bubble[data-empty="true"] { display: flex; flex-direction: column; justify-content: center; }
+    .bubble[data-empty="true"] .message-text { color: #8592a5; }
+    .verdict { min-width: 0; display: flex; align-items: center; gap: 10px; padding: 0 12px; border: 1px solid #ffffff12; border-radius: 10px; background: #ffffff04; }
+    .verdict-symbol { display: grid; place-items: center; width: 25px; height: 25px; flex: 0 0 25px; border: 2px solid currentColor; border-radius: 50%; font-size: 17px; font-weight: 800; }
+    .verdict-word { font-size: 22px; font-weight: 850; letter-spacing: -.5px; white-space: nowrap; }
+    .verdict-type { font-size: 15px; line-height: 1.15; font-weight: 600; margin-left: auto; text-align: right; max-width: 220px; }
+    .verdict[data-verdict="waiting"] { color: #76859a; }
+    .verdict[data-verdict="waiting"] .verdict-word { font-size: 19px; font-weight: 500; letter-spacing: 0; }
+    .verdict[data-verdict="ok"] { color: #79efb5; border-color: #3c9a6a80; background: #143929; }
+    .verdict[data-verdict="revisar"] { color: #ffda79; border-color: #b3964680; background: #3b311b; }
+    .verdict[data-verdict="golpe"] { color: #fff; border-color: #ff6975; background: #d62d42; animation: pulse 720ms ease-in-out infinite; }
+    .verdict[data-verdict="error"] { color: #d4dae4; border-color: #7b879b80; background: #303a49; }
+    .alert-wash { position: absolute; z-index: 3; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; border: 5px solid #ff5266; background: #ff304a; }
+    @keyframes pulse { 50% { box-shadow: 0 0 0 5px #ff435426, 0 0 30px #ff435438; } }
+    .lane[data-stopped="true"] .verdict { animation-play-state: paused; }
+    .graph-panel { min-width: 0; border: 1px solid #ffffff16; border-radius: 16px; background: #0b1320; overflow: hidden; scroll-margin-top: 110px; }
+    .graph-heading { padding: 14px 16px 8px; display: flex; justify-content: space-between; align-items: start; gap: 20px; }
+    .graph-heading-left { min-width: 0; }
+    .graph-heading h3 { font-size: 20px; line-height: 26px; font-weight: 650; }
+    .graph-key { font-size: 14px; color: #a6b5cb; margin-top: 4px; overflow-wrap: anywhere; }
+    .graph-facts { flex-shrink: 0; color: var(--accent-light); font-size: 17px; line-height: 26px; text-align: right; font-variant-numeric: tabular-nums; }
+    .graph-processing { font-size: 15px; color: #93a6c2; }
+    .graph-canvas-wrap { position: relative; height: 420px; }
+    .graph-canvas { display: block; width: 100%; height: 420px; }
+    .graph-empty { position: absolute; inset: 0; display: grid; place-items: center; padding: 25px; color: #9aabc4; font-size: 24px; text-align: center; pointer-events: none; }
+    .graph-tip { position: absolute; z-index: 2; pointer-events: none; padding: 8px 12px; border: 1px solid #ffffff22; border-radius: 9px; background: #0b1320f2; color: #dbe5f3; font-size: 14px; line-height: 1.45; white-space: nowrap; transform: translate(-50%, calc(-100% - 14px)); }
+    .graph-tip[data-below="true"] { transform: translate(-50%, 16px); }
+    .graph-tip strong { display: block; font-size: 15px; }
+    .graph-tip[data-role="golpista"] strong { color: #ff526b; }
+    .graph-tip[data-role="laranja"] strong { color: #ffad61; }
+    .graph-tip[data-role="saque"] strong { color: var(--accent-light); }
+    .graph-tip[data-role="visitada"] strong { color: #9fbde3; }
+    .scam-history { display: grid; gap: 12px; }
+    .scam-history h3 { color: #cbd5e5; font-size: 23px; line-height: 30px; font-weight: 650; }
+    .list-empty { padding: 19px 14px; color: #8290a4; font-size: 17px; }
+    .scam-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+    .scam-row { width: 100%; display: grid; gap: 10px; padding: 17px 19px; text-align: left; color: #e7ecf5; background: #182131; border: 1px solid #ffffff12; border-left: 4px solid transparent; border-radius: 12px; }
+    .scam-row:hover { background: #ffffff0b; }
+    .scam-row[data-selected="true"] { border-color: var(--accent); border-left-color: var(--accent); background: var(--accent-dark); }
+    .scam-sender { color: var(--accent-light); font-size: 16px; font-weight: 650; overflow-wrap: anywhere; }
+    .scam-preview { font-size: 23px; line-height: 1.4; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .scam-meta { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .scam-badge { border-radius: 5px; padding: 4px 8px; background: #922839; color: #ffe0e5; font-size: 13px; font-weight: 800; }
+    .scam-type { font-size: 17px; color: #ced8e9; }
+    .scam-probability { font-size: 18px; color: var(--accent-light); font-weight: 700; font-variant-numeric: tabular-nums; }
+    .accumulator { align-self: end; border-top: 1px solid #ffffff12; padding-top: 5px; color: var(--accent); font-size: 26px; line-height: 30px; font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .money { border-top: 1px solid #ffffff0d; padding: 8px 16px 12px; }
+    .money-empty { padding: 8px; color: #a5b1c4; font-size: 17px; text-align: center; }
+    .money-content { display: grid; grid-template-rows: 74px auto; gap: 4px; }
+    .money-flow { min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr) 68px minmax(0, 1.15fr) 68px minmax(0, 1fr); align-items: start; }
+    .money-group { min-width: 0; text-align: center; }
+    .money-group h3 { font-size: 12px; line-height: 14px; letter-spacing: 1.5px; font-weight: 750; color: #c2cad7; }
+    .money-group:first-child h3 { color: #ff818c; }
+    .money-group:nth-child(3) h3 { color: #ffb771; }
+    .money-group:last-child h3 { color: var(--accent-light); }
+    .origin { width: 24px; height: 24px; display: grid; place-items: center; margin: 4px auto 2px; border-radius: 50%; background: #fb5064; box-shadow: 0 0 0 4px #fb506415; color: #400e19; }
+    .origin svg { width: 18px; height: 18px; }
+    .pix-key { font-size: 12px; line-height: 1.15; color: #e4bac2; overflow-wrap: anywhere; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .accounts-space { height: 60px; display: grid; place-items: center; }
+    .orange-grid, .cash-grid { display: grid; justify-content: center; gap: 2px; }
+    .orange-grid { grid-template-columns: repeat(var(--columns, 4), 12px); }
+    .account { display: block; position: relative; width: 12px; height: 12px; border-radius: 50%; background: #ffad61; box-shadow: inset 0 0 0 1px #ffd2a1; }
+    .cash-grid { grid-template-columns: repeat(var(--columns, 2), var(--size, 52px)); gap: 6px; }
+    .cash { display: grid; place-items: center; width: var(--size, 24px); height: var(--size, 24px); border-radius: 50%; background: var(--accent); color: #fff; font-size: calc(var(--size, 24px) * .58); font-weight: 750; }
+    .no-accounts { font-size: 30px; color: #718098; }
+    .arrow { position: relative; height: 3px; margin: 36px 8px 0 2px; background: #58667d; }
+    .arrow::after { content: ""; position: absolute; right: 0; top: -5px; width: 12px; height: 12px; border-top: 3px solid #77869c; border-right: 3px solid #77869c; transform: rotate(45deg); }
+    .coin { position: absolute; top: -7px; left: 0; width: 17px; height: 17px; border-radius: 50%; color: #64421b; background: #ffde83; box-shadow: 0 0 14px #ffe09c80; opacity: 0; font-size: 12px; line-height: 17px; text-align: center; font-weight: 800; }
+    .money-summary { align-self: start; font-size: 15px; line-height: 1.3; color: #bac6d7; text-align: center; text-wrap: pretty; }
+    .footer { display: flex; justify-content: center; align-items: center; color: #78869b; font-size: 15px; white-space: nowrap; }
+    .final { position: fixed; z-index: 20; inset: 104px max(24px, calc((100vw - 1800px) / 2)) 24px; padding: 30px 38px; overflow-y: auto; border: 1px solid #43506a; border-radius: 24px; background: #101622; box-shadow: 0 20px 100px #000a; display: grid; grid-template-rows: 42px minmax(min-content, 1fr) 60px; gap: 24px; }
+    .final-context { align-self: center; font-size: 26px; color: #b7c4d7; text-align: center; }
+    .final-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+    .final-side { --accent: #ff2d95; min-width: 0; padding: 28px 38px; border: 1px solid #ff2d9540; border-top: 4px solid var(--accent); border-radius: 18px; background: linear-gradient(150deg, #ff2d9510, transparent); }
+    .final-side.python { --accent: #6985f6; border-color: #6985f640; border-top-color: var(--accent); background: linear-gradient(150deg, #6985f610, transparent); }
+    .final-side h3 { font-size: 34px; letter-spacing: -.7px; color: var(--accent); }
+    .time-label { font-size: 20px; color: #a7b4c7; margin-top: 34px; }
+    .final-time { font-size: clamp(56px, 7.5vw, 144px); line-height: 1.2; font-weight: 800; letter-spacing: -7px; color: var(--accent); white-space: nowrap; font-variant-numeric: tabular-nums; }
+    .final-time small { font-size: .43em; letter-spacing: -1px; font-weight: 500; }
+    .final-time.compact { font-size: 108px; }
+    .final-stats { margin-top: 27px; }
+    .stat-row { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 16px 0; border-top: 1px solid #ffffff10; }
+    .stat-row dt { color: #a7b4c7; font-size: 22px; }
+    .stat-row dd { font-size: 28px; font-weight: 650; font-variant-numeric: tabular-nums; }
+    .final-actions { justify-self: center; display: flex; gap: 16px; align-items: center; }
+    .final-restart { min-width: 224px; height: 60px; margin-top: 0; }
+    #final-close { height: 60px; padding-inline: 28px; font-size: 20px; }
+    .accuracy-report { z-index: 30; grid-template-rows: auto minmax(min-content, 1fr) auto; }
+    .report-heading { display: flex; align-items: start; justify-content: space-between; gap: 24px; }
+    .report-heading h2 { font-size: 28px; line-height: 1.3; font-weight: 700; }
+    .report-note { margin-top: 8px; color: #a7b4c7; font-size: 16px; line-height: 1.4; }
+    .report-close { flex-shrink: 0; height: 44px; padding-inline: 18px; }
+    .report-side { padding: 24px; }
+    .report-side h3 { font-size: 30px; }
+    .report-evaluated { margin-top: 6px; color: #a7b4c7; font-size: 18px; }
+    .confusion { width: 100%; margin-top: 22px; border-collapse: separate; border-spacing: 6px; table-layout: fixed; }
+    .confusion th { padding: 8px 4px; color: #b7c4d7; font-size: 15px; font-weight: 650; }
+    .confusion th:first-child { width: 24%; text-align: left; }
+    .confusion td { height: 100px; border: 1px solid #ffffff12; border-radius: 10px; background: #1c2738; text-align: center; font-size: 50px; font-weight: 750; font-variant-numeric: tabular-nums; }
+    .confusion .matrix-hit { background: #143929; border-color: #3c9a6a; color: #79efb5; }
+    .confusion .matrix-error { background: #4d202d; border-color: #c74b60; color: #ff97a7; }
+    .report-metrics { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; margin-top: 24px; }
+    .report-metrics [data-metric="custo"] dd { font-size: 24px; padding-top: 12px; white-space: nowrap; }
+    .report-cost { border-top: 1px solid #ffffff18; padding-top: 20px; color: #eef4f8; font-size: 23px; line-height: 1.45; }
+    .report-cost strong { color: var(--accent); font-variant-numeric: tabular-nums; }
+    .report-metrics dt { color: #b7c4d7; font-size: 19px; }
+    .report-metrics dd { margin-top: 4px; color: var(--accent); font-size: 42px; font-weight: 750; font-variant-numeric: tabular-nums; }
+    .report-legends { display: grid; gap: 8px; margin-top: 22px; color: #a7b4c7; font-size: 16px; line-height: 1.4; }
+    .report-conclusion { border-top: 1px solid #ffffff18; padding-top: 20px; color: #eef4f8; font-size: 23px; line-height: 1.45; }
+    .scam-backdrop { position: fixed; z-index: 50; inset: 0; padding: 24px; display: grid; place-items: center; background: #03060bd9; backdrop-filter: blur(6px); }
+    .scam-dialog { --accent: #ff2d95; --accent-light: #ff8cc6; --accent-dark: #55223f; width: min(1600px, 100%); height: min(900px, calc(100dvh - 48px)); min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); gap: 20px; padding: 24px; border: 1px solid var(--accent); border-top: 4px solid var(--accent); border-radius: 22px; background: #101722; box-shadow: 0 24px 120px #000c; }
+    .scam-dialog[data-side="python"] { --accent: #6985f6; --accent-light: #a7b8ff; --accent-dark: #26355f; }
+    .scam-dialog-heading { display: flex; justify-content: space-between; align-items: center; gap: 24px; }
+    .scam-dialog-heading h2 { color: var(--accent); font-size: 29px; }
+    .detail-body { min-height: 0; overflow-y: auto; overscroll-behavior: contain; display: grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.15fr); gap: 24px; align-items: start; padding-right: 8px; }
+    .detail-message, .detail-money { min-width: 0; display: grid; gap: 18px; }
+    .detail-sender { font-size: 21px; font-weight: 700; color: var(--accent-light); overflow-wrap: anywhere; }
+    .detail-meta { margin-top: 7px; font-size: 15px; color: #95a8c4; }
+    .detail-text { padding: 22px; border: 1px solid #ffffff15; border-radius: 8px 18px 18px 18px; background: #1b2536; font-size: 27px; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .detail-verdict { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+    .detail-speed { padding: 14px 18px; border: 1px solid #ffffff12; border-radius: 14px; background: #0b1320; }
+    .detail-badge { padding: 10px 16px; border-radius: 10px; background: #c82b42; color: #fff; font-size: 30px; font-weight: 850; }
+    .detail-type { font-size: 22px; color: #f4c1cb; }
+    .detail-bars { display: grid; gap: 18px; padding: 22px; border: 1px solid #ffffff12; border-radius: 14px; background: #0b1320; }
+    .score-label { display: flex; justify-content: space-between; gap: 12px; margin-bottom: 8px; font-size: 18px; color: #cbd7e7; }
+    .score-label strong { color: var(--accent-light); font-variant-numeric: tabular-nums; }
+    .score-track { height: 13px; overflow: hidden; background: var(--accent-dark); border-radius: 9px; }
+    .score-fill { height: 100%; border-radius: inherit; background: var(--accent); }
+    .detail-technical { margin: 0; padding: 4px 18px; border: 1px solid #ffffff12; border-radius: 14px; background: #0b1320; }
+    .detail-fact { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; padding: 11px 0; border-top: 1px solid #ffffff10; }
+    .detail-fact:first-child { border-top: 0; }
+    .detail-fact dt { color: #96a7bf; font-size: 13px; letter-spacing: 1px; font-weight: 650; text-transform: uppercase; }
+    .detail-fact dd { margin: 0; color: #dbe5f3; font-size: 16px; font-weight: 650; font-variant-numeric: tabular-nums; text-align: right; overflow-wrap: anywhere; }
+    .scam-dialog .graph-panel { border-color: #ffffff1c; }
+    .scam-dialog .graph-canvas, .scam-dialog .graph-canvas-wrap { height: 520px; }
+    .scam-dialog .graph-facts { display: none; }
+    .scam-dialog .money { padding-block: 14px; }
+    .detail-numbers { display: grid; gap: 7px; font-size: 16px; line-height: 1.4; color: #b8c8df; }
+    .detail-accounts { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .detail-accounts h3 { font-size: 16px; color: var(--accent-light); margin-bottom: 8px; }
+    .account-list { max-height: 116px; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-wrap: wrap; align-content: start; gap: 7px; margin: 0; padding: 10px; list-style: none; border: 1px solid #ffffff16; border-radius: 9px; background: #0b1320; }
+    .account-list li { padding: 4px 7px; border-radius: 5px; background: #233148; color: #c4d3e8; font-size: 14px; }
+    .detail-body:focus-visible, .account-list:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+    @media (max-width: 1050px) { .detail-body { grid-template-columns: minmax(0, 1fr); } .scam-dialog { padding: 18px; } .scam-dialog-heading h2 { font-size: 23px; } }
+    @media (prefers-reduced-motion: reduce) { .progress-fill { transition: none; } .verdict[data-verdict="golpe"] { animation: none; box-shadow: 0 0 0 4px #ff435438; } }
+  </style>
+</head>
+<body>
+  <div id="viewport"><div id="frame"><main id="stage">
+    <header class="topbar">
+      <h1>DETECTOR DE GOLPE</h1>
+      <div class="controls">
+        <span id="connection" class="connection" data-state="offline" role="status">Conectando...</span>
+        <div class="mode-control">
+          <label for="mode">Ritmo</label>
+          <select id="mode">
+            <option value="step:4000">Narrado · 4 s</option>
+            <option value="serial">Normal</option>
+          </select>
+        </div>
+        <button id="start" class="start" type="button" disabled>Iniciar</button>
+        <button id="report" class="report-button" type="button" disabled>Relatório de acurácia</button>
+      </div>
+    </header>
+    <div id="race" class="race"></div>
+    <footer class="footer">Mensagens simuladas. Transações simuladas. Mesmo algoritmo nas duas linguagens, Python puro.</footer>
+  </main></div></div>
+    <section id="final" class="final" role="dialog" aria-modal="false" aria-labelledby="final-title" aria-describedby="final-context" hidden>
+      <h2 id="final-title" class="sr-only">Resultado da corrida</h2>
+      <p id="final-context" class="final-context"></p>
+      <div id="final-columns" class="final-columns"></div>
+      <div class="final-actions">
+        <button id="final-close" class="report-button" type="button">Fechar</button>
+        <button id="restart" class="start final-restart" type="button">Reiniciar</button>
+      </div>
+    </section>
+
+    <section id="accuracy-report" class="final accuracy-report" role="dialog" aria-modal="false" aria-labelledby="report-title" aria-describedby="report-note" hidden>
+      <header class="report-heading">
+        <div><h2 id="report-title">Relatório de acurácia</h2><p id="report-note" class="report-note"></p></div>
+        <button id="report-close" class="report-button report-close" type="button" aria-label="Fechar relatório de acurácia">Fechar</button>
+      </header>
+      <div id="report-columns" class="final-columns"></div>
+      <p id="report-cost" class="report-cost"></p>
+      <p id="report-conclusion" class="report-conclusion"></p>
+    </section>
+
+  <template id="lane-template">
+    <section class="lane">
+      <h2></h2>
+      <div class="lane-top">
+      <div class="counter">
+        <p class="count-line"><strong class="processed" data-field="processed">0</strong><span class="out-of">/ <span data-field="total">—</span></span></p>
+        <div class="counter-caption"><p class="counter-label">MENSAGENS PROCESSADAS</p><span class="stopped" data-field="stopped" hidden>Parado</span></div>
+        <div class="progress" data-field="progress" role="progressbar" aria-label="Mensagens processadas" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0"><div class="progress-fill" data-field="fill"></div></div>
+        <dl class="speed" aria-label="Velocidade por componente">
+          <div class="speed-row"><dt data-field="modelLabel"></dt><dd data-field="modelMs">—</dd></div>
+          <div class="speed-row"><dt data-field="engineLabel"></dt><dd data-field="engineMs">—</dd></div>
+          <div class="speed-row"><dt data-field="memoryLabel"></dt><dd data-field="memoryMb">—</dd></div>
+        </dl>
+      </div>
+      <div class="current-message">
+      <button class="bubble" data-field="bubble" data-empty="true" type="button" aria-label="Última mensagem analisada" aria-haspopup="dialog" aria-controls="scam-dialog" disabled>
+        <span class="sender" data-field="sender" hidden></span>
+        <span class="message-text" data-field="text">Aguardando...</span>
+      </button>
+      <div class="verdict" data-field="verdict" data-verdict="waiting" role="status" aria-atomic="true">
+        <span class="verdict-symbol" data-field="symbol" aria-hidden="true">–</span>
+        <strong class="verdict-word" data-field="word">Aguardando...</strong>
+        <span class="verdict-type" data-field="kind"></span>
+      </div>
+      </div>
+      </div>
+      <section class="graph-panel" data-field="graphPanel" aria-label="Caminho do dinheiro do golpe mais recente">
+        <header class="graph-heading">
+          <div class="graph-heading-left"><h3 data-field="graphTitle">Caminho do dinheiro</h3><p class="graph-key" data-field="graphKey"></p></div>
+          <div class="graph-facts" data-field="graphFacts" hidden><p data-field="truth"></p><p class="graph-processing" data-field="processing"></p></div>
+        </header>
+        <div class="graph-canvas-wrap">
+          <canvas class="graph-canvas" data-field="canvas" role="img" aria-label="Caminho do dinheiro aguardando rastreio"></canvas>
+          <p class="graph-empty" data-field="graphEmpty">A investigação começa na chave Pix</p>
+          <div class="graph-tip" data-field="graphTip" role="tooltip" hidden></div>
+        </div>
+        <div class="money">
+        <p class="money-empty" data-field="empty">Nenhum golpe rastreado ainda</p>
+        <div class="money-content" data-field="money" hidden>
+          <div class="money-flow">
+            <div class="money-group">
+              <h3>GOLPISTA</h3>
+              <div class="origin" aria-hidden="true"><svg viewBox="0 0 40 40" fill="currentColor"><circle cx="20" cy="12" r="7"/><path d="M7 34v-4a13 13 0 0 1 26 0v4Z"/></svg></div>
+              <p class="pix-key" data-field="key"></p>
+            </div>
+            <div class="arrow" aria-hidden="true"><i class="coin">$</i><i class="coin">$</i><i class="coin">$</i></div>
+            <div class="money-group">
+              <h3>LARANJAS</h3>
+              <div class="accounts-space"><div class="orange-grid" data-field="oranges" aria-hidden="true"></div></div>
+            </div>
+            <div class="arrow" aria-hidden="true"><i class="coin">$</i><i class="coin">$</i><i class="coin">$</i></div>
+            <div class="money-group">
+              <h3>SAQUE</h3>
+              <div class="accounts-space"><div class="cash-grid" data-field="cash" aria-hidden="true"></div></div>
+            </div>
+          </div>
+          <p class="money-summary" data-field="summary"></p>
+        </div>
+        </div>
+      </section>
+      <section class="scam-history" aria-label="Golpes acumulados">
+        <h3>Golpes acumulados</h3>
+        <p class="list-empty" data-field="listEmpty">Nenhum golpe detectado ainda</p>
+        <ol class="scam-list" data-field="list"></ol>
+      </section>
+      <p class="accumulator" data-field="accumulator">0 processadas · 0 golpes · 0 ok</p>
+      <div class="alert-wash" data-field="flash" aria-hidden="true"></div>
+    </section>
+  </template>
+
+  <div id="scam-modal" class="scam-backdrop" hidden>
+    <section id="scam-dialog" class="scam-dialog" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <header class="scam-dialog-heading">
+        <h2 id="detail-title">Detalhes do golpe</h2>
+        <button id="detail-close" class="report-button report-close" type="button" aria-label="Fechar detalhes do golpe">Fechar</button>
+      </header>
+      <div id="detail-body" class="detail-body" tabindex="0" aria-label="Detalhes da mensagem e do rastreio">
+        <div class="detail-message">
+          <div><p id="detail-sender" class="detail-sender"></p><p id="detail-meta" class="detail-meta"></p></div>
+          <p id="detail-text" class="detail-text"></p>
+          <div class="detail-verdict"><strong id="detail-badge" class="detail-badge"></strong><span id="detail-type" class="detail-type"></span></div>
+          <dl id="detail-speed" class="speed detail-speed" aria-label="Velocidade por componente">
+            <div class="speed-row"><dt id="detail-model-label"></dt><dd id="detail-model-ms">—</dd></div>
+            <div class="speed-row"><dt id="detail-engine-label"></dt><dd id="detail-engine-ms">—</dd></div>
+          </dl>
+          <div id="detail-bars" class="detail-bars"></div>
+          <dl id="detail-technical" class="detail-technical" aria-label="Dados técnicos da decisão"></dl>
+        </div>
+        <div class="detail-money">
+          <div id="detail-graph-host"></div>
+          <div id="detail-numbers" class="detail-numbers" aria-live="polite"></div>
+          <div id="detail-accounts" class="detail-accounts" hidden>
+            <section><h3>Contas laranja</h3><ul id="detail-oranges" class="account-list" tabindex="0" aria-label="IDs das contas laranja"></ul></section>
+            <section><h3>Contas de saque</h3><ul id="detail-cash" class="account-list" tabindex="0" aria-label="IDs das contas de saque"></ul></section>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+  (() => {
+    'use strict';
+    const $ = (selector) => document.querySelector(selector);
+    const SIDES = ['rust', 'python'];
+    const NAMES = { rust: 'Rust + Jev', python: 'Python + DeepSeek' };
+    const PARTS = { rust: { model: 'Jev', engine: 'Rust' }, python: { model: 'DeepSeek', engine: 'Python' } };
+    const ACCENTS = { rust: '#ff2d95', python: '#6985f6' };
+    const ACCENT_RGB = { rust: '255,45,149', python: '105,133,246' };
+    const TYPES = {
+      troca_numero: 'Golpe do número novo', boleto_falso: 'Boleto falso',
+      falsa_central: 'Falsa central do banco', premio: 'Prêmio falso',
+      pix_errado: 'Pix errado', cobranca_legitima: 'Cobrança',
+      pessoal: 'Mensagem pessoal', outro: 'Outro'
+    };
+    const MOCK = new URLSearchParams(location.search).get('mock') === '1';
+    const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+    const integer = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0, useGrouping: false });
+    const grouped = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 0 });
+    const decimal = new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 1 });
+    const seconds = new Intl.NumberFormat('pt-BR', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const currency = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'USD', minimumFractionDigits: 6, maximumFractionDigits: 6 });
+    const currencyShort = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 3 });
+    const finite = (value) => typeof value === 'number' && Number.isFinite(value);
+    const numeric = (value) => finite(value) ? Math.max(0, value) : 0;
+    const make = (tag, className, text) => {
+      const element = document.createElement(tag);
+      if (className) element.className = className;
+      if (text !== undefined) element.textContent = text;
+      return element;
+    };
+    const ui = {
+      start: $('#start'), restart: $('#restart'), mode: $('#mode'), connection: $('#connection'),
+      final: $('#final'), race: $('#race'), header: $('.topbar'),
+      report: $('#report'), reportDialog: $('#accuracy-report'), reportClose: $('#report-close'),
+      detailModal: $('#scam-modal'), detailDialog: $('#scam-dialog'), detailClose: $('#detail-close')
+    };
+    const messages = new Map();
+    const lanes = {};
+    const sideStatus = {};
+    let runId = null, total = 0, runMode = 'step:4000', concurrency = 1, paceMs = 4000;
+    let phase = 'idle', requestedStartMode = null;
+    let pending = false, pendingStart = null, transportReady = false;
+    let socket = null, reconnectTimer = 0, reconnectAttempt = 0, pageLeaving = false;
+    let mockRun = 0, mockGeneration = 0;
+    const mockTimers = new Set();
+    const mockDecisions = { rust: new Map(), python: new Map() };
+    const graphCache = new WeakMap();
+    let activeDetail = null, previousOverflow = '';
+    const starRandom = seeded(42);
+    const stars = Array.from({ length: 600 }, () => [starRandom(), starRandom(), .4 + starRandom() * .8, .08 + starRandom() * .16]);
+
+    for (const side of SIDES) {
+      const root = $('#lane-template').content.firstElementChild.cloneNode(true);
+      root.id = side;
+      root.classList.add(side);
+      root.querySelector('h2').textContent = NAMES[side];
+      root.querySelector('h2').id = side + '-title';
+      root.setAttribute('aria-labelledby', side + '-title');
+      const fields = Object.fromEntries([...root.querySelectorAll('[data-field]')].map((el) => [el.dataset.field, el]));
+      lanes[side] = {
+        root, side, ui: fields, accent: ACCENTS[side], rgb: ACCENT_RGB[side],
+        processed: 0, ok: 0, cost: 0, done: null, flash: null, coins: [], decisionMs: [], traceMs: [],
+        graph: null, graphAnimation: 0, waveProgress: 1,
+        scams: new Map(), traces: new Map(), latestId: null, selectedId: null, currentId: null
+      };
+      fields.modelLabel.textContent = PARTS[side].model.toUpperCase() + ' · DECISÃO p50';
+      fields.engineLabel.textContent = PARTS[side].engine.toUpperCase() + ' · RASTREIO p50';
+      fields.memoryLabel.textContent = PARTS[side].engine.toUpperCase() + ' · MEMÓRIA';
+      fields.bubble.addEventListener('click', () => {
+        if (!fields.bubble.disabled) openScam(lanes[side], lanes[side].currentId, fields.bubble);
+      });
+      enableGraphHover(lanes[side]);
+      ui.race.append(root);
+    }
+    const detailGraph = $('#lane-template').content.querySelector('.graph-panel').cloneNode(true);
+    detailGraph.setAttribute('aria-label', 'Caminho do dinheiro da mensagem aberta');
+    $('#detail-graph-host').append(detailGraph);
+    const detailView = {
+      root: detailGraph, isDetail: true, accent: ACCENTS.rust, rgb: ACCENT_RGB.rust,
+      ui: { graphPanel: detailGraph, ...Object.fromEntries([...detailGraph.querySelectorAll('[data-field]')].map((el) => [el.dataset.field, el])) },
+      graph: null, graphAnimation: 0, waveProgress: 1, coins: []
+    };
+    enableGraphHover(detailView);
+
+    function fitStage() {
+      // CSS zoom scales width and normal document flow, including the growing list.
+      const scale = Math.min(1, (document.documentElement.clientWidth || innerWidth) / 1920);
+      $('#frame').style.zoom = String(scale);
+      for (const lane of Object.values(lanes)) resizeCanvas(lane);
+      if (activeDetail) resizeCanvas(detailView);
+    }
+
+    function updateControls() {
+      ui.start.disabled = ui.restart.disabled = !transportReady || pending;
+      ui.start.textContent = phase === 'running' ? 'Parar' : runId === null ? 'Iniciar' : 'Reiniciar';
+      ui.start.dataset.action = phase === 'running' ? 'stop' : 'start';
+      ui.mode.disabled = false;
+      ui.report.disabled = !transportReady || pending || !['done', 'stopped'].includes(phase);
+    }
+
+    function setConnection(text, state) {
+      ui.connection.textContent = text;
+      ui.connection.dataset.state = state;
+      updateControls();
+    }
+
+    function updateConnection() {
+      if (MOCK) { setConnection('Simulação local', 'connected'); return; }
+      if (!transportReady) { setConnection('Reconectando...', 'offline'); return; }
+      const offline = SIDES.find((side) => sideStatus[side] === 'offline');
+      setConnection(offline ? (offline === 'rust' ? 'Rust' : 'Python') + ' desconectado' : 'Conectado', offline ? 'offline' : 'connected');
+    }
+
+    function hideFinal() {
+      const hadFocus = ui.final.contains(document.activeElement);
+      ui.final.hidden = true;
+      syncOverlays();
+      if (hadFocus && !activeDetail) ui.start.focus({ preventScroll: true });
+    }
+
+    function clearRun() {
+      runId = null;
+      total = 0;
+      runMode = 'step:4000';
+      concurrency = 1;
+      paceMs = 4000;
+      phase = 'idle';
+      closeScam(false);
+      messages.clear();
+      hideReport();
+      hideFinal();
+      $('#report-columns').replaceChildren();
+      $('#report-title').textContent = 'Relatório de acurácia';
+      $('#report-note').textContent = $('#report-cost').textContent = $('#report-conclusion').textContent = '';
+      for (const side of SIDES) mockDecisions[side].clear();
+      $('#final-columns').replaceChildren();
+      $('#final-context').textContent = '';
+      for (const lane of Object.values(lanes)) {
+        const fields = lane.ui;
+        lane.processed = 0;
+        lane.ok = 0;
+        lane.cost = 0;
+        lane.done = null;
+        lane.decisionMs = [];
+        lane.traceMs = [];
+        fields.modelMs.textContent = fields.engineMs.textContent = '—';
+        lane.scams.clear();
+        lane.traces.clear();
+        lane.latestId = lane.selectedId = lane.currentId = null;
+        lane.root.getAnimations({ subtree: true }).forEach((animation) => animation.cancel());
+        lane.root.dataset.stopped = 'false';
+        lane.flash?.cancel();
+        lane.flash = null;
+        lane.coins.forEach((animation) => animation.cancel());
+        lane.coins = [];
+        fields.processed.textContent = '0';
+        fields.stopped.hidden = true;
+        fields.total.textContent = '—';
+        fields.fill.style.width = '0%';
+        fields.progress.setAttribute('aria-valuemax', '0');
+        fields.progress.setAttribute('aria-valuenow', '0');
+        fields.bubble.dataset.empty = 'true';
+        fields.sender.textContent = '';
+        fields.sender.hidden = true;
+        fields.text.textContent = 'Aguardando...';
+        setVerdict(lane, 'waiting');
+        fields.money.hidden = true;
+        fields.empty.hidden = false;
+        fields.empty.textContent = 'Nenhum golpe rastreado ainda';
+        fields.list.replaceChildren();
+        fields.listEmpty.hidden = false;
+        fields.oranges.replaceChildren();
+        fields.cash.replaceChildren();
+        fields.key.textContent = fields.summary.textContent = '';
+        clearGraph(lane);
+        updateAccumulator(lane);
+      }
+      updateControls();
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    }
+
+    function laneMedian(values) {
+      const sorted = [...values].sort((a, b) => a - b);
+      return sorted[Math.round((sorted.length - 1) / 2)];
+    }
+
+    function recordSpeed(lane, kind, latency) {
+      if (!finite(latency)) return;
+      const values = kind === 'decision' ? lane.decisionMs : lane.traceMs;
+      values.push(latency);
+      const field = kind === 'decision' ? lane.ui.modelMs : lane.ui.engineMs;
+      field.replaceChildren(decimal.format(laneMedian(values)) + ' ms', make('small', '', integer.format(values.length) + '×'));
+    }
+
+    function countProcessed(lane) {
+      lane.processed++;
+      lane.ui.processed.textContent = integer.format(lane.processed);
+      lane.ui.fill.style.width = Math.min(100, total ? lane.processed / total * 100 : 0) + '%';
+      lane.ui.progress.setAttribute('aria-valuenow', String(lane.processed));
+      updateAccumulator(lane);
+    }
+
+    function updateAccumulator(lane) {
+      lane.ui.accumulator.textContent = integer.format(lane.processed) + ' processadas · ' +
+        integer.format(lane.scams.size) + ' golpes · ' + integer.format(lane.ok) + ' ok';
+    }
+
+    function probability(value) {
+      return finite(value) ? integer.format(Math.min(1, Math.max(0, value)) * 100) + '%' : 'Não informada';
+    }
+
+    function highlightScam(lane, id) {
+      const entry = lane.scams.get(id);
+      if (!entry) return;
+      const previous = lane.scams.get(lane.selectedId);
+      if (previous) {
+        previous.button.dataset.selected = 'false';
+        previous.button.setAttribute('aria-pressed', 'false');
+      }
+      lane.selectedId = id;
+      entry.button.dataset.selected = 'true';
+      entry.button.setAttribute('aria-pressed', 'true');
+    }
+
+    function addScam(lane, event) {
+      const fields = lane.ui;
+      let entry = lane.scams.get(event.id);
+      if (!entry) {
+        const item = make('li', 'scam-item');
+        const button = make('button', 'scam-row');
+        button.type = 'button';
+        button.setAttribute('aria-pressed', 'false');
+        button.setAttribute('aria-haspopup', 'dialog');
+        button.setAttribute('aria-controls', 'scam-dialog');
+        const type = make('span', 'scam-type');
+        const chance = make('span', 'scam-probability');
+        const preview = make('span', 'scam-preview');
+        const sender = make('span', 'scam-sender');
+        const meta = make('span', 'scam-meta');
+        meta.append(make('span', 'scam-badge', 'GOLPE'), type, chance);
+        button.append(sender, preview, meta);
+        button.addEventListener('click', () => openScam(lane, event.id, button));
+        item.append(button);
+        entry = { item, button, type, chance, preview, sender, decision: event };
+        lane.scams.set(event.id, entry);
+      }
+      entry.decision = event;
+      entry.type.textContent = TYPES[event.tipo] || TYPES.outro;
+      entry.chance.textContent = finite(event.golpe) ? probability(event.golpe) : '?';
+      entry.preview.textContent = messages.get(event.id)?.texto || 'Mensagem não disponível.';
+      entry.sender.textContent = messages.get(event.id)?.remetente || 'Remetente não informado';
+      fields.listEmpty.hidden = true;
+      fields.list.prepend(entry.item);
+      lane.latestId = event.id;
+      highlightScam(lane, activeDetail?.side === lane.side ? activeDetail.id : event.id);
+      renderDetail(lane);
+    }
+
+    function renderDetail(lane) {
+      const event = lane.scams.get(lane.latestId)?.decision;
+      if (!event) return;
+      const fields = lane.ui;
+      lane.coins.forEach((animation) => animation.cancel());
+      lane.coins = [];
+      const trace = lane.traces.get(event.id);
+      if (trace) showTrace(lane, trace, false);
+      else {
+        clearGraph(lane, event.id);
+        fields.money.hidden = true;
+        fields.empty.hidden = false;
+        fields.empty.textContent = 'Rastreando o dinheiro...';
+      }
+    }
+
+    function stopRun() {
+      phase = 'stopped';
+      pending = false;
+      pendingStart = requestedStartMode = null;
+      hideFinal();
+      for (const lane of Object.values(lanes)) {
+        lane.ui.stopped.hidden = false;
+        lane.root.dataset.stopped = 'true';
+        lane.flash?.cancel();
+        cancelAnimationFrame(lane.graphAnimation);
+        lane.graphAnimation = 0;
+        lane.root.getAnimations({ subtree: true }).forEach((animation) => animation.pause());
+      }
+      updateControls();
+    }
+
+    function scoreBar(value, maximum = 1) {
+      const known = finite(value) && finite(maximum) && maximum > 0;
+      const percent = known ? Math.min(1, Math.max(0, value / maximum)) * 100 : 0;
+      return { percent, width: percent + '%', label: known ? integer.format(percent) + '%' : 'Não informado', known };
+    }
+
+    function urgencyLabel(value) {
+      return !finite(value) ? 'não informada' : value < .7 ? 'baixa' : value < 1.4 ? 'média' : 'alta';
+    }
+
+    function messageTime(ts) {
+      if (!finite(ts) || ts < 0) return 'Horário não informado';
+      // Dataset timestamps are simulated seconds, not Unix wall-clock dates.
+      const time = Math.floor(ts) % 86400;
+      const part = (value) => String(Math.floor(value)).padStart(2, '0');
+      return 'Dia ' + integer.format(Math.floor(ts / 86400) + 1) + ' · ' + part(time / 3600) + ':' + part(time % 3600 / 60) + ':' + part(time % 60) + ' · ts ' + integer.format(ts);
+    }
+
+    function traceLines(event) {
+      const count = (value) => finite(value) ? grouped.format(value) : 'Não informado';
+      const found = (key, label) => {
+        let line = label + ': ' + integer.format(Array.isArray(event[key]) ? event[key].length : 0);
+        const hit = event.truth?.[key + '_acertadas'], real = event.truth?.[key + '_reais'];
+        if (finite(hit) && finite(real)) line += ' (' + integer.format(hit) + ' de ' + integer.format(real) + ' reais)';
+        return line;
+      };
+      return [count(event.visitados) + ' contas analisadas · ' + count(event.arestas_sub) + ' transações seguidas · rastreio em ' +
+        (finite(event.latency_ms) ? decimal.format(event.latency_ms) + ' ms' : 'tempo não informado'),
+        found('laranjas', 'Laranjas encontradas'), found('saque', 'Contas de saque')];
+    }
+
+    function matchesDetailTrace(selection, event) {
+      return Boolean(selection && event.type === 'trace' && selection.runId === event.run_id && selection.side === event.side && selection.id === event.id);
+    }
+
+    function syncOverlays() {
+      $('#viewport').inert = Boolean(activeDetail);
+      ui.reportDialog.inert = Boolean(activeDetail);
+      ui.final.inert = Boolean(activeDetail) || !ui.reportDialog.hidden;
+      ui.race.inert = Boolean(activeDetail) || !ui.reportDialog.hidden || !ui.final.hidden;
+    }
+
+    function closeScam(restoreFocus = true) {
+      if (!activeDetail) return;
+      const selection = activeDetail;
+      activeDetail = null;
+      ui.detailModal.hidden = true;
+      cancelAnimationFrame(detailView.graphAnimation);
+      detailView.graphAnimation = 0;
+      detailView.coins.forEach((animation) => animation.cancel());
+      detailView.coins = [];
+      document.body.style.overflow = previousOverflow;
+      highlightScam(lanes[selection.side], lanes[selection.side].latestId);
+      syncOverlays();
+      if (restoreFocus) {
+        const target = !ui.reportDialog.hidden ? ui.reportClose : !ui.final.hidden ? ui.restart :
+          document.contains(selection.origin) && !selection.origin.disabled ? selection.origin : ui.start;
+        target.focus({ preventScroll: true });
+      }
+    }
+
+    function openScam(lane, id, origin) {
+      const entry = lane.scams.get(id);
+      if (!entry) return;
+      closeScam(false);
+      activeDetail = { runId, side: lane.side, id, origin };
+      previousOverflow = document.body.style.overflow;
+      document.body.style.overflow = 'hidden';
+      ui.detailDialog.dataset.side = lane.side;
+      ui.detailModal.hidden = false;
+      $('#detail-body').scrollTop = 0;
+      highlightScam(lane, id);
+      const message = messages.get(id), decision = entry.decision;
+      $('#detail-title').textContent = NAMES[lane.side] + ' · mensagem #' + id;
+      $('#detail-sender').textContent = message?.remetente || 'Remetente não informado';
+      $('#detail-meta').textContent = 'Mensagem #' + id + ' · ' + messageTime(message?.ts);
+      $('#detail-text').textContent = message?.texto || 'Mensagem não disponível.';
+      $('#detail-badge').textContent = 'GOLPE · ' + probability(decision.golpe);
+      $('#detail-type').textContent = TYPES[decision.tipo] || TYPES.outro;
+      const facts = $('#detail-technical');
+      facts.replaceChildren();
+      const tokens = finite(decision.tokens_in)
+        ? grouped.format(decision.tokens_in) + ' entrada' + (finite(decision.tokens_out) && decision.tokens_out > 0 ? ' · ' + grouped.format(decision.tokens_out) + ' saída' : '')
+        : 'não informados';
+      const factRows = [
+        ['Modelo', typeof decision.model === 'string' && decision.model ? decision.model : 'não informado'],
+        ['Tokens', tokens],
+        [lane.side === 'python' ? 'Custo estimado desta decisão' : 'Custo desta decisão', finite(decision.cost_usd) ? currency.format(decision.cost_usd) : '—'],
+        ['Custo por 1.000 mensagens', finite(decision.cost_usd) ? currencyShort.format(decision.cost_usd * 1000) : '—']
+      ];
+      for (const [label, text] of factRows) {
+        const row = make('div', 'detail-fact');
+        row.append(make('dt', '', label), make('dd', '', text));
+        facts.append(row);
+      }
+      $('#detail-speed').style.setProperty('--accent-light', lane.accent);
+      $('#detail-model-label').textContent = PARTS[lane.side].model.toUpperCase() + ' · DECISÃO';
+      $('#detail-engine-label').textContent = PARTS[lane.side].engine.toUpperCase() + ' · RASTREIO';
+      $('#detail-model-ms').textContent = finite(decision.latency_ms) ? decimal.format(decision.latency_ms) + ' ms' : '—';
+      $('#detail-engine-ms').textContent = 'rastreando…';
+      const bars = $('#detail-bars');
+      bars.replaceChildren();
+      const scores = [['golpe', 'Probabilidade de golpe', 1], ['pede_pix', 'Pede Pix', 1], ['urgencia', 'Urgência', 2]];
+      if (finite(decision.tipo_confianca)) scores.push(['tipo_confianca', 'Confiança no tipo', 1]);
+      for (const [key, label, maximum] of scores) {
+        const bar = scoreBar(decision[key], maximum);
+        const row = make('div', 'detail-score');
+        row.dataset.score = key;
+        const heading = make('div', 'score-label');
+        const description = key === 'urgencia' ? urgencyLabel(decision[key]) + ' · ' + bar.label : bar.label;
+        heading.append(make('span', '', label), make('strong', '', description));
+        const track = make('div', 'score-track'), fill = make('div', 'score-fill');
+        track.setAttribute('role', 'meter');
+        track.setAttribute('aria-label', label);
+        track.setAttribute('aria-valuemin', '0');
+        track.setAttribute('aria-valuemax', '100');
+        track.setAttribute('aria-valuenow', String(bar.percent));
+        track.setAttribute('aria-valuetext', description);
+        fill.style.width = bar.width;
+        track.append(fill);
+        row.append(heading, track);
+        bars.append(row);
+      }
+      detailView.accent = lane.accent;
+      detailView.rgb = lane.rgb;
+      const trace = lane.traces.get(id);
+      $('#detail-numbers').replaceChildren();
+      $('#detail-accounts').hidden = true;
+      $('#detail-oranges').replaceChildren();
+      $('#detail-cash').replaceChildren();
+      if (trace) updateScamTrace(trace);
+      else {
+        clearGraph(detailView, id);
+        detailView.ui.graphEmpty.textContent = 'Rastreando o dinheiro...';
+        detailView.ui.empty.hidden = true;
+        detailView.ui.money.hidden = true;
+      }
+      syncOverlays();
+      ui.detailClose.focus({ preventScroll: true });
+    }
+
+    function updateScamTrace(event) {
+      if (!matchesDetailTrace(activeDetail, event)) return;
+      showTrace(detailView, event, true);
+      $('#detail-engine-ms').textContent = finite(event.latency_ms) ? decimal.format(event.latency_ms) + ' ms' : '—';
+      $('#detail-numbers').replaceChildren(...traceLines(event).map((line) => make('p', '', line)));
+      $('#detail-accounts').hidden = false;
+      for (const [key, selector] of [['laranjas', '#detail-oranges'], ['saque', '#detail-cash']]) {
+        const ids = Array.isArray(event[key]) ? event[key] : [];
+        const list = $(selector);
+        list.replaceChildren(...ids.map((id) => make('li', '', 'conta ' + id)));
+        if (!ids.length) list.append(make('li', '', 'Nenhuma conta encontrada'));
+        list.scrollTop = 0;
+      }
+    }
+
+    function seeded(seed) {
+      return () => { seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0; return seed / 4294967296; };
+    }
+
+    function prepareGraph(event) {
+      const nodes = (Array.isArray(event.nodes) ? event.nodes : [])
+        .filter((node) => Array.isArray(node) && node.length >= 3 && finite(node[0]) && Number.isInteger(node[1]) && node[1] >= 0)
+        .slice(0, 800);
+      const positions = new Map();
+      const rings = new Map();
+      const root = nodes.find((node) => node[1] === 0)?.[0] ?? null;
+      for (const [id, depth, suspicion] of nodes) {
+        if (positions.has(id)) continue;
+        const point = { x: 0, y: 0, depth, suspicion: Math.min(1, numeric(suspicion)) };
+        positions.set(id, point);
+        if (depth > 0) {
+          if (!rings.has(depth)) rings.set(depth, []);
+          rings.get(depth).push([id, point]);
+        }
+      }
+      const depths = [...rings.keys()].sort((a, b) => a - b);
+      const maxDepth = Math.max(1, ...depths);
+      for (const [depth, ring] of rings) {
+        ring.sort((a, b) => a[0] - b[0]);
+        ring.forEach(([, point], index) => {
+          const angle = -Math.PI / 2 + index * Math.PI * 2 / ring.length + depth * .13;
+          point.x = Math.cos(angle) * depth / maxDepth;
+          point.y = Math.sin(angle) * depth / maxDepth;
+        });
+      }
+      const edges = (Array.isArray(event.edges) ? event.edges : [])
+        .filter((edge) => Array.isArray(edge) && positions.has(edge[0]) && positions.has(edge[1]))
+        .slice(0, 1500);
+      return { positions, depths, maxDepth, root, edges,
+        oranges: new Set(event.laranjas || []), cash: new Set(event.saque || []) };
+    }
+
+    function resizeCanvas(lane) {
+      drawGraph(lane.ui.canvas, lane.graph, lane.accent, lane.waveProgress * 300);
+    }
+
+    function graphFor(trace) {
+      if (!graphCache.has(trace)) graphCache.set(trace, prepareGraph(trace));
+      return graphCache.get(trace);
+    }
+
+    // One renderer for the latest scam panel and the inspected message modal.
+    // Time is elapsed milliseconds of the 300 ms opening wave.
+    function drawGraph(canvas, trace, accent, time = 300) {
+      const width = canvas.clientWidth, height = canvas.clientHeight;
+      if (!width || !height) return;
+      const density = Math.min(2, Math.max(1, (window.devicePixelRatio || 1) * canvas.getBoundingClientRect().width / width));
+      if (canvas.width !== Math.round(width * density)) canvas.width = Math.round(width * density);
+      if (canvas.height !== Math.round(height * density)) canvas.height = Math.round(height * density);
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+      ctx.setTransform(canvas.width / width, 0, 0, canvas.height / height, 0, 0);
+      ctx.clearRect(0, 0, width, height);
+      // Same 600 points in both panels, unchanged between frames and traces.
+      for (const [x, y, radius, alpha] of stars) {
+        ctx.fillStyle = 'rgba(106,139,185,' + alpha + ')';
+        ctx.beginPath(); ctx.arc(x * width, y * height, radius, 0, Math.PI * 2); ctx.fill();
+      }
+      const graph = trace ? graphFor(trace) : null;
+      const { cx, cy, outer } = graphGeometry(width, height);
+      const depths = graph ? graph.depths : [1, 2, 3, 4, 5];
+      const maxDepth = graph ? graph.maxDepth : 5;
+      ctx.lineWidth = 1;
+      for (const depth of depths) {
+        ctx.strokeStyle = 'rgba(123,153,197,0.10)';
+        ctx.beginPath(); ctx.arc(cx, cy, outer * depth / maxDepth, 0, Math.PI * 2); ctx.stroke();
+      }
+      if (!graph) return;
+      const highlighted = (id) => id === graph.root || graph.oranges.has(id) || graph.cash.has(id);
+      const point = (id) => { const node = graph.positions.get(id); return [cx + node.x * outer, cy + node.y * outer]; };
+      ctx.lineWidth = .7;
+      for (const [src, dst] of graph.edges) {
+        const a = point(src), b = point(dst);
+        ctx.strokeStyle = highlighted(src) && highlighted(dst) ? 'rgba(234,164,144,0.38)' : 'rgba(105,139,185,0.13)';
+        ctx.beginPath(); ctx.moveTo(a[0], a[1]); ctx.lineTo(b[0], b[1]); ctx.stroke();
+      }
+      const ordered = [...graph.positions].sort((a, b) => Number(highlighted(a[0])) - Number(highlighted(b[0])));
+      for (const [id, node] of ordered) {
+        const [x, y] = point(id);
+        const color = id === graph.root ? '#ff526b' : graph.oranges.has(id) ? '#ffad61'
+          : graph.cash.has(id) ? accent : 'rgba(99,145,199,' + (.05 + node.suspicion * .55) + ')';
+        const radius = id === graph.root ? 10 : graph.oranges.has(id) ? 5 : graph.cash.has(id) ? 7 : 2.4;
+        ctx.fillStyle = color;
+        if (highlighted(id)) {
+          ctx.globalAlpha = .12;
+          ctx.beginPath(); ctx.arc(x, y, radius + 5, 0, Math.PI * 2); ctx.fill();
+          ctx.globalAlpha = 1;
+        }
+        ctx.beginPath(); ctx.arc(x, y, radius, 0, Math.PI * 2); ctx.fill();
+      }
+      const wave = Math.min(1, Math.max(0, time / 300));
+      if (wave < 1) {
+        const rgb = [1, 3, 5].map((offset) => parseInt(accent.slice(offset, offset + 2), 16)).join(',');
+        ctx.strokeStyle = 'rgba(' + rgb + ',' + ((1 - wave) * .75) + ')';
+        ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.arc(cx, cy, outer * wave, 0, Math.PI * 2); ctx.stroke();
+      }
+    }
+
+    function graphGeometry(width, height) {
+      return { cx: width / 2, cy: height / 2, outer: Math.max(1, Math.min(width * .42, height / 2 - 22)) };
+    }
+
+    // Nearest drawn node under the pointer, in canvas CSS pixels (zoom-safe via the bounding rect).
+    function nodeAt(view, clientX, clientY) {
+      if (!view.graph) return null;
+      const canvas = view.ui.canvas, rect = canvas.getBoundingClientRect();
+      const width = canvas.clientWidth, height = canvas.clientHeight;
+      if (!rect.width || !rect.height || !width || !height) return null;
+      const x = (clientX - rect.left) / rect.width * width, y = (clientY - rect.top) / rect.height * height;
+      const graph = graphFor(view.graph), { cx, cy, outer } = graphGeometry(width, height);
+      let best = null;
+      for (const [id, node] of graph.positions) {
+        const px = cx + node.x * outer, py = cy + node.y * outer;
+        const dist = Math.hypot(px - x, py - y);
+        const reach = id === graph.root ? 14 : graph.oranges.has(id) || graph.cash.has(id) ? 11 : 6;
+        if (dist <= reach && (!best || dist < best.dist)) best = { id, node, x: px, y: py, dist };
+      }
+      return best;
+    }
+
+    function enableGraphHover(view) {
+      const canvas = view.ui.canvas, tip = view.ui.graphTip;
+      const hide = () => { tip.hidden = true; canvas.style.cursor = ''; };
+      canvas.addEventListener('mousemove', (event) => {
+        const hit = nodeAt(view, event.clientX, event.clientY);
+        if (!hit) { hide(); return; }
+        const graph = graphFor(view.graph);
+        const [role, label] = hit.id === graph.root ? ['golpista', 'Golpista'] : graph.oranges.has(hit.id) ? ['laranja', 'Conta laranja']
+          : graph.cash.has(hit.id) ? ['saque', 'Conta de saque'] : ['visitada', 'Conta visitada'];
+        const depth = hit.node.depth === 0 ? 'origem do golpe' : hit.node.depth + (hit.node.depth === 1 ? ' salto' : ' saltos') + ' da chave Pix';
+        tip.dataset.role = role;
+        tip.dataset.below = String(hit.y < 70);
+        tip.replaceChildren(make('strong', '', label), make('span', '', 'conta ' + hit.id + ' · ' + depth + ' · suspeição ' + integer.format(hit.node.suspicion * 100) + '%'));
+        tip.style.left = hit.x + 'px';
+        tip.style.top = hit.y + 'px';
+        tip.hidden = false;
+        canvas.style.cursor = 'crosshair';
+      });
+      canvas.addEventListener('mouseleave', hide);
+    }
+
+    function clearGraph(lane, id = null) {
+      cancelAnimationFrame(lane.graphAnimation);
+      lane.graphAnimation = 0;
+      lane.graph = null;
+      lane.waveProgress = 1;
+      const fields = lane.ui;
+      fields.graphPanel.dataset.messageId = id === null ? '' : String(id);
+      fields.graphTitle.textContent = 'Caminho do dinheiro' + (id === null ? '' : ' · mensagem #' + id);
+      fields.graphKey.textContent = id === null ? '' : 'Chave Pix: ' + (messages.get(id)?.chave || 'não informada');
+      fields.graphFacts.hidden = true;
+      fields.truth.textContent = fields.processing.textContent = '';
+      fields.graphEmpty.hidden = false;
+      fields.graphEmpty.textContent = 'A investigação começa na chave Pix';
+      fields.graphTip.hidden = true;
+      fields.canvas.setAttribute('aria-label', 'Caminho do dinheiro aguardando rastreio');
+      resizeCanvas(lane);
+    }
+
+    function showTrace(lane, event, animate) {
+      cancelAnimationFrame(lane.graphAnimation);
+      lane.graphAnimation = 0;
+      lane.graph = event;
+      lane.waveProgress = 1;
+      const fields = lane.ui;
+      fields.graphPanel.dataset.messageId = String(event.id);
+      fields.graphTitle.textContent = 'Caminho do dinheiro · mensagem #' + event.id;
+      fields.graphKey.textContent = 'Chave Pix: ' + (event.chave || messages.get(event.id)?.chave || 'não informada');
+      const truth = event.truth;
+      const ratio = (found, real, fallback) => finite(found) && finite(real)
+        ? integer.format(found) + '/' + integer.format(real) : integer.format(fallback);
+      fields.truth.textContent = 'laranjas: ' + ratio(truth?.laranjas_acertadas, truth?.laranjas_reais, event.laranjas?.length || 0)
+        + ' · saque: ' + ratio(truth?.saque_acertadas, truth?.saque_reais, event.saque?.length || 0);
+      fields.processing.textContent = (finite(event.visitados) ? grouped.format(event.visitados) : '—') + ' contas · '
+        + (finite(event.latency_ms) ? decimal.format(event.latency_ms) : '—') + ' ms';
+      fields.graphFacts.hidden = false;
+      fields.graphEmpty.hidden = graphFor(event).positions.size > 0;
+      fields.graphEmpty.textContent = 'Este rastreio não incluiu o desenho das contas.';
+      fields.canvas.setAttribute('aria-label', fields.graphTitle.textContent + '. ' + fields.graphKey.textContent + '. '
+        + fields.truth.textContent + '. ' + fields.processing.textContent);
+      drawMoney(lane, event);
+      if (!animate || reducedMotion.matches || (phase === 'stopped' && !lane.isDetail)) { resizeCanvas(lane); return; }
+      const start = performance.now();
+      const tick = (now) => {
+        lane.waveProgress = Math.min(1, Math.max(0, (now - start) / 300));
+        resizeCanvas(lane);
+        lane.graphAnimation = lane.waveProgress < 1 ? requestAnimationFrame(tick) : 0;
+      };
+      tick(start);
+    }
+
+    function showMessage(lane, id) {
+      const message = messages.get(id);
+      lane.currentId = id;
+      lane.ui.bubble.dataset.empty = 'false';
+      lane.ui.sender.hidden = false;
+      lane.ui.sender.textContent = message?.remetente || 'Remetente não informado';
+      lane.ui.text.textContent = message?.texto || 'Mensagem não disponível.';
+    }
+
+    function setVerdict(lane, verdict, type) {
+      const labels = {
+        waiting: ['–', 'Aguardando...'], golpe: ['!', 'GOLPE'],
+        ok: ['✓', 'OK'], revisar: ['?', 'SUSPEITA'], error: ['×', 'ERRO']
+      };
+      const selected = labels[verdict] || labels.revisar;
+      lane.ui.verdict.dataset.verdict = labels[verdict] ? verdict : 'revisar';
+      lane.ui.symbol.textContent = selected[0];
+      lane.ui.word.textContent = selected[1];
+      lane.ui.kind.textContent = verdict === 'golpe' ? TYPES[type] || TYPES.outro : '';
+      lane.ui.bubble.disabled = verdict !== 'golpe';
+      lane.ui.bubble.setAttribute('aria-label', verdict === 'golpe' ? 'Abrir detalhes do golpe da mensagem #' + lane.currentId : 'Última mensagem analisada');
+      if (verdict === 'golpe') {
+        lane.flash?.cancel();
+        const frames = reducedMotion.matches
+          ? [{ opacity: .22 }, { opacity: 0 }]
+          : [{ opacity: .6 }, { opacity: .14, offset: .3 }, { opacity: .35, offset: .55 }, { opacity: 0 }];
+        lane.flash = lane.ui.flash.animate(frames, { duration: 600, easing: 'ease-out' });
+      }
+    }
+
+    function animateMoney(lane) {
+      lane.coins.forEach((animation) => animation.cancel());
+      lane.coins = [];
+      if (reducedMotion.matches || phase === 'stopped') return;
+      lane.ui.money.querySelectorAll('.arrow').forEach((arrow, arrowIndex) => {
+        arrow.querySelectorAll('.coin').forEach((coin, index) => {
+          lane.coins.push(coin.animate([
+            { left: '0%', opacity: 0, offset: 0 },
+            { left: '10%', opacity: 1, offset: .1 },
+            { left: '90%', opacity: 1, offset: .9 },
+            { left: '100%', opacity: 0, offset: 1 }
+          ], { duration: 1000, delay: arrowIndex * 250 + index * 125, easing: 'linear' }));
+        });
+      });
+    }
+
+    function drawMoney(lane, event) {
+      const fields = lane.ui;
+      const oranges = Array.isArray(event.laranjas) ? event.laranjas : [];
+      const cash = Array.isArray(event.saque) ? event.saque : [];
+      fields.empty.hidden = true;
+      fields.money.hidden = false;
+      fields.key.textContent = event.chave || messages.get(event.id)?.chave || 'Chave não informada';
+      fields.oranges.style.setProperty('--columns', oranges.length > 16 ? 6 : Math.min(4, Math.max(1, oranges.length)));
+      fields.oranges.replaceChildren(...oranges.slice(0, 24).map(() => make('span', 'account')));
+      if (!oranges.length) fields.oranges.append(make('span', 'no-accounts', '—'));
+      const columns = Math.max(1, Math.ceil(Math.sqrt(cash.length)));
+      const rows = Math.max(1, Math.ceil(cash.length / columns));
+      const size = Math.max(4, Math.min(24, (160 - (columns - 1) * 6) / columns, (56 - (rows - 1) * 6) / rows));
+      fields.cash.style.setProperty('--columns', columns);
+      fields.cash.style.setProperty('--size', size + 'px');
+      fields.cash.replaceChildren(...cash.map(() => make('span', 'cash', '$')));
+      if (!cash.length) fields.cash.append(make('span', 'no-accounts', '—'));
+      let summary = 'Nenhuma conta laranja encontrada.';
+      if (oranges.length) {
+        summary = 'O dinheiro saiu da chave, passou por ' + integer.format(oranges.length) +
+          (oranges.length === 1 ? ' conta laranja' : ' contas laranja');
+        summary += cash.length
+          ? ' e foi sacado em ' + integer.format(cash.length) + (cash.length === 1 ? ' conta.' : ' contas.')
+          : '. Nenhum saque identificado.';
+      }
+      if (event.truth && finite(event.truth.laranjas_acertadas) && finite(event.truth.laranjas_reais)) {
+        summary += ' ' + integer.format(event.truth.laranjas_acertadas) + ' de ' + integer.format(event.truth.laranjas_reais) + ' laranjas encontradas.';
+      }
+      fields.summary.textContent = summary;
+      animateMoney(lane);
+    }
+
+    function showFinal() {
+      if (!SIDES.every((side) => lanes[side].done !== null)) return;
+      phase = 'done';
+      pending = false;
+      updateControls();
+      const columns = $('#final-columns');
+      columns.replaceChildren();
+      for (const side of SIDES) {
+        const totals = lanes[side].done;
+        const panel = make('article', 'final-side ' + side);
+        const value = finite(totals.total_ms) ? seconds.format(totals.total_ms / 1000) : '—';
+        const time = make('p', 'final-time' + (value.length > 7 ? ' compact' : ''));
+        time.append(make('span', '', value));
+        if (finite(totals.total_ms)) time.append(make('small', '', ' s'));
+        panel.append(make('h3', '', NAMES[side]), make('p', 'time-label', 'Tempo total'), time);
+        const stats = make('dl', 'final-stats');
+        const ms = (number) => finite(number) ? decimal.format(number) + ' ms' : '—';
+        const rows = [
+          [PARTS[side].model + ' · decisão p50', ms(totals.decision_p50_ms)],
+          [PARTS[side].engine + ' · rastreio p50', ms(totals.trace_p50_ms)],
+          ['Golpes detectados', finite(totals.golpes) ? integer.format(totals.golpes) : '—'],
+          [side === 'python' ? 'Custo estimado (USD)' : 'Custo (USD)', finite(totals.cost_usd) ? currency.format(totals.cost_usd) : '—']
+        ];
+        for (const [label, text] of rows) {
+          const row = make('div', 'stat-row');
+          row.append(make('dt', '', label), make('dd', '', text));
+          stats.append(row);
+        }
+        panel.append(stats);
+        columns.append(panel);
+      }
+      const selectedMode = [...ui.mode.options].find((option) => option.value === runMode);
+      $('#final-context').textContent = integer.format(total) + ' mensagens · ' + (selectedMode?.textContent || runMode) + (MOCK ? ' · Tempos simulados' : '');
+      ui.final.hidden = false;
+      syncOverlays();
+      if (!activeDetail) ui.restart.focus({ preventScroll: true });
+    }
+
+    function hideReport() {
+      const hadFocus = ui.reportDialog.contains(document.activeElement);
+      ui.reportDialog.hidden = true;
+      syncOverlays();
+      if (hadFocus && !activeDetail) (ui.report.disabled ? ui.start : ui.report).focus({ preventScroll: true });
+    }
+
+    function requestReport() {
+      if (ui.report.disabled) return;
+      send({ type: 'report' });
+    }
+
+    function matrixCount(data, real, verdict) {
+      return numeric(data.matriz?.[real]?.[verdict]);
+    }
+
+    function reportConclusion(sides) {
+      const results = SIDES.map((side) => {
+        const data = sides[side];
+        const missed = matrixCount(data, 'golpe', 'ok') + matrixCount(data, 'golpe', 'revisar');
+        return { name: side === 'rust' ? 'Jev' : 'DeepSeek', evaluated: numeric(data.avaliadas),
+          alarms: matrixCount(data, 'normal', 'golpe'), missed,
+          real: matrixCount(data, 'golpe', 'golpe') + missed };
+      });
+      const [jev, deepseek] = results;
+      if (!jev.evaluated && !deepseek.evaluated) return 'Nenhuma mensagem foi avaliada; ainda não há resultados para comparar.';
+      const phrases = [];
+      if (jev.evaluated && deepseek.evaluated) {
+        if (jev.alarms === deepseek.alarms) {
+          phrases.push(jev.alarms ? 'Os dois tiveram ' + integer.format(jev.alarms) + ' falsos alarmes cada.' : 'Nenhum dos lados deu falso alarme.');
+        } else {
+          const [best, other] = jev.alarms < deepseek.alarms ? results : [...results].reverse();
+          phrases.push(best.name + ' teve menos falsos alarmes (' + integer.format(best.alarms) + ' contra ' + integer.format(other.alarms) + ').');
+        }
+      }
+      for (const result of results) {
+        if (!result.evaluated) phrases.push(result.name + ' ainda não avaliou mensagens.');
+        else if (!result.real) phrases.push('Nenhum golpe real entre as mensagens avaliadas pelo ' + result.name + '.');
+        else if (!result.missed) phrases.push(result.name + ' pegou todos os golpes avaliados.');
+        else phrases.push(result.name + ' deixou passar ' + integer.format(result.missed) + (result.missed === 1 ? ' golpe.' : ' golpes.'));
+      }
+      if (jev.evaluated !== deepseek.evaluated) phrases.push('Os lados avaliaram quantidades diferentes de mensagens.');
+      return phrases.join(' ');
+    }
+
+    // Custo acumulado das decisões recebidas; no fim da corrida prevalece o total do servidor.
+    function sideCost(side) {
+      const lane = lanes[side];
+      if (finite(lane.done?.cost_usd)) return lane.done.cost_usd;
+      return lane.processed > 0 ? lane.cost : null;
+    }
+
+    function showReport(event) {
+      if (!SIDES.every((side) => event.sides?.[side]?.matriz)) return;
+      const evaluated = SIDES.map((side) => numeric(event.sides[side].avaliadas));
+      const count = evaluated[0] === evaluated[1] ? integer.format(evaluated[0]) :
+        integer.format(evaluated[0]) + ' (Jev) / ' + integer.format(evaluated[1]) + ' (DeepSeek)';
+      $('#report-title').textContent = 'Relatório de acurácia · ' + count + ' mensagens avaliadas · ' + integer.format(numeric(event.golpes_reais)) + ' golpes reais';
+      const reportTotal = numeric(event.total);
+      $('#report-note').textContent = 'Golpes reais no conjunto de ' + integer.format(reportTotal) + ' mensagens. ' +
+        (evaluated.some((value) => value < reportTotal) ? 'Relatório parcial: métricas apenas das mensagens avaliadas. ' : '') +
+        'Golpes perdidos incluem SUSPEITA e OK. N/D: sem casos para calcular.';
+      const columns = $('#report-columns');
+      columns.replaceChildren();
+      for (const side of SIDES) {
+        const data = event.sides[side];
+        const panel = make('article', 'final-side report-side ' + side);
+        panel.append(make('h3', '', NAMES[side]), make('p', 'report-evaluated', integer.format(numeric(data.avaliadas)) + ' de ' + integer.format(reportTotal) + ' mensagens avaliadas'));
+        const table = make('table', 'confusion');
+        table.append(make('caption', 'sr-only', 'Matriz de confusão de ' + NAMES[side] + ': linhas mostram a realidade, colunas mostram o veredito.'));
+        const head = make('thead'), headers = make('tr');
+        for (const label of ['Real / Veredito', 'GOLPE', 'SUSPEITA', 'OK']) {
+          const cell = make('th', '', label);
+          cell.setAttribute('scope', 'col');
+          headers.append(cell);
+        }
+        head.append(headers);
+        const body = make('tbody');
+        for (const real of ['golpe', 'normal']) {
+          const row = make('tr');
+          const label = make('th', '', real === 'golpe' ? 'Real: Golpe' : 'Real: Normal');
+          label.setAttribute('scope', 'row');
+          row.append(label);
+          for (const verdict of ['golpe', 'revisar', 'ok']) {
+            const hit = real === 'golpe' && verdict === 'golpe';
+            const error = (real === 'normal' && verdict === 'golpe') || (real === 'golpe' && verdict === 'ok');
+            const cell = make('td', hit ? 'matrix-hit' : error ? 'matrix-error' : '', integer.format(matrixCount(data, real, verdict)));
+            cell.dataset.real = real;
+            cell.dataset.verdict = verdict;
+            if (hit || error) cell.setAttribute('aria-label', cell.textContent + (hit ? ' acertos' : real === 'normal' ? ' falsos alarmes' : ' golpes perdidos'));
+            row.append(cell);
+          }
+          body.append(row);
+        }
+        table.append(head, body);
+        const metrics = make('dl', 'report-metrics');
+        const detected = matrixCount(data, 'golpe', 'golpe') + matrixCount(data, 'normal', 'golpe');
+        const realScams = ['golpe', 'revisar', 'ok'].reduce((sum, verdict) => sum + matrixCount(data, 'golpe', verdict), 0);
+        for (const [key, label, denominator] of [['acuracia', 'Acurácia', data.avaliadas], ['precisao', 'Precisão', detected], ['recall', 'Recall', realScams]]) {
+          const metric = make('div');
+          metric.dataset.metric = key;
+          const value = numeric(denominator) && finite(data[key]) ? decimal.format(data[key] * 100) + '%' : 'N/D';
+          metric.append(make('dt', '', label), make('dd', '', value));
+          metrics.append(metric);
+        }
+        const cost = sideCost(side);
+        const costMetric = make('div');
+        costMetric.dataset.metric = 'custo';
+        costMetric.append(make('dt', '', side === 'python' ? 'Custo estimado' : 'Custo'), make('dd', '', cost !== null ? currency.format(cost) : 'N/D'));
+        metrics.append(costMetric);
+        const legends = make('div', 'report-legends');
+        for (const text of [
+          'Acurácia: de todas as avaliadas, quanto acertou ao separar golpe de normal.',
+          'Precisão: de tudo que marcou como golpe, quanto era golpe de verdade.',
+          'Recall: dos golpes reais avaliados, quantos ele pegou.'
+        ]) legends.append(make('p', '', text));
+        panel.append(table, metrics, legends);
+        columns.append(panel);
+      }
+      const costs = SIDES.map(sideCost);
+      const costLine = $('#report-cost');
+      costLine.replaceChildren();
+      if (costs.every((value) => value !== null)) {
+        costLine.append('Gasto total da corrida: ', make('strong', '', currency.format(costs[0] + costs[1])),
+          ' (Jev ' + currency.format(costs[0]) + ' + DeepSeek ' + currency.format(costs[1]) + ', estimado).');
+      }
+      $('#report-conclusion').textContent = reportConclusion(event.sides);
+      ui.reportDialog.hidden = false;
+      syncOverlays();
+      if (!activeDetail) ui.reportClose.focus({ preventScroll: true });
+    }
+
+    function receive(event) {
+      if (!event || typeof event !== 'object') return;
+      // Run starts a new scope. Reset/status normally have no run_id in the protocol.
+      if (event.type === 'run') {
+        if (event.run_id === undefined || event.run_id === null) return;
+        const nextMode = requestedStartMode !== null ? ui.mode.value : null;
+        requestedStartMode = null;
+        pending = false;
+        pendingStart = null;
+        clearRun();
+        runId = event.run_id;
+        total = numeric(event.total);
+        phase = 'running';
+        runMode = event.mode || 'step:4000';
+        concurrency = numeric(event.concurrency) || 1;
+        paceMs = finite(event.pace_ms) ? numeric(event.pace_ms) : runMode === 'serial' ? 0 : 4000;
+        if ([...ui.mode.options].some((option) => option.value === runMode)) ui.mode.value = runMode;
+        for (const lane of Object.values(lanes)) {
+          lane.ui.total.textContent = integer.format(total);
+          lane.ui.progress.setAttribute('aria-valuemax', String(total));
+        }
+        updateControls();
+        // A choice made while start was awaiting acknowledgement must also apply.
+        if (nextMode !== null && nextMode !== runMode) {
+          ui.mode.value = nextMode;
+          send({ type: 'pace', mode: nextMode });
+        }
+        return;
+      }
+      if (event.run_id !== undefined && event.run_id !== runId) return;
+      if (event.type === 'reset') {
+        const nextMode = pendingStart;
+        pendingStart = null;
+        requestedStartMode = null;
+        pending = false;
+        clearRun();
+        if (nextMode !== null) {
+          pending = true;
+          updateControls();
+          requestedStartMode = nextMode;
+          send({ type: 'start', mode: nextMode });
+        }
+        return;
+      }
+      if (event.type === 'status') {
+        if (!SIDES.includes(event.side)) return;
+        sideStatus[event.side] = event.state;
+        updateConnection();
+        // Memória residente do processo com o grafo carregado; some quando o lado cai.
+        const memory = lanes[event.side].ui.memoryMb;
+        if (finite(event.memory_mb)) memory.textContent = event.memory_mb >= 1024 ? decimal.format(event.memory_mb / 1024) + ' GB' : decimal.format(event.memory_mb) + ' MB';
+        else if (event.state === 'offline') memory.textContent = '—';
+        return;
+      }
+      if (runId === null || event.run_id !== runId) return;
+      if (event.type === 'pace') {
+        runMode = event.mode;
+        paceMs = finite(event.ms) ? numeric(event.ms) : runMode === 'serial' ? 0 : 4000;
+        if ([...ui.mode.options].some((option) => option.value === runMode)) ui.mode.value = runMode;
+        return;
+      }
+      if (event.type === 'stop') { stopRun(); return; }
+      if (event.type === 'report') {
+        if (!pending && ['done', 'stopped'].includes(phase)) showReport(event);
+        return;
+      }
+      // No late message, decision, trace, error or done can mutate a stopped run.
+      if (phase === 'stopped') return;
+      if (event.type === 'message') {
+        // Both rhythms deliver all messages together. Only cache their content.
+        messages.set(event.id, { texto: event.texto, remetente: event.remetente, chave: event.chave, ts: event.ts });
+        return;
+      }
+      const lane = SIDES.includes(event.side) ? lanes[event.side] : null;
+      if (!lane) return;
+      switch (event.type) {
+        case 'decision':
+          if (lane.done !== null) return;
+          recordSpeed(lane, 'decision', event.latency_ms);
+          showMessage(lane, event.id);
+          setVerdict(lane, event.verdict, event.tipo);
+          if (event.verdict === 'golpe') addScam(lane, event);
+          if (event.verdict === 'ok') lane.ok++;
+          if (finite(event.cost_usd)) lane.cost += event.cost_usd;
+          countProcessed(lane);
+          break;
+        case 'trace':
+          recordSpeed(lane, 'trace', event.latency_ms);
+          lane.traces.set(event.id, event);
+          if (lane.latestId === event.id) showTrace(lane, event, true);
+          updateScamTrace(event);
+          break;
+        case 'error':
+          if (lane.done !== null) return;
+          countProcessed(lane);
+          setVerdict(lane, 'error');
+          break;
+        case 'done':
+          lane.done = event.totals || {};
+          showFinal();
+          break;
+      }
+    }
+
+    function send(event) {
+      if (MOCK) { mockCommand(event); return; }
+      if (!socket || socket.readyState !== WebSocket.OPEN) {
+        pending = false;
+        pendingStart = null;
+        requestedStartMode = null;
+        transportReady = false;
+        updateConnection();
+        return;
+      }
+      try { socket.send(JSON.stringify(event)); }
+      catch { pending = false; pendingStart = requestedStartMode = null; socket.close(); updateControls(); }
+    }
+
+    function connect() {
+      if (pageLeaving) return;
+      if (!location.host) { setConnection('Use o servidor ou ?mock=1', 'offline'); return; }
+      setConnection(reconnectAttempt ? 'Reconectando...' : 'Conectando...', 'offline');
+      const ws = new WebSocket((location.protocol === 'https:' ? 'wss://' : 'ws://') + location.host + '/ws');
+      socket = ws;
+      ws.addEventListener('open', () => {
+        if (socket !== ws) return;
+        transportReady = true;
+        reconnectAttempt = 0;
+        updateConnection();
+      });
+      ws.addEventListener('message', (message) => {
+        if (socket !== ws) return;
+        let event;
+        try { event = JSON.parse(message.data); }
+        catch { setConnection('Evento inválido', 'offline'); return; }
+        receive(event);
+      });
+      ws.addEventListener('error', () => ws.close());
+      ws.addEventListener('close', () => {
+        if (socket !== ws || pageLeaving) return;
+        socket = null;
+        transportReady = false;
+        pending = false;
+        pendingStart = null;
+        requestedStartMode = null;
+        for (const side of SIDES) delete sideStatus[side];
+        updateConnection();
+        clearTimeout(reconnectTimer);
+        reconnectTimer = setTimeout(connect, Math.min(10000, 500 * 2 ** reconnectAttempt++));
+      });
+    }
+
+    function start() {
+      if (!transportReady || pending) return;
+      closeScam(false);
+      hideReport();
+      pending = true;
+      updateControls();
+      if (runId !== null) { pendingStart = ui.mode.value; send({ type: 'reset' }); }
+      else {
+        requestedStartMode = ui.mode.value;
+        send({ type: 'start', mode: ui.mode.value });
+      }
+    }
+
+    function primaryAction() {
+      if (phase !== 'running') { start(); return; }
+      if (!transportReady || pending) return;
+      pending = true;
+      updateControls();
+      send({ type: 'stop' });
+    }
+
+    function changePace() {
+      if (pendingStart !== null) pendingStart = ui.mode.value;
+      if (phase === 'running' && pendingStart === null && transportReady) {
+        send({ type: 'pace', mode: ui.mode.value });
+      }
+    }
+
+    // Small, deterministic offline run; all updates still pass through receive().
+    const fixtures = [
+      ['Mãe, troquei de número! Preciso pagar uma conta agora. Faz um Pix de R$ 890 para 11987654321?', '11987654321', 'golpe', 'troca_numero'],
+      ['Oi! O almoço de domingo continua de pé? Levo a sobremesa. Até lá!', 'familia@exemplo.com', 'ok', 'pessoal'],
+      ['Sua conta será bloqueada em 10 minutos. Envie um Pix para seguranca@exemplo.com e regularize o acesso.', 'seguranca@exemplo.com', 'golpe', 'falsa_central'],
+      ['Olá! Segue a cobrança do pedido que você fez ontem. Confira os dados antes de pagar.', 'loja@exemplo.com', 'ok', 'cobranca_legitima'],
+      ['Enviei um Pix para você por engano. Pode verificar no extrato e me dar um retorno?', 'devolucao@exemplo.com', 'revisar', 'pix_errado'],
+      ['Você ganhou R$ 8.000! Pague a taxa de liberação via Pix em premio@exemplo.com. Últimos minutos!', 'premio@exemplo.com', 'golpe', 'premio'],
+      ['Boleto atualizado: pague hoje por Pix para evitar multa. Chave: cobranca@exemplo.com.', 'cobranca@exemplo.com', 'golpe', 'boleto_falso'],
+      ['Cheguei bem! Amanhã a gente conversa com calma. Boa noite.', 'amigo@exemplo.com', 'ok', 'pessoal'],
+      ['Pai, meu celular quebrou. Salva este número e faz um Pix urgente para 11988887777, por favor.', '11988887777', 'golpe', 'troca_numero'],
+      ['Confirmamos o pagamento do seu pedido. A entrega está prevista para amanhã. Obrigado!', 'pedido@exemplo.com', 'ok', 'cobranca_legitima'],
+      ['Central de segurança: identificamos uma compra. Transfira o saldo para conta-segura@exemplo.com agora.', 'conta-segura@exemplo.com', 'golpe', 'falsa_central'],
+      ['Você foi selecionado! Faça um Pix para resgate@exemplo.com e receba seu prêmio ainda hoje.', 'resgate@exemplo.com', 'golpe', 'premio']
+    ];
+    // Independent simulated labels: the updated bill is legitimate and the Pix
+    // refund request is a scam. This exercises false alarms and missed reviews.
+    const mockTruth = ['golpe', 'normal', 'golpe', 'normal', 'golpe', 'golpe', 'normal', 'normal', 'golpe', 'normal', 'golpe', 'golpe'];
+
+    function mockReport() {
+      const sides = {};
+      for (const side of SIDES) {
+        const matriz = { golpe: { golpe: 0, revisar: 0, ok: 0 }, normal: { golpe: 0, revisar: 0, ok: 0 } };
+        for (const [id, verdict] of mockDecisions[side]) matriz[mockTruth[(id - 1) % mockTruth.length]][verdict]++;
+        const tp = matriz.golpe.golpe, fp = matriz.normal.golpe;
+        const fn = matriz.golpe.revisar + matriz.golpe.ok, tn = matriz.normal.revisar + matriz.normal.ok;
+        const avaliadas = mockDecisions[side].size;
+        sides[side] = { avaliadas, matriz, tp, fp, fn, tn,
+          acuracia: avaliadas ? (tp + tn) / avaliadas : 0,
+          precisao: tp + fp ? tp / (tp + fp) : 0, recall: tp + fn ? tp / (tp + fn) : 0 };
+      }
+      const golpes_reais = [...messages.keys()].filter((id) => mockTruth[(id - 1) % mockTruth.length] === 'golpe').length;
+      return { type: 'report', run_id: runId, total, golpes_reais, sides };
+    }
+
+    function later(callback, delay) {
+      const generation = mockGeneration;
+      const timer = setTimeout(() => {
+        mockTimers.delete(timer);
+        if (generation === mockGeneration) callback();
+      }, delay);
+      mockTimers.add(timer);
+    }
+
+    function cancelMock() {
+      mockGeneration++;
+      for (const timer of mockTimers) clearTimeout(timer);
+      mockTimers.clear();
+    }
+
+    function mockTrace(side, message, activeRun, latency) {
+      const base = message.id * 1000;
+      const random = seeded(2026 + message.id);
+      const nodes = [[base, 0, 1]], edges = [];
+      const oranges = Array.from({ length: 16 }, (_, index) => base + index + 1);
+      const cash = [base + 21, base + 22];
+      let previous = [base], nextId = base + 1;
+      // 335 accounts across five depths; all edge endpoints are present in nodes.
+      [20, 42, 64, 88, 120].forEach((count, index) => {
+        const depth = index + 1, ring = [];
+        for (let i = 0; i < count; i++) {
+          const id = nextId++;
+          nodes.push([id, depth, oranges.includes(id) ? .76 + random() * .23 : .04 + random() * .56]);
+          edges.push([previous[Math.floor(random() * previous.length)], id]);
+          if (i && i % 4 === 0) edges.push([ring[i - 1], id]);
+          ring.push(id);
+        }
+        previous = ring;
+      });
+      for (const id of oranges) edges.push([id, cash[id % 2]]);
+      return {
+        type: 'trace', side, run_id: activeRun, id: message.id, chave: message.chave,
+        latency_ms: latency, visitados: 19195 + message.id * 23, arestas_sub: 48731 + message.id * 41,
+        laranjas: oranges, saque: cash, nodes,
+        edges: [...new Map(edges.map((edge) => [edge.join(':'), edge])).values()],
+        truth: { laranjas_reais: 16, laranjas_acertadas: 16, saque_reais: 2, saque_acertadas: 2 }
+      };
+    }
+
+    function startMock(mode) {
+      cancelMock();
+      const activeRun = ++mockRun;
+      const startedAt = performance.now();
+      const mockTotal = 24;
+      receive({ type: 'run', run_id: activeRun, mode, total: mockTotal, concurrency: 1, pace_ms: mode === 'serial' ? 0 : 4000 });
+      const workers = Object.fromEntries(SIDES.map((side) => [side, { active: false, buffer: [], completed: 0, scams: 0, cost: 0, decisions: [], traces: [] }]));
+      const median = (values) => values.length ? [...values].sort((a, b) => a - b)[Math.floor(values.length / 2)] : 0;
+      function pump(side) {
+        const worker = workers[side];
+        if (worker.active || !worker.buffer.length) return;
+        const message = worker.buffer.shift();
+        const fixture = fixtures[(message.id - 1) % fixtures.length];
+        const decisionMs = side === 'rust' ? 40 : 1500;
+        const traceMs = side === 'rust' ? 8 : 600;
+        const cost = side === 'rust' ? .000006678 : .0000609;
+        // Capture the pace for this message. A change applies to the next one.
+        const holdMs = paceMs;
+        worker.active = true;
+        later(() => {
+          mockDecisions[side].set(message.id, fixture[2]);
+          worker.decisions.push(decisionMs);
+          worker.cost += cost;
+          if (fixture[2] === 'golpe') worker.scams++;
+          receive({ type: 'decision', side, run_id: activeRun, id: message.id, latency_ms: decisionMs,
+            golpe: fixture[2] === 'golpe' ? .94 + message.id % 5 * .01 : fixture[2] === 'ok' ? .08 : .51,
+            tipo: fixture[3], urgencia: fixture[2] === 'golpe' ? .4 + message.id % 5 * .4 : 0,
+            pede_pix: fixture[2] === 'golpe' ? .98 : .1, verdict: fixture[2],
+            ...(side === 'rust' ? { tipo_confianca: .92 + message.id % 5 * .01 } : {}),
+            tokens_in: 159, tokens_out: side === 'rust' ? 0 : 39, cost_usd: cost,
+            model: side === 'rust' ? 'jev-1.13.0' : 'deepseek-chat'
+          });
+          let traceComplete = fixture[2] !== 'golpe';
+          let holdComplete = holdMs === 0;
+          function finishWhenReady() {
+            if (!traceComplete || !holdComplete) return;
+            worker.active = false;
+            worker.completed++;
+            if (worker.completed === mockTotal) {
+              receive({ type: 'done', side, run_id: activeRun, totals: {
+                messages: mockTotal, golpes: worker.scams,
+                decision_p50_ms: median(worker.decisions), decision_p95_ms: decisionMs,
+                trace_p50_ms: median(worker.traces), trace_p95_ms: traceMs,
+                cost_usd: worker.cost, total_ms: Math.round(performance.now() - startedAt)
+              } });
+            }
+            pump(side);
+          }
+          if (holdMs > 0) later(() => { holdComplete = true; finishWhenReady(); }, holdMs);
+          if (!traceComplete) later(() => {
+            worker.traces.push(traceMs);
+            receive(mockTrace(side, message, activeRun, traceMs));
+            traceComplete = true;
+            finishWhenReady();
+          }, traceMs);
+          finishWhenReady();
+        }, decisionMs);
+      }
+      for (let index = 0; index < mockTotal; index++) {
+        const fixture = fixtures[index % fixtures.length];
+        const message = { type: 'message', run_id: activeRun, id: index + 1, ts: 612345 + index,
+          remetente: '+55 11 9' + String(87650000 + index), texto: fixture[0], chave: fixture[1] };
+        receive(message);
+        for (const side of SIDES) workers[side].buffer.push(message);
+      }
+      for (const side of SIDES) pump(side);
+    }
+
+    function mockCommand(event) {
+      if (event.type === 'reset') { cancelMock(); receive({ type: 'reset' }); }
+      else if (event.type === 'start') startMock(event.mode);
+      else if (event.type === 'pace' && phase === 'running') {
+        receive({ type: 'pace', run_id: runId, mode: event.mode, ms: event.mode === 'serial' ? 0 : 4000 });
+      } else if (event.type === 'stop' && phase === 'running') {
+        cancelMock();
+        receive({ type: 'stop', run_id: runId });
+      } else if (event.type === 'report' && ['done', 'stopped'].includes(phase)) {
+        receive(mockReport());
+      }
+    }
+
+    ui.start.addEventListener('click', primaryAction);
+    ui.restart.addEventListener('click', start);
+    $('#final-close').addEventListener('click', hideFinal);
+    ui.report.addEventListener('click', requestReport);
+    ui.reportClose.addEventListener('click', hideReport);
+    ui.detailClose.addEventListener('click', () => closeScam());
+    ui.detailModal.addEventListener('click', (event) => {
+      if (event.target === ui.detailModal) closeScam();
+    });
+    ui.mode.addEventListener('change', changePace);
+    window.addEventListener('keydown', (event) => {
+      if (activeDetail) {
+        if (event.key === 'Escape') { event.preventDefault(); closeScam(); }
+        else if (event.key === 'Tab') {
+          const stops = [ui.detailClose, $('#detail-body')];
+          if (!$('#detail-accounts').hidden) stops.push($('#detail-oranges'), $('#detail-cash'));
+          const first = stops[0], last = stops[stops.length - 1];
+          if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last.focus(); }
+          else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
+        }
+        return;
+      }
+      if (event.key === 'Escape' && !ui.reportDialog.hidden) hideReport();
+    });
+    window.addEventListener('resize', fitStage);
+    window.addEventListener('pagehide', () => {
+      pageLeaving = true;
+      closeScam(false);
+      clearTimeout(reconnectTimer);
+      cancelMock();
+      for (const lane of Object.values(lanes)) cancelAnimationFrame(lane.graphAnimation);
+      socket?.close();
+    });
+    window.addEventListener('pageshow', (event) => {
+      if (!event.persisted) return;
+      pageLeaving = false;
+      if (MOCK) { clearRun(); updateConnection(); }
+      else connect();
+    });
+    fitStage();
+    if (MOCK) {
+      transportReady = true;
+      for (const side of SIDES) receive({ type: 'status', side, state: 'ready' });
+    } else connect();
+  })();
+  </script>
+</body>
+</html>

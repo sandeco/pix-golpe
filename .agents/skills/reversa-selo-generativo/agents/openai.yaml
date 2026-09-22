@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Selo Generativo"
+  short_description: "Cria selos visuais generativos seeded com p5.js, gerando HTML…"
+policy:
+  allow_implicit_invocation: false

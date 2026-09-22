@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Modularize"
+  short_description: "Modularização: divide um trecho grande em módulos coesos com…"
+policy:
+  allow_implicit_invocation: false

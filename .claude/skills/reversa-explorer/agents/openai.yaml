@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Explorer"
+  short_description: "Agente Explorer do Ideation Team, diverge em caminhos possíveis"
+policy:
+  allow_implicit_invocation: false

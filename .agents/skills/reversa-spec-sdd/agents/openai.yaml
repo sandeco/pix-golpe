@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Spec Sdd"
+  short_description: "Agente final do time Code New Project: decompõe um PRD em…"
+policy:
+  allow_implicit_invocation: false

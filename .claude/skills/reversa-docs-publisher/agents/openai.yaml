@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Docs Publisher"
+  short_description: "Editor-chefe do Time Reversa Docs"
+policy:
+  allow_implicit_invocation: false

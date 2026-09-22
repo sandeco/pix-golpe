@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Architect"
+  short_description: "Sintetiza a análise do projeto legado em documentação…"
+policy:
+  allow_implicit_invocation: false

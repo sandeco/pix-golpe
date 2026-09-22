@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Researcher"
+  short_description: "Agente Researcher do time Code New Project Agents"
+policy:
+  allow_implicit_invocation: false

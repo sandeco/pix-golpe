@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Extract Soul"
+  short_description: "Extrai a alma do projeto legado em uma única Spec síntese…"
+policy:
+  allow_implicit_invocation: false

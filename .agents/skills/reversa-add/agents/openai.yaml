@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Add"
+  short_description: "Emenda curta na feature ativa do ciclo forward: registra o…"
+policy:
+  allow_implicit_invocation: false

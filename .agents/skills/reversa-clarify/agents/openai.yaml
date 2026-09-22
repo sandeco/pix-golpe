@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Clarify"
+  short_description: "Gera até cinco perguntas dirigidas para resolver pontos…"
+policy:
+  allow_implicit_invocation: false

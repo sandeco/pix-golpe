@@ -1,0 +1,5 @@
+interface:
+  display_name: "Reversa Inspector"
+  short_description: "Quinto agente do Time de Migração"
+policy:
+  allow_implicit_invocation: false
