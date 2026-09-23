@@ -1534,7 +1534,7 @@
             pede_pix: fixture[2] === 'golpe' ? .98 : .1, verdict: fixture[2],
             ...(side === 'rust' ? { tipo_confianca: .92 + message.id % 5 * .01 } : {}),
             tokens_in: 159, tokens_out: side === 'rust' ? 0 : 39, cost_usd: cost,
-            model: side === 'rust' ? 'jev-1.13.0' : 'deepseek-chat'
+            model: side === 'rust' ? 'jev-1.13.0' : 'deepseek-flash'
           });
           let traceComplete = fixture[2] !== 'golpe';
           let holdComplete = holdMs === 0;

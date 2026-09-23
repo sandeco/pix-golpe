@@ -24,7 +24,7 @@ except ImportError:  # pragma: no cover
 INPUT_USD_PER_MILLION = 0.28
 OUTPUT_USD_PER_MILLION = 0.42
 API_URL = "https://api.deepseek.com/chat/completions"
-MODEL = "deepseek-chat"
+MODEL = "deepseek-flash"
 MAX_ATTEMPTS = 3  # Inclui a primeira tentativa.
 SYSTEM_PROMPT = '''You classify a message in Brazilian Portuguese. Reply ONLY with a JSON object:
 {"golpe": <probability 0..1 that this message is a scam or fraud attempt (impersonation, fake bill, fake bank alert, fake prize, pressure to pay)>,
