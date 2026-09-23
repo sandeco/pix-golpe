@@ -1,0 +1,1000 @@
+{"id":0,"ts":116960,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 711,59 a revisão. Pode pagar quando buscar, aceitamos Pix (7b5cbfba-a563) ou cartão.","chave":"7b5cbfba-a563","golpe_real":false}
+{"id":1,"ts":480946,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 550,51, dividimos depois, sem pressa.","chave":"f7f30444-da38","golpe_real":false}
+{"id":2,"ts":662868,"remetente":"Prima Bia","texto":"Oi Pedro, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"6bc14be8-eef9","golpe_real":false}
+{"id":3,"ts":771508,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #482788 disponível na sua conta Amazon.","chave":"21986947060","golpe_real":false}
+{"id":4,"ts":546742,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"rafael9612@gmail.com","golpe_real":false}
+{"id":5,"ts":645699,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 381,15 a revisão. Pode pagar quando buscar, aceitamos Pix (carla5452@gmail.com) ou cartão.","chave":"carla5452@gmail.com","golpe_real":false}
+{"id":6,"ts":752468,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 73,30 em cima da mesa, se faltar me avisa.","chave":"81923332849","golpe_real":false}
+{"id":7,"ts":768950,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"8319e85e-6b18","golpe_real":false}
+{"id":8,"ts":156445,"remetente":"Caixa","texto":"Sua fatura Caixa de R$ 800,08 fecha dia 25. Consulte no app.","chave":"51911525251","golpe_real":false}
+{"id":9,"ts":534262,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 780,72 a revisão. Pode pagar quando buscar, aceitamos Pix (carla7719@gmail.com) ou cartão.","chave":"carla7719@gmail.com","golpe_real":false}
+{"id":10,"ts":380710,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #212665 disponível na sua conta Casas Bahia.","chave":"júlia1030@gmail.com","golpe_real":false}
+{"id":11,"ts":318354,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 378,53 em cima da mesa, se faltar me avisa.","chave":"4c4ab839-702b","golpe_real":false}
+{"id":12,"ts":150749,"remetente":"SMS 22858","texto":"Sua conta de luz está para corte HOJE. Pague R$ 2286,46 via Pix b44ac05f-11ff e evite a suspensão do fornecimento.","chave":"b44ac05f-11ff","golpe_real":true}
+{"id":13,"ts":324342,"remetente":"Americanas","texto":"Americanas: seu pedido #812626 saiu para entrega. Acompanhe pelo app.","chave":"rafael3599@gmail.com","golpe_real":false}
+{"id":14,"ts":239226,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 589,92 a revisão. Pode pagar quando buscar, aceitamos Pix (91378ad9-9234) ou cartão.","chave":"91378ad9-9234","golpe_real":false}
+{"id":15,"ts":658923,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 467,74 o número. Se quiser, o Pix é 31961665755, mas pode pagar na terça também.","chave":"31961665755","golpe_real":false}
+{"id":16,"ts":146422,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 550,88 a revisão. Pode pagar quando buscar, aceitamos Pix (júlia778@gmail.com) ou cartão.","chave":"júlia778@gmail.com","golpe_real":false}
+{"id":17,"ts":317323,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"f9473517-59dd","golpe_real":false}
+{"id":18,"ts":311573,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 896,32 a revisão. Pode pagar quando buscar, aceitamos Pix (pedro7553@gmail.com) ou cartão.","chave":"pedro7553@gmail.com","golpe_real":false}
+{"id":19,"ts":652719,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 299,00 em cima da mesa, se faltar me avisa.","chave":"af40c417-bb07","golpe_real":false}
+{"id":20,"ts":734690,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 868,14 o número. Se quiser, o Pix é fernanda4470@gmail.com, mas pode pagar na terça também.","chave":"fernanda4470@gmail.com","golpe_real":false}
+{"id":21,"ts":109685,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"pedro4222@gmail.com","golpe_real":false}
+{"id":22,"ts":334540,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"31972595878","golpe_real":false}
+{"id":23,"ts":415559,"remetente":"Magazine Luiza","texto":"Pedido #759037 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"7e6b9292-36a3","golpe_real":false}
+{"id":24,"ts":507326,"remetente":"SMS Mercado Livre","texto":"Mercado Livre: seu pedido #315673 saiu para entrega. Acompanhe pelo app.","chave":"41900329186","golpe_real":false}
+{"id":25,"ts":701143,"remetente":"Bruno","texto":"Beatriz, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"11907582724","golpe_real":false}
+{"id":26,"ts":726716,"remetente":"+55 61 93006-6005 (número desconhecido)","texto":"Receita Federal: sua restituição de R$ 2043,07 está bloqueada. Regularize pagando a taxa de R$ 47,90 no Pix 5f6de937-5a84.","chave":"5f6de937-5a84","golpe_real":true}
+{"id":27,"ts":484170,"remetente":"Bruno","texto":"Rafael, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"fernanda7550@gmail.com","golpe_real":false}
+{"id":28,"ts":391930,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 532,55 em cima da mesa, se faltar me avisa.","chave":"647fb9e3-2f73","golpe_real":false}
+{"id":29,"ts":745747,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 622,76 a revisão. Pode pagar quando buscar, aceitamos Pix (11901544881) ou cartão.","chave":"11901544881","golpe_real":false}
+{"id":30,"ts":119045,"remetente":"Santander","texto":"Sua fatura Santander de R$ 615,25 fecha dia 25. Consulte no app.","chave":"31953146072","golpe_real":false}
+{"id":31,"ts":592469,"remetente":"Magazine Luiza","texto":"Pedido #716502 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"17404979-033b","golpe_real":false}
+{"id":32,"ts":733705,"remetente":"Júlia","texto":"Oi vó! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"81916047508","golpe_real":false}
+{"id":33,"ts":162748,"remetente":"Amazon","texto":"Amazon: seu pedido #481875 saiu para entrega. Acompanhe pelo app.","chave":"fernanda5355@gmail.com","golpe_real":false}
+{"id":34,"ts":567634,"remetente":"+55 11 94040-1142","texto":"Fernanda, seu benefício do INSS foi suspenso. Reative agora pagando a taxa administrativa via Pix 0343ce6e-fda7. Prazo: 2 horas.","chave":"0343ce6e-fda7","golpe_real":true}
+{"id":35,"ts":242990,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 261,81 fecha dia 25. Consulte no app.","chave":"09d774a5-71a7","golpe_real":false}
+{"id":36,"ts":621352,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"001ca29d-7c2d","golpe_real":false}
+{"id":37,"ts":736174,"remetente":"SMS Americanas","texto":"Americanas: seu pedido #184405 saiu para entrega. Acompanhe pelo app.","chave":"pedro8193@gmail.com","golpe_real":false}
+{"id":38,"ts":734312,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"carla6552@gmail.com","golpe_real":false}
+{"id":39,"ts":766990,"remetente":"Prima Bia","texto":"Oi Pedro, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"beatriz5171@gmail.com","golpe_real":false}
+{"id":40,"ts":369494,"remetente":"Magazine Luiza","texto":"Nota fiscal do seu pedido #564325 disponível na sua conta Magazine Luiza.","chave":"81904187352","golpe_real":false}
+{"id":41,"ts":644440,"remetente":"Caixa","texto":"Sua fatura Caixa de R$ 85,29 fecha dia 25. Consulte no app.","chave":"júlia1808@gmail.com","golpe_real":false}
+{"id":42,"ts":185641,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"marcos472@gmail.com","golpe_real":false}
+{"id":43,"ts":343468,"remetente":"Lucas","texto":"Bruno, obrigado pelo Pix! Já recebi os R$ 403,80 do rateio da pizza.","chave":"júlia5073@gmail.com","golpe_real":false}
+{"id":44,"ts":465855,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"19a02de6-a06e","golpe_real":false}
+{"id":45,"ts":229193,"remetente":"SMS Amazon","texto":"Amazon: seu pedido #678737 saiu para entrega. Acompanhe pelo app.","chave":"11983466960","golpe_real":false}
+{"id":46,"ts":737847,"remetente":"SMS Shopee","texto":"Shopee: seu pedido #617530 saiu para entrega. Acompanhe pelo app.","chave":"81927581000","golpe_real":false}
+{"id":47,"ts":326696,"remetente":"+55 92 99828-3121 (número desconhecido)","texto":"Seu pedido #100192 da Amazon está retido na transportadora. Pague a taxa de liberação de R$ 1401,90 via Pix 31970395620 para receber hoje.","chave":"31970395620","golpe_real":true}
+{"id":48,"ts":95043,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"51922609911","golpe_real":false}
+{"id":49,"ts":414449,"remetente":"Marcos","texto":"Júlia, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"71999663442","golpe_real":false}
+{"id":50,"ts":681520,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 642,76 em cima da mesa, se faltar me avisa.","chave":"ce517da0-cdc2","golpe_real":false}
+{"id":51,"ts":252736,"remetente":"Júlia","texto":"Oi pai! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"41921643835","golpe_real":false}
+{"id":52,"ts":116717,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"beatriz8392@gmail.com","golpe_real":false}
+{"id":53,"ts":141726,"remetente":"Banco do Brasil","texto":"Sua fatura Banco do Brasil de R$ 759,87 fecha dia 25. Consulte no app.","chave":"61980830972","golpe_real":false}
+{"id":54,"ts":136608,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"marcos4290@gmail.com","golpe_real":false}
+{"id":55,"ts":236507,"remetente":"Lucas","texto":"Marcos, obrigado pelo Pix! Já recebi os R$ 837,00 do rateio da pizza.","chave":"bruno3921@gmail.com","golpe_real":false}
+{"id":56,"ts":133237,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 651,71, dividimos depois, sem pressa.","chave":"carla1421@gmail.com","golpe_real":false}
+{"id":57,"ts":653764,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"64037dff-a48a","golpe_real":false}
+{"id":58,"ts":477323,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"júlia3218@gmail.com","golpe_real":false}
+{"id":59,"ts":160651,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #815577 disponível na sua conta Shopee.","chave":"carla1880@gmail.com","golpe_real":false}
+{"id":60,"ts":211106,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"161513cf-1698","golpe_real":false}
+{"id":61,"ts":223228,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"61951093852","golpe_real":false}
+{"id":62,"ts":570143,"remetente":"Rafael","texto":"Oi Rafael, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"41964989509","golpe_real":false}
+{"id":63,"ts":642772,"remetente":"Tia Lúcia","texto":"Oi Marcos, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"rafael5679@gmail.com","golpe_real":false}
+{"id":64,"ts":315948,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #283524 disponível na sua conta Casas Bahia.","chave":"pedro178@gmail.com","golpe_real":false}
+{"id":65,"ts":677787,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 480,51 fecha dia 25. Consulte no app.","chave":"d23d844e-f3d1","golpe_real":false}
+{"id":66,"ts":660125,"remetente":"Lucas","texto":"Oi filha! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"21949349349","golpe_real":false}
+{"id":67,"ts":384292,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"386ff16b-fde8","golpe_real":false}
+{"id":68,"ts":336619,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #892140 disponível na sua conta Shopee.","chave":"ana8844@gmail.com","golpe_real":false}
+{"id":69,"ts":213160,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #800615 disponível na sua conta Casas Bahia.","chave":"rafael5117@gmail.com","golpe_real":false}
+{"id":70,"ts":484812,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 518,11 a revisão. Pode pagar quando buscar, aceitamos Pix (51998021864) ou cartão.","chave":"51998021864","golpe_real":false}
+{"id":71,"ts":580981,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"11961603858","golpe_real":false}
+{"id":72,"ts":322740,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"7fdbdd6c-ef29","golpe_real":false}
+{"id":73,"ts":525180,"remetente":"Americanas","texto":"Pedido #330589 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"61992644543","golpe_real":false}
+{"id":74,"ts":154312,"remetente":"Rafael","texto":"Pedro, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"fernanda4165@gmail.com","golpe_real":false}
+{"id":75,"ts":389744,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"2dd30a8d-dda3","golpe_real":false}
+{"id":76,"ts":745024,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"júlia8299@gmail.com","golpe_real":false}
+{"id":77,"ts":307590,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"11919359805","golpe_real":false}
+{"id":78,"ts":511096,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 874,18, dividimos depois, sem pressa.","chave":"21936445123","golpe_real":false}
+{"id":79,"ts":109402,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é fernanda2277@gmail.com.","chave":"fernanda2277@gmail.com","golpe_real":false}
+{"id":80,"ts":680110,"remetente":"Pedro","texto":"Oi mãe! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"e9469905-7457","golpe_real":false}
+{"id":81,"ts":119950,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"bruno2467@gmail.com","golpe_real":false}
+{"id":82,"ts":460830,"remetente":"Amazon","texto":"Amazon: seu pedido #499822 saiu para entrega. Acompanhe pelo app.","chave":"21976675484","golpe_real":false}
+{"id":83,"ts":475527,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 364,74 o número. Se quiser, o Pix é ana1821@gmail.com, mas pode pagar na terça também.","chave":"ana1821@gmail.com","golpe_real":false}
+{"id":84,"ts":407898,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"31983639677","golpe_real":false}
+{"id":85,"ts":147890,"remetente":"Shopee","texto":"Shopee: seu pedido #506873 saiu para entrega. Acompanhe pelo app.","chave":"4bcefdd9-8479","golpe_real":false}
+{"id":86,"ts":488738,"remetente":"Casas Bahia","texto":"Pedido #436267 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"8fda85d5-5b60","golpe_real":false}
+{"id":87,"ts":376879,"remetente":"SMS Mercado Livre","texto":"Mercado Livre: seu pedido #566306 saiu para entrega. Acompanhe pelo app.","chave":"71912896845","golpe_real":false}
+{"id":88,"ts":421824,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"61961732396","golpe_real":false}
+{"id":89,"ts":663923,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 21967731927.","chave":"21967731927","golpe_real":false}
+{"id":90,"ts":186907,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"41958490365","golpe_real":false}
+{"id":91,"ts":635607,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"lucas8869@gmail.com","golpe_real":false}
+{"id":92,"ts":215177,"remetente":"Amazon","texto":"Pedido #728041 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"21997373400","golpe_real":false}
+{"id":93,"ts":729255,"remetente":"+55 41 92619-6526 (número desconhecido)","texto":"Correios: encomenda #423313 aguardando pagamento de taxa alfandegária de R$ 767,23. Pix: 71940001300. Prazo final: hoje.","chave":"71940001300","golpe_real":true}
+{"id":94,"ts":387330,"remetente":"Mercado Livre","texto":"Mercado Livre: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"31964200108","golpe_real":false}
+{"id":95,"ts":750184,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"71993822858","golpe_real":false}
+{"id":96,"ts":401204,"remetente":"+55 71 93488-7710 (número desconhecido)","texto":"Olá, sou o advogado do seu pai. Ele foi detido e precisa de R$ 2019,36 para a fiança agora. Pix na chave 31986549653. Não ligue pra ele.","chave":"31986549653","golpe_real":true}
+{"id":97,"ts":732737,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"082fe0e4-4c7c","golpe_real":false}
+{"id":98,"ts":771683,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 44,29 o número. Se quiser, o Pix é 5d5bd3be-54bd, mas pode pagar na terça também.","chave":"5d5bd3be-54bd","golpe_real":false}
+{"id":99,"ts":341385,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"cd6687e9-7f27","golpe_real":false}
+{"id":100,"ts":753012,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"5328de22-f19d","golpe_real":false}
+{"id":101,"ts":570838,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 694,22 fecha dia 25. Consulte no app.","chave":"fernanda3223@gmail.com","golpe_real":false}
+{"id":102,"ts":216983,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 32,93 fecha dia 25. Consulte no app.","chave":"pedro360@gmail.com","golpe_real":false}
+{"id":103,"ts":387814,"remetente":"+55 51 97374-4648 (número desconhecido)","texto":"Boleto Mercado Livre em atraso! Evite negativação pagando R$ 393,87 via Pix na chave pedro7578@gmail.com até as 18h.","chave":"pedro7578@gmail.com","golpe_real":true}
+{"id":104,"ts":577072,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"41377565-f81c","golpe_real":false}
+{"id":105,"ts":747460,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 306,93 em cima da mesa, se faltar me avisa.","chave":"41958132971","golpe_real":false}
+{"id":106,"ts":618461,"remetente":"Bruno","texto":"Bruno, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"2ef3b916-e0b0","golpe_real":false}
+{"id":107,"ts":151820,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 481,58 a revisão. Pode pagar quando buscar, aceitamos Pix (fernanda1368@gmail.com) ou cartão.","chave":"fernanda1368@gmail.com","golpe_real":false}
+{"id":108,"ts":254901,"remetente":"SMS Casas Bahia","texto":"Casas Bahia: seu pedido #369833 saiu para entrega. Acompanhe pelo app.","chave":"carla1243@gmail.com","golpe_real":false}
+{"id":109,"ts":92614,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"9537747c-462f","golpe_real":false}
+{"id":110,"ts":214541,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 866,00 o número. Se quiser, o Pix é b35c6f71-71e3, mas pode pagar na terça também.","chave":"b35c6f71-71e3","golpe_real":false}
+{"id":111,"ts":668667,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 663,00 a revisão. Pode pagar quando buscar, aceitamos Pix (f674251a-7a61) ou cartão.","chave":"f674251a-7a61","golpe_real":false}
+{"id":112,"ts":476178,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 164,62, dividimos depois, sem pressa.","chave":"marcos8262@gmail.com","golpe_real":false}
+{"id":113,"ts":385706,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 742,43 a revisão. Pode pagar quando buscar, aceitamos Pix (c6053c94-a447) ou cartão.","chave":"c6053c94-a447","golpe_real":false}
+{"id":114,"ts":217523,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"81924337458","golpe_real":false}
+{"id":115,"ts":484146,"remetente":"SMS Mercado Livre","texto":"Pedido #841645 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"21956364722","golpe_real":false}
+{"id":116,"ts":740410,"remetente":"Marcos","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"júlia1632@gmail.com","golpe_real":false}
+{"id":117,"ts":213833,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #494197 disponível na sua conta Casas Bahia.","chave":"3206338f-fca1","golpe_real":false}
+{"id":118,"ts":525747,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"b7b46e44-355e","golpe_real":false}
+{"id":119,"ts":207834,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"71993187660","golpe_real":false}
+{"id":120,"ts":621092,"remetente":"SMS Americanas","texto":"Pedido #687543 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"lucas2177@gmail.com","golpe_real":false}
+{"id":121,"ts":616872,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 11968688486.","chave":"11968688486","golpe_real":false}
+{"id":122,"ts":660382,"remetente":"Bruno","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 423,94 do rateio da pizza.","chave":"2c7a811f-5e02","golpe_real":false}
+{"id":123,"ts":306230,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"carla2216@gmail.com","golpe_real":false}
+{"id":124,"ts":288120,"remetente":"Mercado Livre","texto":"Pedido #719980 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"81961786755","golpe_real":false}
+{"id":125,"ts":671373,"remetente":"+55 92 96329-0988 (número desconhecido)","texto":"filha, é o Pedro. Meu celular quebrou e tô usando esse número. Consegue me emprestar R$ 2090,83? Pix na chave 81964358979, é urgente.","chave":"81964358979","golpe_real":true}
+{"id":126,"ts":410670,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é ana371@gmail.com.","chave":"ana371@gmail.com","golpe_real":false}
+{"id":127,"ts":243493,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"95c7392b-45e0","golpe_real":false}
+{"id":128,"ts":487407,"remetente":"SMS Magazine Luiza","texto":"Pedido #102549 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"211ab935-4f07","golpe_real":false}
+{"id":129,"ts":647764,"remetente":"+55 21 91185-2539 (número desconhecido)","texto":"Central Bradesco: sua conta foi comprometida. Para proteger seu saldo, transfira imediatamente para a conta segura, chave 276902bb-8cd8. Não ignore.","chave":"276902bb-8cd8","golpe_real":true}
+{"id":130,"ts":307391,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"61980745608","golpe_real":false}
+{"id":131,"ts":492496,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"rafael718@gmail.com","golpe_real":false}
+{"id":132,"ts":673893,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"3759a02e-0a59","golpe_real":false}
+{"id":133,"ts":593117,"remetente":"Shopee","texto":"Shopee: seu pedido #606222 saiu para entrega. Acompanhe pelo app.","chave":"3c0813b9-e239","golpe_real":false}
+{"id":134,"ts":135597,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"4675464a-4fc2","golpe_real":false}
+{"id":135,"ts":380417,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #202966 disponível na sua conta Casas Bahia.","chave":"51971412444","golpe_real":false}
+{"id":136,"ts":595704,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"carla7005@gmail.com","golpe_real":false}
+{"id":137,"ts":661565,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"fernanda5974@gmail.com","golpe_real":false}
+{"id":138,"ts":408412,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 302,37 a revisão. Pode pagar quando buscar, aceitamos Pix (beatriz6484@gmail.com) ou cartão.","chave":"beatriz6484@gmail.com","golpe_real":false}
+{"id":139,"ts":427098,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 759,19 o número. Se quiser, o Pix é beatriz4616@gmail.com, mas pode pagar na terça também.","chave":"beatriz4616@gmail.com","golpe_real":false}
+{"id":140,"ts":559596,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 593,17 o número. Se quiser, o Pix é 21914596391, mas pode pagar na terça também.","chave":"21914596391","golpe_real":false}
+{"id":141,"ts":319933,"remetente":"Amazon","texto":"Amazon: seu pedido #470565 saiu para entrega. Acompanhe pelo app.","chave":"04ec59c8-14ef","golpe_real":false}
+{"id":142,"ts":396440,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é ana7144@gmail.com.","chave":"ana7144@gmail.com","golpe_real":false}
+{"id":143,"ts":742866,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #103852 disponível na sua conta Shopee.","chave":"81987642430","golpe_real":false}
+{"id":144,"ts":228342,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"895ab44d-7384","golpe_real":false}
+{"id":145,"ts":468138,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"31993101625","golpe_real":false}
+{"id":146,"ts":302969,"remetente":"Casas Bahia","texto":"Casas Bahia: seu pedido #752357 saiu para entrega. Acompanhe pelo app.","chave":"c682cd86-5794","golpe_real":false}
+{"id":147,"ts":298984,"remetente":"Pedro","texto":"Oi vó! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"41934279145","golpe_real":false}
+{"id":148,"ts":419770,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #987434 disponível na sua conta Mercado Livre.","chave":"9b939046-eaea","golpe_real":false}
+{"id":149,"ts":159835,"remetente":"Rafael","texto":"Oi Beatriz, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"9d1ee4dc-a99b","golpe_real":false}
+{"id":150,"ts":624709,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 17,43 fecha dia 25. Consulte no app.","chave":"61947719659","golpe_real":false}
+{"id":151,"ts":569410,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"51921712608","golpe_real":false}
+{"id":152,"ts":712025,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"júlia9009@gmail.com","golpe_real":false}
+{"id":153,"ts":220865,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"85ef6385-640b","golpe_real":false}
+{"id":154,"ts":131348,"remetente":"Pedro","texto":"Oi vó! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"29ae86f5-2792","golpe_real":false}
+{"id":155,"ts":213423,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 157,58 o número. Se quiser, o Pix é fef66354-e7b7, mas pode pagar na terça também.","chave":"fef66354-e7b7","golpe_real":false}
+{"id":156,"ts":505311,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 538,18 em cima da mesa, se faltar me avisa.","chave":"carla8974@gmail.com","golpe_real":false}
+{"id":157,"ts":571078,"remetente":"Banco do Brasil","texto":"Sua fatura Banco do Brasil de R$ 491,70 fecha dia 25. Consulte no app.","chave":"8b94c844-5838","golpe_real":false}
+{"id":158,"ts":402546,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"pedro6730@gmail.com","golpe_real":false}
+{"id":159,"ts":313555,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 768,80, dividimos depois, sem pressa.","chave":"21992293233","golpe_real":false}
+{"id":160,"ts":253829,"remetente":"Lucas","texto":"Júlia, obrigado pelo Pix! Já recebi os R$ 555,00 do rateio da pizza.","chave":"júlia7080@gmail.com","golpe_real":false}
+{"id":161,"ts":492738,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 877,04, dividimos depois, sem pressa.","chave":"júlia4866@gmail.com","golpe_real":false}
+{"id":162,"ts":748845,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #272693 saiu para entrega. Acompanhe pelo app.","chave":"47051896-f93c","golpe_real":false}
+{"id":163,"ts":201960,"remetente":"Júlia","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"41969480643","golpe_real":false}
+{"id":164,"ts":175249,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"lucas9724@gmail.com","golpe_real":false}
+{"id":165,"ts":760358,"remetente":"Prima Bia","texto":"Oi Pedro, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"2138e8a2-3346","golpe_real":false}
+{"id":166,"ts":626285,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"5cc238f5-0147","golpe_real":false}
+{"id":167,"ts":383201,"remetente":"+55 51 95922-4752 (número desconhecido)","texto":"Mãe, sou eu. Perdi o celular e esse é meu número novo. Preciso pagar uma conta HOJE, manda R$ 497,77 no Pix 71951773308 por favor","chave":"71951773308","golpe_real":true}
+{"id":168,"ts":408246,"remetente":"+55 31 96208-6056 (número desconhecido)","texto":"Seu carro foi sorteado com IPVA grátis! Confirme pagando a taxa de R$ 1672,69 no Pix a9d5b4d1-dfe3 em até 30 minutos.","chave":"a9d5b4d1-dfe3","golpe_real":true}
+{"id":169,"ts":166417,"remetente":"Rafael","texto":"Marcos, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"93e457f9-87bd","golpe_real":false}
+{"id":170,"ts":150283,"remetente":"SMS 21780","texto":"irmão, é o Bruno. Meu celular quebrou e tô usando esse número. Consegue me emprestar R$ 2146,65? Pix na chave pedro7755@gmail.com, é urgente.","chave":"pedro7755@gmail.com","golpe_real":true}
+{"id":171,"ts":313963,"remetente":"+55 51 92452-9366 (número desconhecido)","texto":"Seu pedido #832044 da Casas Bahia está retido na transportadora. Pague a taxa de liberação de R$ 1698,73 via Pix 11906438709 para receber hoje.","chave":"11906438709","golpe_real":true}
+{"id":172,"ts":747475,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"81921566221","golpe_real":false}
+{"id":173,"ts":648332,"remetente":"Americanas","texto":"Americanas: seu pedido #662890 saiu para entrega. Acompanhe pelo app.","chave":"júlia1255@gmail.com","golpe_real":false}
+{"id":174,"ts":589843,"remetente":"Marcos","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 475,85 do rateio da pizza.","chave":"1d299cda-7af7","golpe_real":false}
+{"id":175,"ts":325736,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 231,78, dividimos depois, sem pressa.","chave":"41963688691","golpe_real":false}
+{"id":176,"ts":292814,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu pedido #240288 saiu para entrega. Acompanhe pelo app.","chave":"9ccde8e3-b909","golpe_real":false}
+{"id":177,"ts":183670,"remetente":"Bruno","texto":"Beatriz, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"41941702768","golpe_real":false}
+{"id":178,"ts":722384,"remetente":"Lucas","texto":"Bruno, obrigado pelo Pix! Já recebi os R$ 316,76 do rateio da pizza.","chave":"71944879585","golpe_real":false}
+{"id":179,"ts":760087,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 628,45, dividimos depois, sem pressa.","chave":"ana9014@gmail.com","golpe_real":false}
+{"id":180,"ts":341872,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"baac018c-5a96","golpe_real":false}
+{"id":181,"ts":492281,"remetente":"+55 92 91207-2113 (número desconhecido)","texto":"Oi pai, troquei de número. Esse é o novo, salva aí. Preciso de um favor: faz um Pix de R$ 1703,41 pra chave 51966230965? Amanhã te devolvo.","chave":"51966230965","golpe_real":true}
+{"id":182,"ts":679818,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"c4b6fd38-40b6","golpe_real":false}
+{"id":183,"ts":719495,"remetente":"SMS Mercado Livre","texto":"Mercado Livre: seu pedido #847485 saiu para entrega. Acompanhe pelo app.","chave":"71955190837","golpe_real":false}
+{"id":184,"ts":338784,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 596,66 em cima da mesa, se faltar me avisa.","chave":"11916921291","golpe_real":false}
+{"id":185,"ts":136178,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"pedro5125@gmail.com","golpe_real":false}
+{"id":186,"ts":719370,"remetente":"Tia Lúcia","texto":"Oi Fernanda, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"c880b4f8-4836","golpe_real":false}
+{"id":187,"ts":203098,"remetente":"Tia Lúcia","texto":"Oi Pedro, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"ana3836@gmail.com","golpe_real":false}
+{"id":188,"ts":492784,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"marcos5803@gmail.com","golpe_real":false}
+{"id":189,"ts":760522,"remetente":"Rafael","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"91bcf695-e8b0","golpe_real":false}
+{"id":190,"ts":655521,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"pedro6568@gmail.com","golpe_real":false}
+{"id":191,"ts":727216,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 578,16 fecha dia 25. Consulte no app.","chave":"81938614898","golpe_real":false}
+{"id":192,"ts":228260,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 641,18 a revisão. Pode pagar quando buscar, aceitamos Pix (11989229066) ou cartão.","chave":"11989229066","golpe_real":false}
+{"id":193,"ts":505449,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"marcos1881@gmail.com","golpe_real":false}
+{"id":194,"ts":414990,"remetente":"Lucas","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 76,97 do rateio da pizza.","chave":"727604e3-2a9f","golpe_real":false}
+{"id":195,"ts":410302,"remetente":"Marcos","texto":"Bruno, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"lucas6608@gmail.com","golpe_real":false}
+{"id":196,"ts":234637,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"beatriz7449@gmail.com","golpe_real":false}
+{"id":197,"ts":727488,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 702,28, dividimos depois, sem pressa.","chave":"carla480@gmail.com","golpe_real":false}
+{"id":198,"ts":219964,"remetente":"Amazon","texto":"Amazon: seu pedido #832186 saiu para entrega. Acompanhe pelo app.","chave":"júlia7064@gmail.com","golpe_real":false}
+{"id":199,"ts":550288,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"5cb471da-a343","golpe_real":false}
+{"id":200,"ts":144999,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 891,27 a revisão. Pode pagar quando buscar, aceitamos Pix (61924769319) ou cartão.","chave":"61924769319","golpe_real":false}
+{"id":201,"ts":137908,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 893,54, dividimos depois, sem pressa.","chave":"marcos4404@gmail.com","golpe_real":false}
+{"id":202,"ts":678616,"remetente":"Marcos","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 84,18 do rateio da pizza.","chave":"2a79a2f6-f45a","golpe_real":false}
+{"id":203,"ts":145167,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 26,41, dividimos depois, sem pressa.","chave":"31920868919","golpe_real":false}
+{"id":204,"ts":426489,"remetente":"SMS Americanas","texto":"Pedido #359630 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"ef479583-105a","golpe_real":false}
+{"id":205,"ts":414032,"remetente":"Americanas","texto":"Nota fiscal do seu pedido #455713 disponível na sua conta Americanas.","chave":"4fb748c7-65d6","golpe_real":false}
+{"id":206,"ts":731129,"remetente":"Lucas","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 357,57 do rateio da pizza.","chave":"bruno6922@gmail.com","golpe_real":false}
+{"id":207,"ts":591610,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 784,17, dividimos depois, sem pressa.","chave":"97d0b112-d484","golpe_real":false}
+{"id":208,"ts":722670,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 647,47, dividimos depois, sem pressa.","chave":"355cb9a3-e153","golpe_real":false}
+{"id":209,"ts":511516,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #300957 disponível na sua conta Amazon.","chave":"f18aae84-cd17","golpe_real":false}
+{"id":210,"ts":379982,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 205,11 o número. Se quiser, o Pix é beatriz1611@gmail.com, mas pode pagar na terça também.","chave":"beatriz1611@gmail.com","golpe_real":false}
+{"id":211,"ts":332576,"remetente":"Mercado Livre","texto":"Mercado Livre: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"150d70b4-1996","golpe_real":false}
+{"id":212,"ts":206111,"remetente":"Marcos","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 695,19 do rateio da pizza.","chave":"bruno3688@gmail.com","golpe_real":false}
+{"id":213,"ts":402813,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é af582f2b-bed0.","chave":"af582f2b-bed0","golpe_real":false}
+{"id":214,"ts":656606,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 318,29, dividimos depois, sem pressa.","chave":"41989116783","golpe_real":false}
+{"id":215,"ts":296684,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"71971816953","golpe_real":false}
+{"id":216,"ts":309134,"remetente":"Mercado Livre","texto":"Mercado Livre: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"51f70776-3a72","golpe_real":false}
+{"id":217,"ts":584872,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"85df3f34-80cf","golpe_real":false}
+{"id":218,"ts":381699,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 583,51 em cima da mesa, se faltar me avisa.","chave":"71900259372","golpe_real":false}
+{"id":219,"ts":389106,"remetente":"Tia Lúcia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"aba3a37d-ca06","golpe_real":false}
+{"id":220,"ts":234528,"remetente":"Prima Bia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"rafael50@gmail.com","golpe_real":false}
+{"id":221,"ts":365289,"remetente":"Rafael","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"a96d3e3d-0b3f","golpe_real":false}
+{"id":222,"ts":749705,"remetente":"Marcos","texto":"Pedro, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"de9339de-af57","golpe_real":false}
+{"id":223,"ts":659425,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 833,99 em cima da mesa, se faltar me avisa.","chave":"355ca15e-7af1","golpe_real":false}
+{"id":224,"ts":750150,"remetente":"+55 51 98956-4060 (número desconhecido)","texto":"Aqui é do RH da Mercado Livre. Sua vaga foi aprovada! Para emitir a carteira de trabalho digital, pague R$ 1167,56 no Pix 71907494630.","chave":"71907494630","golpe_real":true}
+{"id":225,"ts":509586,"remetente":"Tia Lúcia","texto":"Oi Lucas, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"6370aa66-fcce","golpe_real":false}
+{"id":226,"ts":247033,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"41940191333","golpe_real":false}
+{"id":227,"ts":729235,"remetente":"+55 92 96144-3868 (número desconhecido)","texto":"Nubank informa: sua fatura de R$ 1364,89 está vencida. Evite juros pagando agora via Pix na chave 71940001300.","chave":"71940001300","golpe_real":true}
+{"id":228,"ts":203160,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é júlia3139@gmail.com.","chave":"júlia3139@gmail.com","golpe_real":false}
+{"id":229,"ts":143410,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 696,45 o número. Se quiser, o Pix é rafael9084@gmail.com, mas pode pagar na terça também.","chave":"rafael9084@gmail.com","golpe_real":false}
+{"id":230,"ts":484086,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"carla1829@gmail.com","golpe_real":false}
+{"id":231,"ts":609820,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 61963021039.","chave":"61963021039","golpe_real":false}
+{"id":232,"ts":294335,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #979509 disponível na sua conta Mercado Livre.","chave":"41974733077","golpe_real":false}
+{"id":233,"ts":714378,"remetente":"Tia Lúcia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"fernanda5597@gmail.com","golpe_real":false}
+{"id":234,"ts":716736,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 663,82 em cima da mesa, se faltar me avisa.","chave":"31958639384","golpe_real":false}
+{"id":235,"ts":254337,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 809,29, dividimos depois, sem pressa.","chave":"carla8463@gmail.com","golpe_real":false}
+{"id":236,"ts":235383,"remetente":"+55 85 92211-2238 (número desconhecido)","texto":"Seu pedido #303337 da Magazine Luiza está retido na transportadora. Pague a taxa de liberação de R$ 2266,03 via Pix 0323fbc5-d070 para receber hoje.","chave":"0323fbc5-d070","golpe_real":true}
+{"id":237,"ts":504107,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #385422 disponível na sua conta Casas Bahia.","chave":"bruno2635@gmail.com","golpe_real":false}
+{"id":238,"ts":363160,"remetente":"Tia Lúcia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"21904977994","golpe_real":false}
+{"id":239,"ts":241090,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 660,76, dividimos depois, sem pressa.","chave":"bruno5060@gmail.com","golpe_real":false}
+{"id":240,"ts":387075,"remetente":"Caixa","texto":"Sua fatura Caixa de R$ 460,37 fecha dia 25. Consulte no app.","chave":"61911005807","golpe_real":false}
+{"id":241,"ts":652626,"remetente":"Rafael","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"81929309235","golpe_real":false}
+{"id":242,"ts":139829,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é b9b62474-bc0e.","chave":"b9b62474-bc0e","golpe_real":false}
+{"id":243,"ts":354367,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 747,30 a revisão. Pode pagar quando buscar, aceitamos Pix (efc2c953-1d5e) ou cartão.","chave":"efc2c953-1d5e","golpe_real":false}
+{"id":244,"ts":172699,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"beatriz3046@gmail.com","golpe_real":false}
+{"id":245,"ts":241942,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #188037 disponível na sua conta Shopee.","chave":"51995968512","golpe_real":false}
+{"id":246,"ts":205145,"remetente":"Júlia","texto":"Oi filha! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"71937567226","golpe_real":false}
+{"id":247,"ts":213368,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"51986268510","golpe_real":false}
+{"id":248,"ts":121847,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 170,34 a revisão. Pode pagar quando buscar, aceitamos Pix (ana8391@gmail.com) ou cartão.","chave":"ana8391@gmail.com","golpe_real":false}
+{"id":249,"ts":119142,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 41990677212.","chave":"41990677212","golpe_real":false}
+{"id":250,"ts":416886,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é marcos2542@gmail.com.","chave":"marcos2542@gmail.com","golpe_real":false}
+{"id":251,"ts":300680,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 834,82 a revisão. Pode pagar quando buscar, aceitamos Pix (61957764122) ou cartão.","chave":"61957764122","golpe_real":false}
+{"id":252,"ts":378947,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"61978501559","golpe_real":false}
+{"id":253,"ts":326816,"remetente":"+55 31 95971-3514","texto":"Seu WhatsApp será desativado em 24h por violação. Para manter, confirme seu cadastro pagando R$ 1128,00 via Pix 31970395620.","chave":"31970395620","golpe_real":true}
+{"id":254,"ts":271603,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 98,52 em cima da mesa, se faltar me avisa.","chave":"21933701460","golpe_real":false}
+{"id":255,"ts":462409,"remetente":"Bruno","texto":"Carla, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"11955421740","golpe_real":false}
+{"id":256,"ts":662903,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"7a9c67c7-9109","golpe_real":false}
+{"id":257,"ts":318858,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 418,60 fecha dia 25. Consulte no app.","chave":"ana8605@gmail.com","golpe_real":false}
+{"id":258,"ts":313598,"remetente":"Rafael","texto":"Pedro, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"júlia6895@gmail.com","golpe_real":false}
+{"id":259,"ts":167266,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #792043 disponível na sua conta Mercado Livre.","chave":"21923550208","golpe_real":false}
+{"id":260,"ts":558364,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 60,43 o número. Se quiser, o Pix é 61908430229, mas pode pagar na terça também.","chave":"61908430229","golpe_real":false}
+{"id":261,"ts":525841,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"júlia2276@gmail.com","golpe_real":false}
+{"id":262,"ts":376884,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"08e7431c-9031","golpe_real":false}
+{"id":263,"ts":766699,"remetente":"SMS Casas Bahia","texto":"Casas Bahia: seu pedido #312957 saiu para entrega. Acompanhe pelo app.","chave":"marcos8188@gmail.com","golpe_real":false}
+{"id":264,"ts":588603,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 379,62, dividimos depois, sem pressa.","chave":"bruno7745@gmail.com","golpe_real":false}
+{"id":265,"ts":424674,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"ana6839@gmail.com","golpe_real":false}
+{"id":266,"ts":264921,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"lucas1644@gmail.com","golpe_real":false}
+{"id":267,"ts":745025,"remetente":"Amazon","texto":"Amazon: seu pedido #735990 saiu para entrega. Acompanhe pelo app.","chave":"51959638257","golpe_real":false}
+{"id":268,"ts":379936,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 7dfe9c7a-21d2.","chave":"7dfe9c7a-21d2","golpe_real":false}
+{"id":269,"ts":769191,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #652115 saiu para entrega. Acompanhe pelo app.","chave":"21942045999","golpe_real":false}
+{"id":270,"ts":494409,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"ana3256@gmail.com","golpe_real":false}
+{"id":271,"ts":234650,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 461,73 o número. Se quiser, o Pix é 81943744326, mas pode pagar na terça também.","chave":"81943744326","golpe_real":false}
+{"id":272,"ts":408271,"remetente":"SMS Mercado Livre","texto":"Pedido #493687 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"11935013268","golpe_real":false}
+{"id":273,"ts":652094,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 400,22 em cima da mesa, se faltar me avisa.","chave":"lucas4356@gmail.com","golpe_real":false}
+{"id":274,"ts":125573,"remetente":"Marcos","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"71965560451","golpe_real":false}
+{"id":275,"ts":583261,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"fernanda5006@gmail.com","golpe_real":false}
+{"id":276,"ts":157049,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"2fa54842-6b21","golpe_real":false}
+{"id":277,"ts":491307,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"41929589819","golpe_real":false}
+{"id":278,"ts":584436,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 694,32 o número. Se quiser, o Pix é 61967555798, mas pode pagar na terça também.","chave":"61967555798","golpe_real":false}
+{"id":279,"ts":472286,"remetente":"Americanas","texto":"Pedido #599579 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"8703d044-a12c","golpe_real":false}
+{"id":280,"ts":303366,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"51937508831","golpe_real":false}
+{"id":281,"ts":391054,"remetente":"SMS Mercado Livre","texto":"Pedido #658622 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"71938813637","golpe_real":false}
+{"id":282,"ts":292386,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"7ee3e106-1e43","golpe_real":false}
+{"id":283,"ts":141695,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"5ff82365-7c12","golpe_real":false}
+{"id":284,"ts":572359,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"26c88269-400b","golpe_real":false}
+{"id":285,"ts":283042,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"5706d163-5124","golpe_real":false}
+{"id":286,"ts":653568,"remetente":"Bruno","texto":"Bruno, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"41994792015","golpe_real":false}
+{"id":287,"ts":496547,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"21944089170","golpe_real":false}
+{"id":288,"ts":290318,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #971012 saiu para entrega. Acompanhe pelo app.","chave":"31941863656","golpe_real":false}
+{"id":289,"ts":321268,"remetente":"Marcos","texto":"Marcos, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"61988194735","golpe_real":false}
+{"id":290,"ts":570349,"remetente":"Lucas","texto":"Ana, obrigado pelo Pix! Já recebi os R$ 196,06 do rateio da pizza.","chave":"31905681047","golpe_real":false}
+{"id":291,"ts":748408,"remetente":"SMS Amazon","texto":"Amazon: seu pedido #393222 saiu para entrega. Acompanhe pelo app.","chave":"21965444032","golpe_real":false}
+{"id":292,"ts":469546,"remetente":"Amazon","texto":"Amazon: seu pedido #291789 saiu para entrega. Acompanhe pelo app.","chave":"bc59741e-2606","golpe_real":false}
+{"id":293,"ts":502118,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"ana8569@gmail.com","golpe_real":false}
+{"id":294,"ts":469718,"remetente":"Caixa","texto":"Sua fatura Caixa de R$ 674,72 fecha dia 25. Consulte no app.","chave":"31945364350","golpe_real":false}
+{"id":295,"ts":311354,"remetente":"Amazon","texto":"Pedido #821785 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"a9138ac3-d3cb","golpe_real":false}
+{"id":296,"ts":407819,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 411,67, dividimos depois, sem pressa.","chave":"71912388978","golpe_real":false}
+{"id":297,"ts":683730,"remetente":"Pedro","texto":"Oi mãe! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"marcos4725@gmail.com","golpe_real":false}
+{"id":298,"ts":89252,"remetente":"Amazon","texto":"Pedido #842682 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"81931451089","golpe_real":false}
+{"id":299,"ts":730936,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 360,95 o número. Se quiser, o Pix é 3d6a7c5c-8269, mas pode pagar na terça também.","chave":"3d6a7c5c-8269","golpe_real":false}
+{"id":300,"ts":737734,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"a03db6da-e42e","golpe_real":false}
+{"id":301,"ts":120458,"remetente":"SMS 24073","texto":"Nubank: detectamos uma compra suspeita de R$ 2409,94 no seu cartão. Se não reconhece, transfira seu saldo para a conta segura, chave bruno7282@gmail.com, ou sua conta será bloqueada.","chave":"bruno7282@gmail.com","golpe_real":true}
+{"id":302,"ts":557028,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 855,16 a revisão. Pode pagar quando buscar, aceitamos Pix (61905329966) ou cartão.","chave":"61905329966","golpe_real":false}
+{"id":303,"ts":187456,"remetente":"SMS Casas Bahia","texto":"Casas Bahia: seu pedido #411914 saiu para entrega. Acompanhe pelo app.","chave":"dab4ef6b-9df2","golpe_real":false}
+{"id":304,"ts":232841,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"81969992992","golpe_real":false}
+{"id":305,"ts":574691,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"3785239b-1e10","golpe_real":false}
+{"id":306,"ts":476524,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"25dd98f6-9905","golpe_real":false}
+{"id":307,"ts":568759,"remetente":"SMS Amazon","texto":"Amazon: seu pedido #567662 saiu para entrega. Acompanhe pelo app.","chave":"carla2766@gmail.com","golpe_real":false}
+{"id":308,"ts":692351,"remetente":"Bruno","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 126,73 do rateio da pizza.","chave":"41966031173","golpe_real":false}
+{"id":309,"ts":229617,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 758d9a49-9a48.","chave":"758d9a49-9a48","golpe_real":false}
+{"id":310,"ts":763055,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"beatriz3509@gmail.com","golpe_real":false}
+{"id":311,"ts":749807,"remetente":"SMS Magazine Luiza","texto":"Pedido #801651 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"rafael778@gmail.com","golpe_real":false}
+{"id":312,"ts":441202,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"10c99346-b037","golpe_real":false}
+{"id":313,"ts":292509,"remetente":"Americanas","texto":"Americanas: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"11949803953","golpe_real":false}
+{"id":314,"ts":479151,"remetente":"Pedro","texto":"Oi prima! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"7769105d-af41","golpe_real":false}
+{"id":315,"ts":500189,"remetente":"SMS Casas Bahia","texto":"Pedido #778456 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"4f733820-7f67","golpe_real":false}
+{"id":316,"ts":472663,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"51997573077","golpe_real":false}
+{"id":317,"ts":227346,"remetente":"Casas Bahia","texto":"Pedido #202283 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"beatriz1166@gmail.com","golpe_real":false}
+{"id":318,"ts":745890,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 765,68 fecha dia 25. Consulte no app.","chave":"a453bb8c-0aa1","golpe_real":false}
+{"id":319,"ts":341601,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"71904521591","golpe_real":false}
+{"id":320,"ts":572054,"remetente":"+55 11 92075-3333 (número desconhecido)","texto":"Sua conta de luz está para corte HOJE. Pague R$ 959,56 via Pix marcos5780@gmail.com e evite a suspensão do fornecimento.","chave":"marcos5780@gmail.com","golpe_real":true}
+{"id":321,"ts":138911,"remetente":"Tia Lúcia","texto":"Oi Fernanda, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"11980216654","golpe_real":false}
+{"id":322,"ts":610214,"remetente":"Americanas","texto":"Nota fiscal do seu pedido #465369 disponível na sua conta Americanas.","chave":"marcos321@gmail.com","golpe_real":false}
+{"id":323,"ts":625928,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"eefc0ab6-05ca","golpe_real":false}
+{"id":324,"ts":331639,"remetente":"Marcos","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 706,44 do rateio da pizza.","chave":"11920680023","golpe_real":false}
+{"id":325,"ts":542168,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"0c650e7b-0077","golpe_real":false}
+{"id":326,"ts":600957,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 201,55 o número. Se quiser, o Pix é rafael6077@gmail.com, mas pode pagar na terça também.","chave":"rafael6077@gmail.com","golpe_real":false}
+{"id":327,"ts":211846,"remetente":"Bruno","texto":"Fernanda, obrigado pelo Pix! Já recebi os R$ 97,99 do rateio da pizza.","chave":"84bf7aa9-cc33","golpe_real":false}
+{"id":328,"ts":488377,"remetente":"SMS Shopee","texto":"Pedido #625486 confirmado! Shopee agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"lucas4733@gmail.com","golpe_real":false}
+{"id":329,"ts":207245,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"71907708537","golpe_real":false}
+{"id":330,"ts":304666,"remetente":"Bruno","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 233,73 do rateio da pizza.","chave":"carla2810@gmail.com","golpe_real":false}
+{"id":331,"ts":737854,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"21921725745","golpe_real":false}
+{"id":332,"ts":378310,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"beatriz8337@gmail.com","golpe_real":false}
+{"id":333,"ts":390640,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 535,23 o número. Se quiser, o Pix é 31906115178, mas pode pagar na terça também.","chave":"31906115178","golpe_real":false}
+{"id":334,"ts":481103,"remetente":"+55 41 91095-3851","texto":"Oi, fiz um Pix pra você por engano de R$ 690,49. Pode devolver na chave lucas594@gmail.com? Preciso muito desse dinheiro, é do aluguel.","chave":"lucas594@gmail.com","golpe_real":true}
+{"id":335,"ts":630656,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"54f6c250-1018","golpe_real":false}
+{"id":336,"ts":421563,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 692,84, dividimos depois, sem pressa.","chave":"61906682271","golpe_real":false}
+{"id":337,"ts":739126,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 519,04 fecha dia 25. Consulte no app.","chave":"81974283460","golpe_real":false}
+{"id":338,"ts":211503,"remetente":"Lucas","texto":"Ana, obrigado pelo Pix! Já recebi os R$ 453,40 do rateio da pizza.","chave":"11994864360","golpe_real":false}
+{"id":339,"ts":754318,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 898,66, dividimos depois, sem pressa.","chave":"11926016276","golpe_real":false}
+{"id":340,"ts":493134,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 61940933483.","chave":"61940933483","golpe_real":false}
+{"id":341,"ts":224937,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 828,08 o número. Se quiser, o Pix é rafael9090@gmail.com, mas pode pagar na terça também.","chave":"rafael9090@gmail.com","golpe_real":false}
+{"id":342,"ts":741447,"remetente":"Tia Lúcia","texto":"Oi Júlia, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"júlia7568@gmail.com","golpe_real":false}
+{"id":343,"ts":145351,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é marcos7240@gmail.com.","chave":"marcos7240@gmail.com","golpe_real":false}
+{"id":344,"ts":643806,"remetente":"Filha","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"1a722f3a-6aea","golpe_real":false}
+{"id":345,"ts":771496,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 563,85 em cima da mesa, se faltar me avisa.","chave":"11984792658","golpe_real":false}
+{"id":346,"ts":241325,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"21921207653","golpe_real":false}
+{"id":347,"ts":664117,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #273992 disponível na sua conta Amazon.","chave":"81943519787","golpe_real":false}
+{"id":348,"ts":668929,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 857,03 em cima da mesa, se faltar me avisa.","chave":"d17a0a6a-bd7f","golpe_real":false}
+{"id":349,"ts":141117,"remetente":"Tia Lúcia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"11967732988","golpe_real":false}
+{"id":350,"ts":469837,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 881,47 a revisão. Pode pagar quando buscar, aceitamos Pix (71956425183) ou cartão.","chave":"71956425183","golpe_real":false}
+{"id":351,"ts":664936,"remetente":"SMS Shopee","texto":"Shopee: seu pedido #363814 saiu para entrega. Acompanhe pelo app.","chave":"fcc0defc-88f7","golpe_real":false}
+{"id":352,"ts":300923,"remetente":"SMS 24904","texto":"Fernanda, aqui é da Shopee. Houve uma cobrança duplicada de R$ 995,50. Para o estorno, confirme seus dados e pague a taxa de R$ 9,90 no Pix lucas7210@gmail.com.","chave":"lucas7210@gmail.com","golpe_real":true}
+{"id":353,"ts":298279,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"21956488423","golpe_real":false}
+{"id":354,"ts":479519,"remetente":"Magazine Luiza","texto":"Nota fiscal do seu pedido #570823 disponível na sua conta Magazine Luiza.","chave":"marcos4936@gmail.com","golpe_real":false}
+{"id":355,"ts":680501,"remetente":"Lucas","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 509,21 do rateio da pizza.","chave":"júlia530@gmail.com","golpe_real":false}
+{"id":356,"ts":321316,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 113,44 em cima da mesa, se faltar me avisa.","chave":"42058e5f-7b26","golpe_real":false}
+{"id":357,"ts":668054,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"marcos2746@gmail.com","golpe_real":false}
+{"id":358,"ts":551301,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"pedro7654@gmail.com","golpe_real":false}
+{"id":359,"ts":279042,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 102,00 a revisão. Pode pagar quando buscar, aceitamos Pix (1982e777-400e) ou cartão.","chave":"1982e777-400e","golpe_real":false}
+{"id":360,"ts":757060,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"21952241307","golpe_real":false}
+{"id":361,"ts":125854,"remetente":"SMS 20454","texto":"Receita Federal: sua restituição de R$ 1401,18 está bloqueada. Regularize pagando a taxa de R$ 47,90 no Pix 923bff68-9488.","chave":"923bff68-9488","golpe_real":true}
+{"id":362,"ts":691046,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 866,89 a revisão. Pode pagar quando buscar, aceitamos Pix (6f720400-0282) ou cartão.","chave":"6f720400-0282","golpe_real":false}
+{"id":363,"ts":391600,"remetente":"Marcos","texto":"Bruno, obrigado pelo Pix! Já recebi os R$ 440,28 do rateio da pizza.","chave":"dc4f7bf5-5a07","golpe_real":false}
+{"id":364,"ts":408182,"remetente":"SMS 21751","texto":"Boa tarde, caiu um Pix de R$ 2297,94 na sua conta que era pra outra pessoa. Por favor estorne pra chave a9d5b4d1-dfe3 hoje ainda.","chave":"a9d5b4d1-dfe3","golpe_real":true}
+{"id":365,"ts":486267,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 179,85 fecha dia 25. Consulte no app.","chave":"dc14a97c-aeb4","golpe_real":false}
+{"id":366,"ts":234680,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 408,85 fecha dia 25. Consulte no app.","chave":"71963689166","golpe_real":false}
+{"id":367,"ts":393220,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 61910229471.","chave":"61910229471","golpe_real":false}
+{"id":368,"ts":239768,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"rafael4050@gmail.com","golpe_real":false}
+{"id":369,"ts":330949,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 197,60 o número. Se quiser, o Pix é 71963061974, mas pode pagar na terça também.","chave":"71963061974","golpe_real":false}
+{"id":370,"ts":390138,"remetente":"Júlia","texto":"Oi filha! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"4d02cf16-ab25","golpe_real":false}
+{"id":371,"ts":359636,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 280,56, dividimos depois, sem pressa.","chave":"carla9583@gmail.com","golpe_real":false}
+{"id":372,"ts":477250,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"41921050747","golpe_real":false}
+{"id":373,"ts":751426,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"514848a7-0f30","golpe_real":false}
+{"id":374,"ts":640428,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"21922347685","golpe_real":false}
+{"id":375,"ts":278706,"remetente":"Mercado Livre","texto":"Mercado Livre: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"68cace28-7a03","golpe_real":false}
+{"id":376,"ts":169237,"remetente":"Pedro","texto":"Oi pai! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"51981678886","golpe_real":false}
+{"id":377,"ts":504980,"remetente":"SMS Mercado Livre","texto":"Mercado Livre: seu pedido #872534 saiu para entrega. Acompanhe pelo app.","chave":"81931049303","golpe_real":false}
+{"id":378,"ts":509474,"remetente":"Americanas","texto":"Pedido #241665 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"pedro769@gmail.com","golpe_real":false}
+{"id":379,"ts":746529,"remetente":"Lucas","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"pedro9869@gmail.com","golpe_real":false}
+{"id":380,"ts":296145,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 327,03 o número. Se quiser, o Pix é 51978924878, mas pode pagar na terça também.","chave":"51978924878","golpe_real":false}
+{"id":381,"ts":715279,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"bruno5833@gmail.com","golpe_real":false}
+{"id":382,"ts":695604,"remetente":"Rafael","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"31967876643","golpe_real":false}
+{"id":383,"ts":383021,"remetente":"+55 81 91237-2631","texto":"Lucas, aqui é da Americanas. Houve uma cobrança duplicada de R$ 1125,31. Para o estorno, confirme seus dados e pague a taxa de R$ 9,90 no Pix 71951773308.","chave":"71951773308","golpe_real":true}
+{"id":384,"ts":389017,"remetente":"SMS Mercado Livre","texto":"Pedido #681178 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"rafael6103@gmail.com","golpe_real":false}
+{"id":385,"ts":580258,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 160,09 em cima da mesa, se faltar me avisa.","chave":"50616fbf-efc8","golpe_real":false}
+{"id":386,"ts":506445,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #713905 disponível na sua conta Casas Bahia.","chave":"bruno7565@gmail.com","golpe_real":false}
+{"id":387,"ts":768298,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"3912058b-29b8","golpe_real":false}
+{"id":388,"ts":463999,"remetente":"Júlia","texto":"Oi mãe! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"81968068094","golpe_real":false}
+{"id":389,"ts":292041,"remetente":"+55 85 98044-2213 (número desconhecido)","texto":"Oi irmão, troquei de número. Esse é o novo, salva aí. Preciso de um favor: faz um Pix de R$ 254,87 pra chave 51942117050? Amanhã te devolvo.","chave":"51942117050","golpe_real":true}
+{"id":390,"ts":143710,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 807,34, dividimos depois, sem pressa.","chave":"ana8433@gmail.com","golpe_real":false}
+{"id":391,"ts":87010,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"f4a0d3f6-d925","golpe_real":false}
+{"id":392,"ts":237904,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"51959777650","golpe_real":false}
+{"id":393,"ts":508112,"remetente":"Prima Bia","texto":"Oi Júlia, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"júlia1864@gmail.com","golpe_real":false}
+{"id":394,"ts":236430,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"3a4bf005-2ed9","golpe_real":false}
+{"id":395,"ts":766071,"remetente":"Lucas","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 283,08 do rateio da pizza.","chave":"1196ff12-6441","golpe_real":false}
+{"id":396,"ts":508439,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"bruno9991@gmail.com","golpe_real":false}
+{"id":397,"ts":168898,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #627614 saiu para entrega. Acompanhe pelo app.","chave":"41949810736","golpe_real":false}
+{"id":398,"ts":403245,"remetente":"Marcos","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"ana1143@gmail.com","golpe_real":false}
+{"id":399,"ts":104347,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"61991004797","golpe_real":false}
+{"id":400,"ts":233415,"remetente":"+55 61 97635-5403","texto":"Olá, sou o advogado do seu tio. Ele foi detido e precisa de R$ 1823,33 para a fiança agora. Pix na chave 31966438321. Não ligue pra ele.","chave":"31966438321","golpe_real":true}
+{"id":401,"ts":554923,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"9ee8894d-2a77","golpe_real":false}
+{"id":402,"ts":378731,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 521,53 a revisão. Pode pagar quando buscar, aceitamos Pix (ac9e33d7-2dc1) ou cartão.","chave":"ac9e33d7-2dc1","golpe_real":false}
+{"id":403,"ts":383798,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"334eae36-a1ad","golpe_real":false}
+{"id":404,"ts":746130,"remetente":"Prima Bia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"beatriz4470@gmail.com","golpe_real":false}
+{"id":405,"ts":322631,"remetente":"Prima Bia","texto":"Oi Pedro, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"marcos8187@gmail.com","golpe_real":false}
+{"id":406,"ts":482423,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"e9387ac8-f4fe","golpe_real":false}
+{"id":407,"ts":585028,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"fernanda4397@gmail.com","golpe_real":false}
+{"id":408,"ts":537159,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 629,43, dividimos depois, sem pressa.","chave":"21988548200","golpe_real":false}
+{"id":409,"ts":87038,"remetente":"Rafael","texto":"Oi Marcos, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"d013f2c4-1cdb","golpe_real":false}
+{"id":410,"ts":682829,"remetente":"Bruno","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 456,14 do rateio da pizza.","chave":"pedro351@gmail.com","golpe_real":false}
+{"id":411,"ts":305236,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"6eeba035-6af8","golpe_real":false}
+{"id":412,"ts":741247,"remetente":"Rafael","texto":"Júlia, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"lucas8506@gmail.com","golpe_real":false}
+{"id":413,"ts":649466,"remetente":"Marcos","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 594,57 do rateio da pizza.","chave":"lucas1053@gmail.com","golpe_real":false}
+{"id":414,"ts":152000,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"81919023725","golpe_real":false}
+{"id":415,"ts":495230,"remetente":"Amazon","texto":"Amazon: seu pedido #884812 saiu para entrega. Acompanhe pelo app.","chave":"2f5c4d99-4073","golpe_real":false}
+{"id":416,"ts":496559,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"júlia5184@gmail.com","golpe_real":false}
+{"id":417,"ts":228157,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 503,30 o número. Se quiser, o Pix é 410cceff-88db, mas pode pagar na terça também.","chave":"410cceff-88db","golpe_real":false}
+{"id":418,"ts":324511,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 470,63, dividimos depois, sem pressa.","chave":"fernanda4292@gmail.com","golpe_real":false}
+{"id":419,"ts":341322,"remetente":"Pedro","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"1d422e56-cf5c","golpe_real":false}
+{"id":420,"ts":179451,"remetente":"Pedro","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"5bbeae07-f3bd","golpe_real":false}
+{"id":421,"ts":763061,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"8b5b0805-c037","golpe_real":false}
+{"id":422,"ts":221129,"remetente":"Rafael","texto":"Oi Ana, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"81983909628","golpe_real":false}
+{"id":423,"ts":556372,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"a98fede6-4d4c","golpe_real":false}
+{"id":424,"ts":148055,"remetente":"Caixa","texto":"Sua fatura Caixa de R$ 550,48 fecha dia 25. Consulte no app.","chave":"bf1a656d-e7d4","golpe_real":false}
+{"id":425,"ts":631104,"remetente":"Júlia","texto":"Oi filha! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"51953446001","golpe_real":false}
+{"id":426,"ts":504477,"remetente":"Caixa","texto":"Sua fatura Caixa de R$ 16,37 fecha dia 25. Consulte no app.","chave":"71990845057","golpe_real":false}
+{"id":427,"ts":157634,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"aab8d9fb-7b21","golpe_real":false}
+{"id":428,"ts":662573,"remetente":"Marcos","texto":"Carla, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"16503487-97de","golpe_real":false}
+{"id":429,"ts":745666,"remetente":"SMS Casas Bahia","texto":"Casas Bahia: seu pedido #574678 saiu para entrega. Acompanhe pelo app.","chave":"b95d8060-a107","golpe_real":false}
+{"id":430,"ts":374954,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 781,00, dividimos depois, sem pressa.","chave":"fernanda2323@gmail.com","golpe_real":false}
+{"id":431,"ts":253708,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"11976369771","golpe_real":false}
+{"id":432,"ts":228418,"remetente":"+55 81 94394-1335","texto":"Seu carro foi sorteado com IPVA grátis! Confirme pagando a taxa de R$ 1573,80 no Pix 66350b2d-d1f9 em até 30 minutos.","chave":"66350b2d-d1f9","golpe_real":true}
+{"id":433,"ts":422246,"remetente":"SMS Magazine Luiza","texto":"Pedido #495946 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"bruno4186@gmail.com","golpe_real":false}
+{"id":434,"ts":574002,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"74215b9d-3b64","golpe_real":false}
+{"id":435,"ts":503096,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"fernanda8275@gmail.com","golpe_real":false}
+{"id":436,"ts":567060,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"84ae484c-2049","golpe_real":false}
+{"id":437,"ts":381029,"remetente":"Americanas","texto":"Americanas: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"176feb01-84d6","golpe_real":false}
+{"id":438,"ts":583120,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"71998765873","golpe_real":false}
+{"id":439,"ts":556775,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"00ac5733-7a56","golpe_real":false}
+{"id":440,"ts":508018,"remetente":"Pedro","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"carla2605@gmail.com","golpe_real":false}
+{"id":441,"ts":340125,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"11999606436","golpe_real":false}
+{"id":442,"ts":123938,"remetente":"Marcos","texto":"Júlia, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"29160cee-4663","golpe_real":false}
+{"id":443,"ts":679706,"remetente":"Bruno","texto":"Júlia, obrigado pelo Pix! Já recebi os R$ 755,34 do rateio da pizza.","chave":"71958355863","golpe_real":false}
+{"id":444,"ts":653912,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 475,31, dividimos depois, sem pressa.","chave":"70e7ae83-76a5","golpe_real":false}
+{"id":445,"ts":534204,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"fernanda9635@gmail.com","golpe_real":false}
+{"id":446,"ts":135047,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"carla5979@gmail.com","golpe_real":false}
+{"id":447,"ts":577718,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"41955400404","golpe_real":false}
+{"id":448,"ts":577274,"remetente":"SMS 25266","texto":"PARABÉNS! Você foi sorteado no Shopee Premiado e ganhou R$ 5.000. Para liberar, pague a taxa de R$ 2413,66 no Pix carla3055@gmail.com em até 1 hora.","chave":"carla3055@gmail.com","golpe_real":true}
+{"id":449,"ts":300039,"remetente":"Prima Bia","texto":"Oi Lucas, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"71904158355","golpe_real":false}
+{"id":450,"ts":567590,"remetente":"SMS 20928","texto":"Central Banco do Brasil: sua conta foi comprometida. Para proteger seu saldo, transfira imediatamente para a conta segura, chave 0343ce6e-fda7. Não ignore.","chave":"0343ce6e-fda7","golpe_real":true}
+{"id":451,"ts":155638,"remetente":"Lucas","texto":"Oi filha! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"beatriz9551@gmail.com","golpe_real":false}
+{"id":452,"ts":492784,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 710,23 a revisão. Pode pagar quando buscar, aceitamos Pix (rafael2821@gmail.com) ou cartão.","chave":"rafael2821@gmail.com","golpe_real":false}
+{"id":453,"ts":586493,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"lucas8937@gmail.com","golpe_real":false}
+{"id":454,"ts":403352,"remetente":"Júlia","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"81933815915","golpe_real":false}
+{"id":455,"ts":334553,"remetente":"Lucas","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"93cdafad-508e","golpe_real":false}
+{"id":456,"ts":492188,"remetente":"+55 85 99342-9031 (número desconhecido)","texto":"Vaga de renda extra: ganhe R$ 300 por dia avaliando produtos. Taxa de cadastro única de R$ 526,54 via Pix 51966230965.","chave":"51966230965","golpe_real":true}
+{"id":457,"ts":329080,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"fernanda4380@gmail.com","golpe_real":false}
+{"id":458,"ts":482491,"remetente":"Marcos","texto":"Lucas, obrigado pelo Pix! Já recebi os R$ 874,79 do rateio da pizza.","chave":"31996930194","golpe_real":false}
+{"id":459,"ts":322974,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 242,30, dividimos depois, sem pressa.","chave":"80f2cef9-0871","golpe_real":false}
+{"id":460,"ts":328092,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #423641 disponível na sua conta Mercado Livre.","chave":"87311047-f006","golpe_real":false}
+{"id":461,"ts":309399,"remetente":"Shopee","texto":"Shopee: seu pedido #249228 saiu para entrega. Acompanhe pelo app.","chave":"8879f332-542e","golpe_real":false}
+{"id":462,"ts":662059,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 54,26 em cima da mesa, se faltar me avisa.","chave":"12b6d33b-59e3","golpe_real":false}
+{"id":463,"ts":242486,"remetente":"SMS 21319","texto":"PARABÉNS! Você foi sorteado no Casas Bahia Premiado e ganhou R$ 5.000. Para liberar, pague a taxa de R$ 2101,07 no Pix 81934290122 em até 1 hora.","chave":"81934290122","golpe_real":true}
+{"id":464,"ts":148959,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 289,26 em cima da mesa, se faltar me avisa.","chave":"81955653412","golpe_real":false}
+{"id":465,"ts":323741,"remetente":"Lucas","texto":"Oi vó! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"bd8afbd1-1d51","golpe_real":false}
+{"id":466,"ts":487029,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"fernanda2538@gmail.com","golpe_real":false}
+{"id":467,"ts":696883,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"ea476267-0f55","golpe_real":false}
+{"id":468,"ts":140552,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 286,63, dividimos depois, sem pressa.","chave":"carla4049@gmail.com","golpe_real":false}
+{"id":469,"ts":312209,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 512,81, dividimos depois, sem pressa.","chave":"d403155c-93f4","golpe_real":false}
+{"id":470,"ts":382907,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"júlia7600@gmail.com","golpe_real":false}
+{"id":471,"ts":743583,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"11931775665","golpe_real":false}
+{"id":472,"ts":292391,"remetente":"Lucas","texto":"Marcos, obrigado pelo Pix! Já recebi os R$ 783,08 do rateio da pizza.","chave":"carla9422@gmail.com","golpe_real":false}
+{"id":473,"ts":492757,"remetente":"+55 51 91118-9815","texto":"Você ganhou um iPhone 16 na promoção Amazon! Confirme o frete de R$ 2491,66 pela chave Pix 11932815914 e receba em 24h.","chave":"11932815914","golpe_real":true}
+{"id":474,"ts":614040,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"fernanda4466@gmail.com","golpe_real":false}
+{"id":475,"ts":315680,"remetente":"Bruno","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 626,18 do rateio da pizza.","chave":"a6338c6c-1c26","golpe_real":false}
+{"id":476,"ts":648183,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"11927897423","golpe_real":false}
+{"id":477,"ts":706892,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 884,29, dividimos depois, sem pressa.","chave":"12b782a3-472b","golpe_real":false}
+{"id":478,"ts":708195,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"30906214-a916","golpe_real":false}
+{"id":479,"ts":340239,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 700,19 fecha dia 25. Consulte no app.","chave":"carla2524@gmail.com","golpe_real":false}
+{"id":480,"ts":507513,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"júlia6828@gmail.com","golpe_real":false}
+{"id":481,"ts":328237,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"81993501896","golpe_real":false}
+{"id":482,"ts":459933,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"27fb3ee7-47c2","golpe_real":false}
+{"id":483,"ts":500050,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"júlia7354@gmail.com","golpe_real":false}
+{"id":484,"ts":552447,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 403,09, dividimos depois, sem pressa.","chave":"rafael3738@gmail.com","golpe_real":false}
+{"id":485,"ts":322236,"remetente":"Mercado Livre","texto":"Pedido #491179 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"pedro8753@gmail.com","golpe_real":false}
+{"id":486,"ts":604753,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 649,91 a revisão. Pode pagar quando buscar, aceitamos Pix (66a6d0a7-3b35) ou cartão.","chave":"66a6d0a7-3b35","golpe_real":false}
+{"id":487,"ts":421222,"remetente":"Shopee","texto":"Shopee: seu pedido #475843 saiu para entrega. Acompanhe pelo app.","chave":"carla7939@gmail.com","golpe_real":false}
+{"id":488,"ts":471527,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #270878 disponível na sua conta Shopee.","chave":"bruno2623@gmail.com","golpe_real":false}
+{"id":489,"ts":224275,"remetente":"Prima Bia","texto":"Oi Júlia, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"ana7982@gmail.com","golpe_real":false}
+{"id":490,"ts":684695,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"fernanda3315@gmail.com","golpe_real":false}
+{"id":491,"ts":549701,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"81905528059","golpe_real":false}
+{"id":492,"ts":311847,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 737,02 o número. Se quiser, o Pix é 21992704468, mas pode pagar na terça também.","chave":"21992704468","golpe_real":false}
+{"id":493,"ts":410122,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"rafael2480@gmail.com","golpe_real":false}
+{"id":494,"ts":729917,"remetente":"Bruno","texto":"Carla, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"bf53103c-2b24","golpe_real":false}
+{"id":495,"ts":160521,"remetente":"Banco do Brasil","texto":"Sua fatura Banco do Brasil de R$ 685,91 fecha dia 25. Consulte no app.","chave":"carla7488@gmail.com","golpe_real":false}
+{"id":496,"ts":740079,"remetente":"SMS 25339","texto":"Oi, fiz um Pix pra você por engano de R$ 702,63. Pode devolver na chave fernanda175@gmail.com? Preciso muito desse dinheiro, é do aluguel.","chave":"fernanda175@gmail.com","golpe_real":true}
+{"id":497,"ts":673490,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"beatriz6088@gmail.com","golpe_real":false}
+{"id":498,"ts":386379,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"1ae03393-afba","golpe_real":false}
+{"id":499,"ts":555029,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 525,29 o número. Se quiser, o Pix é pedro8892@gmail.com, mas pode pagar na terça também.","chave":"pedro8892@gmail.com","golpe_real":false}
+{"id":500,"ts":634768,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"39c4d170-e350","golpe_real":false}
+{"id":501,"ts":772169,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 151,98 em cima da mesa, se faltar me avisa.","chave":"d9437528-8ecd","golpe_real":false}
+{"id":502,"ts":242756,"remetente":"SMS 27889","texto":"Correios: encomenda #269985 aguardando pagamento de taxa alfandegária de R$ 678,69. Pix: 81934290122. Prazo final: hoje.","chave":"81934290122","golpe_real":true}
+{"id":503,"ts":136123,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"a4177d07-2033","golpe_real":false}
+{"id":504,"ts":404363,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"carla7727@gmail.com","golpe_real":false}
+{"id":505,"ts":146962,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"61955411066","golpe_real":false}
+{"id":506,"ts":695715,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"51994089871","golpe_real":false}
+{"id":507,"ts":214599,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"09158cc5-a67b","golpe_real":false}
+{"id":508,"ts":493534,"remetente":"Tia Lúcia","texto":"Oi Pedro, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"61978368319","golpe_real":false}
+{"id":509,"ts":576540,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"65465226-cb3f","golpe_real":false}
+{"id":510,"ts":749610,"remetente":"SMS 24493","texto":"Boleto Shopee em atraso! Evite negativação pagando R$ 2343,67 via Pix na chave 21934652565 até as 18h.","chave":"21934652565","golpe_real":true}
+{"id":511,"ts":321484,"remetente":"Americanas","texto":"Nota fiscal do seu pedido #758609 disponível na sua conta Americanas.","chave":"71960809604","golpe_real":false}
+{"id":512,"ts":340676,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"fernanda8857@gmail.com","golpe_real":false}
+{"id":513,"ts":661815,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"c3f4bfbc-1e3a","golpe_real":false}
+{"id":514,"ts":500885,"remetente":"Lucas","texto":"Bruno, obrigado pelo Pix! Já recebi os R$ 810,76 do rateio da pizza.","chave":"carla4141@gmail.com","golpe_real":false}
+{"id":515,"ts":445853,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 606,58 o número. Se quiser, o Pix é 11989124666, mas pode pagar na terça também.","chave":"11989124666","golpe_real":false}
+{"id":516,"ts":749296,"remetente":"SMS 22398","texto":"Aqui é do RH da Magazine Luiza. Sua vaga foi aprovada! Para emitir a carteira de trabalho digital, pague R$ 1812,97 no Pix 21934652565.","chave":"21934652565","golpe_real":true}
+{"id":517,"ts":680266,"remetente":"Marcos","texto":"Júlia, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"fe320f09-327d","golpe_real":false}
+{"id":518,"ts":725182,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"rafael410@gmail.com","golpe_real":false}
+{"id":519,"ts":682808,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"marcos8916@gmail.com","golpe_real":false}
+{"id":520,"ts":481276,"remetente":"+55 81 99703-4434 (número desconhecido)","texto":"Oi mãe, troquei de número. Esse é o novo, salva aí. Preciso de um favor: faz um Pix de R$ 327,33 pra chave lucas594@gmail.com? Amanhã te devolvo.","chave":"lucas594@gmail.com","golpe_real":true}
+{"id":521,"ts":617209,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"fernanda1518@gmail.com","golpe_real":false}
+{"id":522,"ts":586384,"remetente":"Americanas","texto":"Nota fiscal do seu pedido #489204 disponível na sua conta Americanas.","chave":"31915246303","golpe_real":false}
+{"id":523,"ts":244511,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 418,66 fecha dia 25. Consulte no app.","chave":"61978502128","golpe_real":false}
+{"id":524,"ts":317249,"remetente":"Júlia","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"44dbc260-3419","golpe_real":false}
+{"id":525,"ts":335159,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"51966876480","golpe_real":false}
+{"id":526,"ts":410672,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"21970419667","golpe_real":false}
+{"id":527,"ts":490681,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"marcos2782@gmail.com","golpe_real":false}
+{"id":528,"ts":575240,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"pedro9030@gmail.com","golpe_real":false}
+{"id":529,"ts":502726,"remetente":"+55 41 98496-7788","texto":"Detran: multa de R$ 1832,28 vence hoje. Pague com 40% de desconto via Pix febb3e6e-2b18 e evite a suspensão da CNH.","chave":"febb3e6e-2b18","golpe_real":true}
+{"id":530,"ts":315629,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"beatriz9574@gmail.com","golpe_real":false}
+{"id":531,"ts":239845,"remetente":"Filha","texto":"Oi filha! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"lucas2751@gmail.com","golpe_real":false}
+{"id":532,"ts":534826,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é lucas3759@gmail.com.","chave":"lucas3759@gmail.com","golpe_real":false}
+{"id":533,"ts":762767,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 586,73 em cima da mesa, se faltar me avisa.","chave":"beatriz8246@gmail.com","golpe_real":false}
+{"id":534,"ts":729946,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 69c54129-b03e.","chave":"69c54129-b03e","golpe_real":false}
+{"id":535,"ts":417953,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"0aa03e85-4c40","golpe_real":false}
+{"id":536,"ts":662867,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"15b64f67-2ab2","golpe_real":false}
+{"id":537,"ts":658501,"remetente":"Tia Lúcia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"a23ac8c0-3db8","golpe_real":false}
+{"id":538,"ts":218446,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 825,20 a revisão. Pode pagar quando buscar, aceitamos Pix (b54d8b45-e41e) ou cartão.","chave":"b54d8b45-e41e","golpe_real":false}
+{"id":539,"ts":117701,"remetente":"SMS Amazon","texto":"Pedido #857778 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"9dd71e07-4fd7","golpe_real":false}
+{"id":540,"ts":203805,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é carla8547@gmail.com.","chave":"carla8547@gmail.com","golpe_real":false}
+{"id":541,"ts":726909,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 515,65 o número. Se quiser, o Pix é e19b5755-d955, mas pode pagar na terça também.","chave":"e19b5755-d955","golpe_real":false}
+{"id":542,"ts":413628,"remetente":"SMS Casas Bahia","texto":"Pedido #296924 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"bruno3727@gmail.com","golpe_real":false}
+{"id":543,"ts":751150,"remetente":"Rafael","texto":"Beatriz, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"31964607534","golpe_real":false}
+{"id":544,"ts":502447,"remetente":"+55 85 97898-8394 (número desconhecido)","texto":"Oi amor, é o Fernanda, tô com o celular da minha colega. Me faz um Pix de R$ 1504,01 na chave febb3e6e-2b18? Explico quando chegar.","chave":"febb3e6e-2b18","golpe_real":true}
+{"id":545,"ts":426694,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 98,86 o número. Se quiser, o Pix é fernanda1645@gmail.com, mas pode pagar na terça também.","chave":"fernanda1645@gmail.com","golpe_real":false}
+{"id":546,"ts":604296,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"81925185917","golpe_real":false}
+{"id":547,"ts":131690,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 584,04 em cima da mesa, se faltar me avisa.","chave":"0a5b78fe-6c4a","golpe_real":false}
+{"id":548,"ts":133381,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"a45216c1-89fe","golpe_real":false}
+{"id":549,"ts":138707,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"81900690656","golpe_real":false}
+{"id":550,"ts":220172,"remetente":"Marcos","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"carla7287@gmail.com","golpe_real":false}
+{"id":551,"ts":307502,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 93,35 o número. Se quiser, o Pix é c4196e18-1efd, mas pode pagar na terça também.","chave":"c4196e18-1efd","golpe_real":false}
+{"id":552,"ts":150518,"remetente":"SMS 21858","texto":"Boa tarde, caiu um Pix de R$ 781,71 na sua conta que era pra outra pessoa. Por favor estorne pra chave pedro7755@gmail.com hoje ainda.","chave":"pedro7755@gmail.com","golpe_real":true}
+{"id":553,"ts":250943,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"bruno8199@gmail.com","golpe_real":false}
+{"id":554,"ts":558464,"remetente":"Prima Bia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"júlia4977@gmail.com","golpe_real":false}
+{"id":555,"ts":468032,"remetente":"Magazine Luiza","texto":"Nota fiscal do seu pedido #109891 disponível na sua conta Magazine Luiza.","chave":"573da77e-7649","golpe_real":false}
+{"id":556,"ts":242402,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #488292 disponível na sua conta Casas Bahia.","chave":"bruno4138@gmail.com","golpe_real":false}
+{"id":557,"ts":134739,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 715,14 o número. Se quiser, o Pix é lucas592@gmail.com, mas pode pagar na terça também.","chave":"lucas592@gmail.com","golpe_real":false}
+{"id":558,"ts":154027,"remetente":"Prima Bia","texto":"Oi Lucas, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"957096cf-3128","golpe_real":false}
+{"id":559,"ts":527836,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"pedro1014@gmail.com","golpe_real":false}
+{"id":560,"ts":761449,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 874,53 o número. Se quiser, o Pix é 1cf90313-d88d, mas pode pagar na terça também.","chave":"1cf90313-d88d","golpe_real":false}
+{"id":561,"ts":591926,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 179,80, dividimos depois, sem pressa.","chave":"a9535c81-779d","golpe_real":false}
+{"id":562,"ts":410705,"remetente":"Lucas","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"rafael1778@gmail.com","golpe_real":false}
+{"id":563,"ts":222817,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é bruno803@gmail.com.","chave":"bruno803@gmail.com","golpe_real":false}
+{"id":564,"ts":222024,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #293417 disponível na sua conta Shopee.","chave":"51921865672","golpe_real":false}
+{"id":565,"ts":290964,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 09a816fa-e63b.","chave":"09a816fa-e63b","golpe_real":false}
+{"id":566,"ts":567289,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 478,18 fecha dia 25. Consulte no app.","chave":"carla6098@gmail.com","golpe_real":false}
+{"id":567,"ts":571901,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"fernanda4223@gmail.com","golpe_real":false}
+{"id":568,"ts":528306,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é júlia7598@gmail.com.","chave":"júlia7598@gmail.com","golpe_real":false}
+{"id":569,"ts":181422,"remetente":"Lucas","texto":"Oi mãe! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"21991539963","golpe_real":false}
+{"id":570,"ts":637029,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"júlia3494@gmail.com","golpe_real":false}
+{"id":571,"ts":498751,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #948326 disponível na sua conta Amazon.","chave":"carla5769@gmail.com","golpe_real":false}
+{"id":572,"ts":390228,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 356,49 fecha dia 25. Consulte no app.","chave":"61919843906","golpe_real":false}
+{"id":573,"ts":662215,"remetente":"Marcos","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 142,92 do rateio da pizza.","chave":"24e0638c-5a7e","golpe_real":false}
+{"id":574,"ts":748444,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 790,07 o número. Se quiser, o Pix é 51915892747, mas pode pagar na terça também.","chave":"51915892747","golpe_real":false}
+{"id":575,"ts":401284,"remetente":"SMS 28651","texto":"pai, mudei de número. Minha conta foi bloqueada e preciso pagar o cartão hoje. Faz um Pix de R$ 474,59 pra 31986549653? Te devolvo sexta.","chave":"31986549653","golpe_real":true}
+{"id":576,"ts":512346,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"21928888309","golpe_real":false}
+{"id":577,"ts":220611,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 21962807645.","chave":"21962807645","golpe_real":false}
+{"id":578,"ts":220684,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"11991588142","golpe_real":false}
+{"id":579,"ts":390615,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 198,59 em cima da mesa, se faltar me avisa.","chave":"rafael5136@gmail.com","golpe_real":false}
+{"id":580,"ts":417088,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 860,09 a revisão. Pode pagar quando buscar, aceitamos Pix (51944545867) ou cartão.","chave":"51944545867","golpe_real":false}
+{"id":581,"ts":242547,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"41974291916","golpe_real":false}
+{"id":582,"ts":569664,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"21959354798","golpe_real":false}
+{"id":583,"ts":442862,"remetente":"Pedro","texto":"Oi vó! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"d43734d4-1af1","golpe_real":false}
+{"id":584,"ts":473390,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"lucas49@gmail.com","golpe_real":false}
+{"id":585,"ts":383965,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"carla4518@gmail.com","golpe_real":false}
+{"id":586,"ts":151346,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"41956265424","golpe_real":false}
+{"id":587,"ts":640622,"remetente":"Shopee","texto":"Pedido #111820 confirmado! Shopee agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"11977294969","golpe_real":false}
+{"id":588,"ts":656406,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"11944629849","golpe_real":false}
+{"id":589,"ts":406179,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 340,04 em cima da mesa, se faltar me avisa.","chave":"61945457800","golpe_real":false}
+{"id":590,"ts":659255,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 46,07 fecha dia 25. Consulte no app.","chave":"júlia292@gmail.com","golpe_real":false}
+{"id":591,"ts":506674,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"bruno3508@gmail.com","golpe_real":false}
+{"id":592,"ts":339307,"remetente":"Prima Bia","texto":"Oi Ana, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"41992929440","golpe_real":false}
+{"id":593,"ts":629367,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"21996296903","golpe_real":false}
+{"id":594,"ts":150945,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #797331 disponível na sua conta Mercado Livre.","chave":"11901800619","golpe_real":false}
+{"id":595,"ts":586524,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 853,53 o número. Se quiser, o Pix é 81935787947, mas pode pagar na terça também.","chave":"81935787947","golpe_real":false}
+{"id":596,"ts":109142,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 27,62 a revisão. Pode pagar quando buscar, aceitamos Pix (41970192742) ou cartão.","chave":"41970192742","golpe_real":false}
+{"id":597,"ts":584499,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 475,16 o número. Se quiser, o Pix é fernanda6124@gmail.com, mas pode pagar na terça também.","chave":"fernanda6124@gmail.com","golpe_real":false}
+{"id":598,"ts":547643,"remetente":"Bruno","texto":"Carla, obrigado pelo Pix! Já recebi os R$ 678,87 do rateio da pizza.","chave":"beatriz5617@gmail.com","golpe_real":false}
+{"id":599,"ts":720103,"remetente":"Lucas","texto":"Lucas, obrigado pelo Pix! Já recebi os R$ 407,11 do rateio da pizza.","chave":"81913508453","golpe_real":false}
+{"id":600,"ts":125656,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 758,14, dividimos depois, sem pressa.","chave":"11970982097","golpe_real":false}
+{"id":601,"ts":244818,"remetente":"Filha","texto":"Oi irmão! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"1f2cf306-52bf","golpe_real":false}
+{"id":602,"ts":472282,"remetente":"Júlia","texto":"Oi prima! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"31956673893","golpe_real":false}
+{"id":603,"ts":741081,"remetente":"Bruno","texto":"Bruno, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"11912177860","golpe_real":false}
+{"id":604,"ts":363061,"remetente":"SMS Casas Bahia","texto":"Casas Bahia: seu pedido #507208 saiu para entrega. Acompanhe pelo app.","chave":"11947302613","golpe_real":false}
+{"id":605,"ts":126862,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"e58b6728-b0cf","golpe_real":false}
+{"id":606,"ts":145116,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"11964758416","golpe_real":false}
+{"id":607,"ts":649518,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"51911508656","golpe_real":false}
+{"id":608,"ts":104564,"remetente":"Júlia","texto":"Oi irmão! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"de362293-62f3","golpe_real":false}
+{"id":609,"ts":327665,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"f3f125d7-0706","golpe_real":false}
+{"id":610,"ts":144947,"remetente":"Casas Bahia","texto":"Casas Bahia: seu pedido #983951 saiu para entrega. Acompanhe pelo app.","chave":"107a1ae4-db99","golpe_real":false}
+{"id":611,"ts":731801,"remetente":"Marcos","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"98c637b3-c8b8","golpe_real":false}
+{"id":612,"ts":722533,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #503571 saiu para entrega. Acompanhe pelo app.","chave":"rafael3241@gmail.com","golpe_real":false}
+{"id":613,"ts":501535,"remetente":"Marcos","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"ana3321@gmail.com","golpe_real":false}
+{"id":614,"ts":651721,"remetente":"SMS 23826","texto":"Boleto Amazon em atraso! Evite negativação pagando R$ 2267,34 via Pix na chave carla4420@gmail.com até as 18h.","chave":"carla4420@gmail.com","golpe_real":true}
+{"id":615,"ts":749783,"remetente":"Filha","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"pedro2070@gmail.com","golpe_real":false}
+{"id":616,"ts":490805,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 296,31, dividimos depois, sem pressa.","chave":"lucas8236@gmail.com","golpe_real":false}
+{"id":617,"ts":627078,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"248b882c-c48c","golpe_real":false}
+{"id":618,"ts":388498,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"61916682494","golpe_real":false}
+{"id":619,"ts":481436,"remetente":"+55 85 93851-9430","texto":"Banco do Brasil: token expirado. Para não perder acesso ao app, faça um Pix de validação de R$ 1,00 para 2fc99d01-e8bd nos próximos 10 minutos.","chave":"2fc99d01-e8bd","golpe_real":true}
+{"id":620,"ts":617320,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 834,62 fecha dia 25. Consulte no app.","chave":"rafael723@gmail.com","golpe_real":false}
+{"id":621,"ts":344517,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"61977525203","golpe_real":false}
+{"id":622,"ts":162269,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 114,10 o número. Se quiser, o Pix é beatriz2186@gmail.com, mas pode pagar na terça também.","chave":"beatriz2186@gmail.com","golpe_real":false}
+{"id":623,"ts":323943,"remetente":"Bruno","texto":"Carla, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"rafael5328@gmail.com","golpe_real":false}
+{"id":624,"ts":403275,"remetente":"Lucas","texto":"Lucas, obrigado pelo Pix! Já recebi os R$ 586,58 do rateio da pizza.","chave":"edd66b80-2689","golpe_real":false}
+{"id":625,"ts":416473,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"37d9bb45-ea03","golpe_real":false}
+{"id":626,"ts":164787,"remetente":"SMS Mercado Livre","texto":"Mercado Livre: seu pedido #927546 saiu para entrega. Acompanhe pelo app.","chave":"beatriz3287@gmail.com","golpe_real":false}
+{"id":627,"ts":726509,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 161,71, dividimos depois, sem pressa.","chave":"fernanda9202@gmail.com","golpe_real":false}
+{"id":628,"ts":557214,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"carla7962@gmail.com","golpe_real":false}
+{"id":629,"ts":388677,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"91368c94-8771","golpe_real":false}
+{"id":630,"ts":415711,"remetente":"Bruno","texto":"Rafael, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"fernanda8786@gmail.com","golpe_real":false}
+{"id":631,"ts":479201,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 469,92 em cima da mesa, se faltar me avisa.","chave":"9cf8cf95-b297","golpe_real":false}
+{"id":632,"ts":703995,"remetente":"SMS Mercado Livre","texto":"Pedido #735530 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"01e74106-462c","golpe_real":false}
+{"id":633,"ts":197097,"remetente":"Marcos","texto":"Fernanda, obrigado pelo Pix! Já recebi os R$ 263,13 do rateio da pizza.","chave":"fernanda1647@gmail.com","golpe_real":false}
+{"id":634,"ts":247284,"remetente":"Magazine Luiza","texto":"Nota fiscal do seu pedido #598658 disponível na sua conta Magazine Luiza.","chave":"bruno3100@gmail.com","golpe_real":false}
+{"id":635,"ts":578202,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 576,71, dividimos depois, sem pressa.","chave":"154a3ffe-c3df","golpe_real":false}
+{"id":636,"ts":227836,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 100,41 a revisão. Pode pagar quando buscar, aceitamos Pix (51922398000) ou cartão.","chave":"51922398000","golpe_real":false}
+{"id":637,"ts":375757,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"beatriz1714@gmail.com","golpe_real":false}
+{"id":638,"ts":479205,"remetente":"Marcos","texto":"Beatriz, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"d9f38549-1107","golpe_real":false}
+{"id":639,"ts":391865,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"rafael3759@gmail.com","golpe_real":false}
+{"id":640,"ts":364978,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 688,70 a revisão. Pode pagar quando buscar, aceitamos Pix (e1e8f3e0-b1f9) ou cartão.","chave":"e1e8f3e0-b1f9","golpe_real":false}
+{"id":641,"ts":235118,"remetente":"SMS 27463","texto":"Investimento garantido: 30% ao mês. Comece com R$ 2363,64 via Pix 0323fbc5-d070. Últimas 3 vagas, responde rápido!","chave":"0323fbc5-d070","golpe_real":true}
+{"id":642,"ts":765459,"remetente":"Marcos","texto":"Júlia, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"21966639564","golpe_real":false}
+{"id":643,"ts":166469,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"11986683061","golpe_real":false}
+{"id":644,"ts":544176,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"51935488971","golpe_real":false}
+{"id":645,"ts":225761,"remetente":"Lucas","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 475,79 do rateio da pizza.","chave":"11941752048","golpe_real":false}
+{"id":646,"ts":366866,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #555898 disponível na sua conta Mercado Livre.","chave":"9cb70dee-d86c","golpe_real":false}
+{"id":647,"ts":593547,"remetente":"Lucas","texto":"Lucas, obrigado pelo Pix! Já recebi os R$ 615,39 do rateio da pizza.","chave":"31940786215","golpe_real":false}
+{"id":648,"ts":415708,"remetente":"Santander","texto":"Sua fatura Santander de R$ 287,32 fecha dia 25. Consulte no app.","chave":"745ae72b-a96a","golpe_real":false}
+{"id":649,"ts":239324,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"31f5ccbc-1640","golpe_real":false}
+{"id":650,"ts":758509,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"ana8992@gmail.com","golpe_real":false}
+{"id":651,"ts":416799,"remetente":"Tia Lúcia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"júlia3091@gmail.com","golpe_real":false}
+{"id":652,"ts":328221,"remetente":"Filha","texto":"Oi irmão! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"júlia5784@gmail.com","golpe_real":false}
+{"id":653,"ts":581728,"remetente":"Filha","texto":"Oi pai! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"rafael5685@gmail.com","golpe_real":false}
+{"id":654,"ts":413731,"remetente":"Shopee","texto":"Pedido #192921 confirmado! Shopee agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"71983696203","golpe_real":false}
+{"id":655,"ts":393238,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"5a9a05ef-d540","golpe_real":false}
+{"id":656,"ts":242491,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 429,66 em cima da mesa, se faltar me avisa.","chave":"5730b860-1811","golpe_real":false}
+{"id":657,"ts":241357,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"ana2549@gmail.com","golpe_real":false}
+{"id":658,"ts":129896,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"73979723-c3ca","golpe_real":false}
+{"id":659,"ts":154550,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 75,55 em cima da mesa, se faltar me avisa.","chave":"rafael2580@gmail.com","golpe_real":false}
+{"id":660,"ts":762089,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 11997054513.","chave":"11997054513","golpe_real":false}
+{"id":661,"ts":708168,"remetente":"Mercado Livre","texto":"Mercado Livre: seu pedido #829250 saiu para entrega. Acompanhe pelo app.","chave":"rafael7221@gmail.com","golpe_real":false}
+{"id":662,"ts":279573,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"9002cba1-da01","golpe_real":false}
+{"id":663,"ts":214702,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 81909409537.","chave":"81909409537","golpe_real":false}
+{"id":664,"ts":149789,"remetente":"+55 11 98013-5007","texto":"Oi vó, tô numa situação chata, bati o carro e preciso pagar o guincho agora. Manda R$ 1002,51 no Pix júlia6526@gmail.com? Depois te explico.","chave":"júlia6526@gmail.com","golpe_real":true}
+{"id":665,"ts":744872,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"beatriz3208@gmail.com","golpe_real":false}
+{"id":666,"ts":417369,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"51962353995","golpe_real":false}
+{"id":667,"ts":503223,"remetente":"SMS Magazine Luiza","texto":"Pedido #836877 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"ad62357c-3931","golpe_real":false}
+{"id":668,"ts":216868,"remetente":"SMS 25038","texto":"PARABÉNS! Você foi sorteado no Magazine Luiza Premiado e ganhou R$ 5.000. Para liberar, pague a taxa de R$ 598,71 no Pix lucas4821@gmail.com em até 1 hora.","chave":"lucas4821@gmail.com","golpe_real":true}
+{"id":669,"ts":659958,"remetente":"Casas Bahia","texto":"Casas Bahia: seu pedido #820779 saiu para entrega. Acompanhe pelo app.","chave":"79918738-ddca","golpe_real":false}
+{"id":670,"ts":526677,"remetente":"Shopee","texto":"Nota fiscal do seu pedido #514657 disponível na sua conta Shopee.","chave":"41985170334","golpe_real":false}
+{"id":671,"ts":751974,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #426333 disponível na sua conta Casas Bahia.","chave":"c91e80e5-3b20","golpe_real":false}
+{"id":672,"ts":180985,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"rafael9992@gmail.com","golpe_real":false}
+{"id":673,"ts":388866,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 766,76, dividimos depois, sem pressa.","chave":"58039853-4dcd","golpe_real":false}
+{"id":674,"ts":561553,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 672,97 em cima da mesa, se faltar me avisa.","chave":"41969185956","golpe_real":false}
+{"id":675,"ts":743426,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"2f067d86-46af","golpe_real":false}
+{"id":676,"ts":115979,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"ana5395@gmail.com","golpe_real":false}
+{"id":677,"ts":321146,"remetente":"Bruno","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 208,55 do rateio da pizza.","chave":"81944060048","golpe_real":false}
+{"id":678,"ts":204298,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 406,20 em cima da mesa, se faltar me avisa.","chave":"81997798505","golpe_real":false}
+{"id":679,"ts":188488,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"976dcbf1-980a","golpe_real":false}
+{"id":680,"ts":283845,"remetente":"Santander","texto":"Sua fatura Santander de R$ 227,42 fecha dia 25. Consulte no app.","chave":"d077942f-19d8","golpe_real":false}
+{"id":681,"ts":330469,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"ana6210@gmail.com","golpe_real":false}
+{"id":682,"ts":313175,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"51987008769","golpe_real":false}
+{"id":683,"ts":168560,"remetente":"SMS Mercado Livre","texto":"Pedido #391114 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"f95d5de4-cc08","golpe_real":false}
+{"id":684,"ts":600815,"remetente":"Tia Lúcia","texto":"Oi Marcos, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"0bb9118d-5b59","golpe_real":false}
+{"id":685,"ts":642835,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"49708990-741f","golpe_real":false}
+{"id":686,"ts":554446,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #136699 disponível na sua conta Mercado Livre.","chave":"fernanda2131@gmail.com","golpe_real":false}
+{"id":687,"ts":246363,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é d2c2b5cc-4488.","chave":"d2c2b5cc-4488","golpe_real":false}
+{"id":688,"ts":344818,"remetente":"Bruno","texto":"Marcos, obrigado pelo Pix! Já recebi os R$ 75,80 do rateio da pizza.","chave":"carla1304@gmail.com","golpe_real":false}
+{"id":689,"ts":466782,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 678,88 em cima da mesa, se faltar me avisa.","chave":"ana8176@gmail.com","golpe_real":false}
+{"id":690,"ts":726307,"remetente":"+55 51 92917-0542 (número desconhecido)","texto":"Mãe, sou eu. Perdi o celular e esse é meu número novo. Preciso pagar uma conta HOJE, manda R$ 835,70 no Pix 5f6de937-5a84 por favor","chave":"5f6de937-5a84","golpe_real":true}
+{"id":691,"ts":641249,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 541,68 a revisão. Pode pagar quando buscar, aceitamos Pix (ana6649@gmail.com) ou cartão.","chave":"ana6649@gmail.com","golpe_real":false}
+{"id":692,"ts":268845,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"lucas5615@gmail.com","golpe_real":false}
+{"id":693,"ts":557477,"remetente":"Rafael","texto":"Ana, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"pedro4444@gmail.com","golpe_real":false}
+{"id":694,"ts":246836,"remetente":"Júlia","texto":"Oi irmão! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"lucas9901@gmail.com","golpe_real":false}
+{"id":695,"ts":88870,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 272,78 a revisão. Pode pagar quando buscar, aceitamos Pix (61946438016) ou cartão.","chave":"61946438016","golpe_real":false}
+{"id":696,"ts":130067,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 171,88 o número. Se quiser, o Pix é d0a55d20-38df, mas pode pagar na terça também.","chave":"d0a55d20-38df","golpe_real":false}
+{"id":697,"ts":313980,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"lucas8088@gmail.com","golpe_real":false}
+{"id":698,"ts":299471,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 156,94 fecha dia 25. Consulte no app.","chave":"41987104409","golpe_real":false}
+{"id":699,"ts":165299,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"21969601205","golpe_real":false}
+{"id":700,"ts":647692,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 242,19 a revisão. Pode pagar quando buscar, aceitamos Pix (51900217386) ou cartão.","chave":"51900217386","golpe_real":false}
+{"id":701,"ts":567451,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"71994235339","golpe_real":false}
+{"id":702,"ts":389809,"remetente":"Pedro","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"fernanda5995@gmail.com","golpe_real":false}
+{"id":703,"ts":313005,"remetente":"Americanas","texto":"Americanas: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"rafael7567@gmail.com","golpe_real":false}
+{"id":704,"ts":320630,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 695,35, dividimos depois, sem pressa.","chave":"rafael3466@gmail.com","golpe_real":false}
+{"id":705,"ts":577226,"remetente":"SMS 21578","texto":"Santander informa: sua fatura de R$ 1520,72 está vencida. Evite juros pagando agora via Pix na chave carla3055@gmail.com.","chave":"carla3055@gmail.com","golpe_real":true}
+{"id":706,"ts":471247,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"pedro9375@gmail.com","golpe_real":false}
+{"id":707,"ts":390055,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 669,48 em cima da mesa, se faltar me avisa.","chave":"ff57ee89-5e7c","golpe_real":false}
+{"id":708,"ts":618016,"remetente":"Tia Lúcia","texto":"Oi Ana, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"fc2d57bc-d3af","golpe_real":false}
+{"id":709,"ts":146320,"remetente":"Marcos","texto":"Bruno, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"21977961097","golpe_real":false}
+{"id":710,"ts":149696,"remetente":"+55 11 93965-2601","texto":"ATENÇÃO: seu CPF está com pendência no Serasa. Regularize hoje com desconto de 90% via Pix para júlia6526@gmail.com. Valor: R$ 643,43.","chave":"júlia6526@gmail.com","golpe_real":true}
+{"id":711,"ts":534590,"remetente":"Casas Bahia","texto":"Pedido #629319 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"81900437067","golpe_real":false}
+{"id":712,"ts":224219,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"51975810133","golpe_real":false}
+{"id":713,"ts":167905,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"lucas12@gmail.com","golpe_real":false}
+{"id":714,"ts":390769,"remetente":"Americanas","texto":"Pedido #500170 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"87a54a5c-02de","golpe_real":false}
+{"id":715,"ts":385152,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 256,70 a revisão. Pode pagar quando buscar, aceitamos Pix (21912940926) ou cartão.","chave":"21912940926","golpe_real":false}
+{"id":716,"ts":313065,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"pedro5891@gmail.com","golpe_real":false}
+{"id":717,"ts":463933,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 312,14 a revisão. Pode pagar quando buscar, aceitamos Pix (bruno8238@gmail.com) ou cartão.","chave":"bruno8238@gmail.com","golpe_real":false}
+{"id":718,"ts":332745,"remetente":"Filha","texto":"Oi irmão! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"pedro90@gmail.com","golpe_real":false}
+{"id":719,"ts":481402,"remetente":"+55 21 91882-6080","texto":"Rafael, seu benefício do INSS foi suspenso. Reative agora pagando a taxa administrativa via Pix 2fc99d01-e8bd. Prazo: 2 horas.","chave":"2fc99d01-e8bd","golpe_real":true}
+{"id":720,"ts":443947,"remetente":"Santander","texto":"Sua fatura Santander de R$ 356,22 fecha dia 25. Consulte no app.","chave":"marcos9846@gmail.com","golpe_real":false}
+{"id":721,"ts":380995,"remetente":"Itaú","texto":"Sua fatura Itaú de R$ 663,88 fecha dia 25. Consulte no app.","chave":"31929790912","golpe_real":false}
+{"id":722,"ts":191147,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"11974155189","golpe_real":false}
+{"id":723,"ts":416896,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 0290cdca-1275.","chave":"0290cdca-1275","golpe_real":false}
+{"id":724,"ts":511232,"remetente":"Lucas","texto":"Bruno, obrigado pelo Pix! Já recebi os R$ 562,58 do rateio da pizza.","chave":"233f7026-3d9d","golpe_real":false}
+{"id":725,"ts":595269,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"41921185753","golpe_real":false}
+{"id":726,"ts":230180,"remetente":"+55 41 99977-7800 (número desconhecido)","texto":"Santander: detectamos uma compra suspeita de R$ 1919,42 no seu cartão. Se não reconhece, transfira seu saldo para a conta segura, chave 71935304634, ou sua conta será bloqueada.","chave":"71935304634","golpe_real":true}
+{"id":727,"ts":242255,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"31999458608","golpe_real":false}
+{"id":728,"ts":205316,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"4d7dd94e-b81b","golpe_real":false}
+{"id":729,"ts":497689,"remetente":"Júlia","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"carla6150@gmail.com","golpe_real":false}
+{"id":730,"ts":309358,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 597,98 em cima da mesa, se faltar me avisa.","chave":"9fa2a9f2-888b","golpe_real":false}
+{"id":731,"ts":173120,"remetente":"Banco do Brasil","texto":"Sua fatura Banco do Brasil de R$ 715,43 fecha dia 25. Consulte no app.","chave":"85bc5a38-a1ef","golpe_real":false}
+{"id":732,"ts":614886,"remetente":"Bruno","texto":"Rafael, obrigado pelo Pix! Já recebi os R$ 316,35 do rateio da pizza.","chave":"júlia4141@gmail.com","golpe_real":false}
+{"id":733,"ts":516497,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"marcos4038@gmail.com","golpe_real":false}
+{"id":734,"ts":218620,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 41905768369.","chave":"41905768369","golpe_real":false}
+{"id":735,"ts":724992,"remetente":"Marcos","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"beatriz6506@gmail.com","golpe_real":false}
+{"id":736,"ts":766576,"remetente":"Rafael","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"rafael3578@gmail.com","golpe_real":false}
+{"id":737,"ts":320328,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"b64f50c7-0957","golpe_real":false}
+{"id":738,"ts":322371,"remetente":"SMS Casas Bahia","texto":"Pedido #927362 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"pedro7009@gmail.com","golpe_real":false}
+{"id":739,"ts":704039,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 218,65 fecha dia 25. Consulte no app.","chave":"beatriz8730@gmail.com","golpe_real":false}
+{"id":740,"ts":636798,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"51914210256","golpe_real":false}
+{"id":741,"ts":189905,"remetente":"Santander","texto":"Sua fatura Santander de R$ 535,38 fecha dia 25. Consulte no app.","chave":"beatriz7384@gmail.com","golpe_real":false}
+{"id":742,"ts":506030,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"31977297659","golpe_real":false}
+{"id":743,"ts":550037,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"0320ae49-66e9","golpe_real":false}
+{"id":744,"ts":404306,"remetente":"Filha","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"71934905197","golpe_real":false}
+{"id":745,"ts":647842,"remetente":"+55 92 99339-7511 (número desconhecido)","texto":"Júlia, seu benefício do INSS foi suspenso. Reative agora pagando a taxa administrativa via Pix 276902bb-8cd8. Prazo: 2 horas.","chave":"276902bb-8cd8","golpe_real":true}
+{"id":746,"ts":474593,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"marcos2407@gmail.com","golpe_real":false}
+{"id":747,"ts":211821,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 623,79 o número. Se quiser, o Pix é 9a9834a8-a261, mas pode pagar na terça também.","chave":"9a9834a8-a261","golpe_real":false}
+{"id":748,"ts":516286,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"lucas5403@gmail.com","golpe_real":false}
+{"id":749,"ts":411439,"remetente":"Shopee","texto":"Pedido #640831 confirmado! Shopee agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"41903019863","golpe_real":false}
+{"id":750,"ts":570565,"remetente":"Rafael","texto":"Marcos, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"dc3f39c5-0019","golpe_real":false}
+{"id":751,"ts":140258,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 58,69 fecha dia 25. Consulte no app.","chave":"rafael1946@gmail.com","golpe_real":false}
+{"id":752,"ts":504016,"remetente":"Mercado Livre","texto":"Pedido #601597 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"655c7e24-a7cc","golpe_real":false}
+{"id":753,"ts":157439,"remetente":"Tia Lúcia","texto":"Oi Fernanda, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"71957472088","golpe_real":false}
+{"id":754,"ts":639950,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 41991588429.","chave":"41991588429","golpe_real":false}
+{"id":755,"ts":559064,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"bruno4032@gmail.com","golpe_real":false}
+{"id":756,"ts":141025,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"6f9b3f83-a77d","golpe_real":false}
+{"id":757,"ts":413865,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"61991536704","golpe_real":false}
+{"id":758,"ts":741900,"remetente":"Tia Lúcia","texto":"Oi Rafael, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"61953444114","golpe_real":false}
+{"id":759,"ts":293811,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 311,80 o número. Se quiser, o Pix é b1ab58d1-6bd9, mas pode pagar na terça também.","chave":"b1ab58d1-6bd9","golpe_real":false}
+{"id":760,"ts":597607,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"51945069132","golpe_real":false}
+{"id":761,"ts":202567,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"marcos5257@gmail.com","golpe_real":false}
+{"id":762,"ts":87687,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 261,07 em cima da mesa, se faltar me avisa.","chave":"4148897c-a9a5","golpe_real":false}
+{"id":763,"ts":125992,"remetente":"SMS 24294","texto":"Mãe, sou eu. Perdi o celular e esse é meu número novo. Preciso pagar uma conta HOJE, manda R$ 1036,11 no Pix 923bff68-9488 por favor","chave":"923bff68-9488","golpe_real":true}
+{"id":764,"ts":752540,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 11915808014.","chave":"11915808014","golpe_real":false}
+{"id":765,"ts":345617,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"lucas3473@gmail.com","golpe_real":false}
+{"id":766,"ts":179031,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"pedro7462@gmail.com","golpe_real":false}
+{"id":767,"ts":572056,"remetente":"SMS 22671","texto":"Oi vó, tô numa situação chata, bati o carro e preciso pagar o guincho agora. Manda R$ 1618,39 no Pix marcos5780@gmail.com? Depois te explico.","chave":"marcos5780@gmail.com","golpe_real":true}
+{"id":768,"ts":576873,"remetente":"SMS Shopee","texto":"Shopee: seu pedido #717819 saiu para entrega. Acompanhe pelo app.","chave":"marcos6694@gmail.com","golpe_real":false}
+{"id":769,"ts":134805,"remetente":"Marcos","texto":"Rafael, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"21990084132","golpe_real":false}
+{"id":770,"ts":631238,"remetente":"SMS Americanas","texto":"Pedido #426125 confirmado! Americanas agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"81912978061","golpe_real":false}
+{"id":771,"ts":309918,"remetente":"Prima Bia","texto":"Oi Rafael, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"5f874c04-4bea","golpe_real":false}
+{"id":772,"ts":750377,"remetente":"SMS 25971","texto":"Oi, é da clínica. A consulta do seu tio precisa de sinal de R$ 988,28 até as 17h. Chave Pix: 71907494630.","chave":"71907494630","golpe_real":true}
+{"id":773,"ts":237443,"remetente":"Prima Bia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"fernanda1139@gmail.com","golpe_real":false}
+{"id":774,"ts":131390,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #217187 disponível na sua conta Mercado Livre.","chave":"21953832976","golpe_real":false}
+{"id":775,"ts":504406,"remetente":"Pedro","texto":"Oi prima! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"54f06cf9-badb","golpe_real":false}
+{"id":776,"ts":406666,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 281,77, dividimos depois, sem pressa.","chave":"e032c5f6-02c7","golpe_real":false}
+{"id":777,"ts":150392,"remetente":"SMS 28260","texto":"ATENÇÃO: seu CPF está com pendência no Serasa. Regularize hoje com desconto de 90% via Pix para b44ac05f-11ff. Valor: R$ 2137,10.","chave":"b44ac05f-11ff","golpe_real":true}
+{"id":778,"ts":735216,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 61935340408.","chave":"61935340408","golpe_real":false}
+{"id":779,"ts":738718,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"11905273209","golpe_real":false}
+{"id":780,"ts":485004,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #789514 disponível na sua conta Amazon.","chave":"pedro3936@gmail.com","golpe_real":false}
+{"id":781,"ts":165888,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"71995665856","golpe_real":false}
+{"id":782,"ts":775348,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 178,17, dividimos depois, sem pressa.","chave":"júlia7670@gmail.com","golpe_real":false}
+{"id":783,"ts":270334,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"01e9da12-6f32","golpe_real":false}
+{"id":784,"ts":525491,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"938006e6-23f4","golpe_real":false}
+{"id":785,"ts":673604,"remetente":"Mercado Livre","texto":"Mercado Livre: seu pedido #146590 saiu para entrega. Acompanhe pelo app.","chave":"pedro8816@gmail.com","golpe_real":false}
+{"id":786,"ts":346813,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 87,17 em cima da mesa, se faltar me avisa.","chave":"b517a90d-59d4","golpe_real":false}
+{"id":787,"ts":238112,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"ana2245@gmail.com","golpe_real":false}
+{"id":788,"ts":334447,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"51b9dc23-df1f","golpe_real":false}
+{"id":789,"ts":249325,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"9a0e440c-851e","golpe_real":false}
+{"id":790,"ts":203775,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"fernanda1694@gmail.com","golpe_real":false}
+{"id":791,"ts":744767,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"rafael3961@gmail.com","golpe_real":false}
+{"id":792,"ts":687330,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"fernanda9184@gmail.com","golpe_real":false}
+{"id":793,"ts":488981,"remetente":"Casas Bahia","texto":"Pedido #949564 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"51901242551","golpe_real":false}
+{"id":794,"ts":139320,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"c61e6520-c032","golpe_real":false}
+{"id":795,"ts":544843,"remetente":"Mercado Livre","texto":"Mercado Livre: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"21904938569","golpe_real":false}
+{"id":796,"ts":460967,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 436,97 a revisão. Pode pagar quando buscar, aceitamos Pix (beatriz215@gmail.com) ou cartão.","chave":"beatriz215@gmail.com","golpe_real":false}
+{"id":797,"ts":514785,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 741,08 o número. Se quiser, o Pix é 71994592762, mas pode pagar na terça também.","chave":"71994592762","golpe_real":false}
+{"id":798,"ts":682711,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 897,57 em cima da mesa, se faltar me avisa.","chave":"marcos6462@gmail.com","golpe_real":false}
+{"id":799,"ts":497215,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #832547 disponível na sua conta Mercado Livre.","chave":"lucas5792@gmail.com","golpe_real":false}
+{"id":800,"ts":618358,"remetente":"Mãe","texto":"Bom dia! A diarista vem quarta. Deixei R$ 295,19 em cima da mesa, se faltar me avisa.","chave":"beatriz8192@gmail.com","golpe_real":false}
+{"id":801,"ts":315056,"remetente":"SMS 27573","texto":"ATENÇÃO: seu CPF está com pendência no Serasa. Regularize hoje com desconto de 90% via Pix para 9f9bd712-3553. Valor: R$ 181,47.","chave":"9f9bd712-3553","golpe_real":true}
+{"id":802,"ts":558105,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #695826 disponível na sua conta Mercado Livre.","chave":"bruno1020@gmail.com","golpe_real":false}
+{"id":803,"ts":521240,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"ana5104@gmail.com","golpe_real":false}
+{"id":804,"ts":260871,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 23859e3f-98b2.","chave":"23859e3f-98b2","golpe_real":false}
+{"id":805,"ts":414071,"remetente":"Prima Bia","texto":"Oi Júlia, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"bb12c6f4-770c","golpe_real":false}
+{"id":806,"ts":494714,"remetente":"Magazine Luiza","texto":"Nota fiscal do seu pedido #546508 disponível na sua conta Magazine Luiza.","chave":"11971875777","golpe_real":false}
+{"id":807,"ts":486759,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 333,31 fecha dia 25. Consulte no app.","chave":"6a009ea5-dc6e","golpe_real":false}
+{"id":808,"ts":308556,"remetente":"Americanas","texto":"Americanas: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"ana9059@gmail.com","golpe_real":false}
+{"id":809,"ts":638911,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #777633 disponível na sua conta Amazon.","chave":"beatriz9550@gmail.com","golpe_real":false}
+{"id":810,"ts":374691,"remetente":"Prima Bia","texto":"Oi Carla, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"71989762559","golpe_real":false}
+{"id":811,"ts":478997,"remetente":"Bruno","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 405,58 do rateio da pizza.","chave":"94a13b2d-7cd3","golpe_real":false}
+{"id":812,"ts":113125,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"fernanda4506@gmail.com","golpe_real":false}
+{"id":813,"ts":146650,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"pedro7320@gmail.com","golpe_real":false}
+{"id":814,"ts":349532,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"2444b9c7-5684","golpe_real":false}
+{"id":815,"ts":341234,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 680,70 a revisão. Pode pagar quando buscar, aceitamos Pix (beatriz9477@gmail.com) ou cartão.","chave":"beatriz9477@gmail.com","golpe_real":false}
+{"id":816,"ts":666138,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"bruno8975@gmail.com","golpe_real":false}
+{"id":817,"ts":384490,"remetente":"Prima Bia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"fernanda2627@gmail.com","golpe_real":false}
+{"id":818,"ts":168563,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"rafael3693@gmail.com","golpe_real":false}
+{"id":819,"ts":650328,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 245,83 fecha dia 25. Consulte no app.","chave":"51924815841","golpe_real":false}
+{"id":820,"ts":354095,"remetente":"Lucas","texto":"Oi vó! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"bd7d6bc2-64bf","golpe_real":false}
+{"id":821,"ts":380352,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"4ed94625-ae5e","golpe_real":false}
+{"id":822,"ts":550395,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #794602 saiu para entrega. Acompanhe pelo app.","chave":"41970548469","golpe_real":false}
+{"id":823,"ts":441273,"remetente":"Marcos","texto":"Marcos, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"fernanda5348@gmail.com","golpe_real":false}
+{"id":824,"ts":651291,"remetente":"+55 85 99986-7390","texto":"Você ganhou um iPhone 16 na promoção Magazine Luiza! Confirme o frete de R$ 2041,79 pela chave Pix cb9e893c-19a5 e receba em 24h.","chave":"cb9e893c-19a5","golpe_real":true}
+{"id":825,"ts":678501,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é a2ba488f-b908.","chave":"a2ba488f-b908","golpe_real":false}
+{"id":826,"ts":588919,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 271,44 o número. Se quiser, o Pix é lucas8983@gmail.com, mas pode pagar na terça também.","chave":"lucas8983@gmail.com","golpe_real":false}
+{"id":827,"ts":589314,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 80,79 em cima da mesa, se faltar me avisa.","chave":"b5345b92-f70a","golpe_real":false}
+{"id":828,"ts":691267,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"carla5307@gmail.com","golpe_real":false}
+{"id":829,"ts":222394,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"rafael5878@gmail.com","golpe_real":false}
+{"id":830,"ts":219070,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"61977875446","golpe_real":false}
+{"id":831,"ts":653608,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 675,20 a revisão. Pode pagar quando buscar, aceitamos Pix (3c1bb042-e111) ou cartão.","chave":"3c1bb042-e111","golpe_real":false}
+{"id":832,"ts":589729,"remetente":"Santander","texto":"Sua fatura Santander de R$ 531,40 fecha dia 25. Consulte no app.","chave":"61919927518","golpe_real":false}
+{"id":833,"ts":639865,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 394,28 a revisão. Pode pagar quando buscar, aceitamos Pix (2c3fb9c0-20bf) ou cartão.","chave":"2c3fb9c0-20bf","golpe_real":false}
+{"id":834,"ts":745185,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 469,96 fecha dia 25. Consulte no app.","chave":"1c07e3bc-9857","golpe_real":false}
+{"id":835,"ts":398926,"remetente":"Bruno","texto":"Beatriz, obrigado pelo Pix! Já recebi os R$ 839,66 do rateio da pizza.","chave":"4e62ef55-bce5","golpe_real":false}
+{"id":836,"ts":141296,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"51990043161","golpe_real":false}
+{"id":837,"ts":408507,"remetente":"SMS Amazon","texto":"Pedido #986175 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"júlia2523@gmail.com","golpe_real":false}
+{"id":838,"ts":569949,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"41952753453","golpe_real":false}
+{"id":839,"ts":483351,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"beatriz3440@gmail.com","golpe_real":false}
+{"id":840,"ts":596299,"remetente":"Magazine Luiza","texto":"Pedido #581949 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"11907638761","golpe_real":false}
+{"id":841,"ts":143733,"remetente":"Bruno","texto":"Rafael, obrigado pelo Pix! Já recebi os R$ 135,85 do rateio da pizza.","chave":"ee0942bd-b6e7","golpe_real":false}
+{"id":842,"ts":299546,"remetente":"Casas Bahia","texto":"Nota fiscal do seu pedido #385543 disponível na sua conta Casas Bahia.","chave":"11905253146","golpe_real":false}
+{"id":843,"ts":512566,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"81998807183","golpe_real":false}
+{"id":844,"ts":722045,"remetente":"SMS Shopee","texto":"Shopee: seu pedido #366124 saiu para entrega. Acompanhe pelo app.","chave":"71981364941","golpe_real":false}
+{"id":845,"ts":594175,"remetente":"Marcos","texto":"Fernanda, obrigado pelo Pix! Já recebi os R$ 325,99 do rateio da pizza.","chave":"fernanda6363@gmail.com","golpe_real":false}
+{"id":846,"ts":233239,"remetente":"SMS 21670","texto":"Você ganhou um iPhone 16 na promoção Casas Bahia! Confirme o frete de R$ 712,63 pela chave Pix 31966438321 e receba em 24h.","chave":"31966438321","golpe_real":true}
+{"id":847,"ts":302265,"remetente":"SMS Casas Bahia","texto":"Pedido #150376 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"beatriz5232@gmail.com","golpe_real":false}
+{"id":848,"ts":656551,"remetente":"+55 61 97793-7363","texto":"Investimento garantido: 30% ao mês. Comece com R$ 1439,04 via Pix 4c76a0a0-9291. Últimas 3 vagas, responde rápido!","chave":"4c76a0a0-9291","golpe_real":true}
+{"id":849,"ts":404785,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"31933013040","golpe_real":false}
+{"id":850,"ts":206305,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 558,52 em cima da mesa, se faltar me avisa.","chave":"11927020985","golpe_real":false}
+{"id":851,"ts":167405,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 81918433282.","chave":"81918433282","golpe_real":false}
+{"id":852,"ts":769425,"remetente":"Marcos","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"9ea36bf5-ccc6","golpe_real":false}
+{"id":853,"ts":175794,"remetente":"Banco do Brasil","texto":"Sua fatura Banco do Brasil de R$ 848,59 fecha dia 25. Consulte no app.","chave":"81938339944","golpe_real":false}
+{"id":854,"ts":413175,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 407,86 a revisão. Pode pagar quando buscar, aceitamos Pix (rafael7705@gmail.com) ou cartão.","chave":"rafael7705@gmail.com","golpe_real":false}
+{"id":855,"ts":152186,"remetente":"Tia Lúcia","texto":"Oi Ana, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"62779415-253d","golpe_real":false}
+{"id":856,"ts":739956,"remetente":"+55 41 96794-7638 (número desconhecido)","texto":"Vaga de renda extra: ganhe R$ 300 por dia avaliando produtos. Taxa de cadastro única de R$ 2146,09 via Pix fernanda175@gmail.com.","chave":"fernanda175@gmail.com","golpe_real":true}
+{"id":857,"ts":460719,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 453,53 a revisão. Pode pagar quando buscar, aceitamos Pix (11903256364) ou cartão.","chave":"11903256364","golpe_real":false}
+{"id":858,"ts":153269,"remetente":"Americanas","texto":"Nota fiscal do seu pedido #792712 disponível na sua conta Americanas.","chave":"júlia996@gmail.com","golpe_real":false}
+{"id":859,"ts":635632,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 81931279747.","chave":"81931279747","golpe_real":false}
+{"id":860,"ts":573225,"remetente":"SMS Amazon","texto":"Pedido #721580 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"júlia3543@gmail.com","golpe_real":false}
+{"id":861,"ts":321508,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é c560ccb8-6dad.","chave":"c560ccb8-6dad","golpe_real":false}
+{"id":862,"ts":174403,"remetente":"Tia Lúcia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"84e5990a-a6ed","golpe_real":false}
+{"id":863,"ts":118718,"remetente":"Bruno","texto":"Ana, obrigado pelo Pix! Já recebi os R$ 828,91 do rateio da pizza.","chave":"13c65b86-b47e","golpe_real":false}
+{"id":864,"ts":234172,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"c8fbe822-2b77","golpe_real":false}
+{"id":865,"ts":222555,"remetente":"Bruno","texto":"Bruno, obrigado pelo Pix! Já recebi os R$ 863,94 do rateio da pizza.","chave":"pedro5410@gmail.com","golpe_real":false}
+{"id":866,"ts":685016,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 5acd3c6c-02be.","chave":"5acd3c6c-02be","golpe_real":false}
+{"id":867,"ts":239860,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"61930086670","golpe_real":false}
+{"id":868,"ts":595890,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 633,86 o número. Se quiser, o Pix é rafael6957@gmail.com, mas pode pagar na terça também.","chave":"rafael6957@gmail.com","golpe_real":false}
+{"id":869,"ts":569251,"remetente":"Magazine Luiza","texto":"Pedido #969155 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"41963908276","golpe_real":false}
+{"id":870,"ts":418109,"remetente":"Mercado Livre","texto":"Mercado Livre: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"31979462198","golpe_real":false}
+{"id":871,"ts":388180,"remetente":"+55 85 97074-6410 (número desconhecido)","texto":"Oi, é da clínica. A consulta do seu pai precisa de sinal de R$ 1392,74 até as 17h. Chave Pix: pedro7578@gmail.com.","chave":"pedro7578@gmail.com","golpe_real":true}
+{"id":872,"ts":233481,"remetente":"Mercado Livre","texto":"Pedido #248709 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"rafael1913@gmail.com","golpe_real":false}
+{"id":873,"ts":167108,"remetente":"Lucas","texto":"Oi pai! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"21989790114","golpe_real":false}
+{"id":874,"ts":120709,"remetente":"+55 85 94417-1970 (número desconhecido)","texto":"Oi amor, é o Bruno, tô com o celular da minha colega. Me faz um Pix de R$ 422,12 na chave bruno7282@gmail.com? Explico quando chegar.","chave":"bruno7282@gmail.com","golpe_real":true}
+{"id":875,"ts":592023,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"júlia5788@gmail.com","golpe_real":false}
+{"id":876,"ts":490578,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 4f4bc5ee-076b.","chave":"4f4bc5ee-076b","golpe_real":false}
+{"id":877,"ts":323186,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é bruno4740@gmail.com.","chave":"bruno4740@gmail.com","golpe_real":false}
+{"id":878,"ts":419162,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"bruno1805@gmail.com","golpe_real":false}
+{"id":879,"ts":204749,"remetente":"Amazon","texto":"Amazon: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"e8e00563-f6e8","golpe_real":false}
+{"id":880,"ts":402469,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"bruno7296@gmail.com","golpe_real":false}
+{"id":881,"ts":755707,"remetente":"Casas Bahia","texto":"Pedido #828617 confirmado! Casas Bahia agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"51963671819","golpe_real":false}
+{"id":882,"ts":411123,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 747,55 a revisão. Pode pagar quando buscar, aceitamos Pix (fernanda3133@gmail.com) ou cartão.","chave":"fernanda3133@gmail.com","golpe_real":false}
+{"id":883,"ts":764529,"remetente":"Marcos","texto":"Fernanda, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"8d20b018-f418","golpe_real":false}
+{"id":884,"ts":446312,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 465,08 a revisão. Pode pagar quando buscar, aceitamos Pix (be2ad81d-a5ff) ou cartão.","chave":"be2ad81d-a5ff","golpe_real":false}
+{"id":885,"ts":631132,"remetente":"Marcos","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"b584dab1-350b","golpe_real":false}
+{"id":886,"ts":478057,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"31915566410","golpe_real":false}
+{"id":887,"ts":482396,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"f3a0803a-7bdd","golpe_real":false}
+{"id":888,"ts":179784,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"rafael2222@gmail.com","golpe_real":false}
+{"id":889,"ts":207986,"remetente":"Clínica Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"41984300336","golpe_real":false}
+{"id":890,"ts":618935,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 491,57 em cima da mesa, se faltar me avisa.","chave":"2522d99e-eee6","golpe_real":false}
+{"id":891,"ts":253512,"remetente":"SMS Magazine Luiza","texto":"Magazine Luiza: seu pedido #661288 saiu para entrega. Acompanhe pelo app.","chave":"11917403824","golpe_real":false}
+{"id":892,"ts":667643,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é bruno5295@gmail.com.","chave":"bruno5295@gmail.com","golpe_real":false}
+{"id":893,"ts":489478,"remetente":"Filha","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"a700ea74-8e0a","golpe_real":false}
+{"id":894,"ts":145267,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 884,95 em cima da mesa, se faltar me avisa.","chave":"carla2021@gmail.com","golpe_real":false}
+{"id":895,"ts":709433,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 544,69 em cima da mesa, se faltar me avisa.","chave":"1a2c04ce-c631","golpe_real":false}
+{"id":896,"ts":228511,"remetente":"SMS 24218","texto":"pai, é o Ana. Meu celular quebrou e tô usando esse número. Consegue me emprestar R$ 1196,60? Pix na chave 66350b2d-d1f9, é urgente.","chave":"66350b2d-d1f9","golpe_real":true}
+{"id":897,"ts":494835,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"f0ec142d-a18b","golpe_real":false}
+{"id":898,"ts":237305,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 663,24 em cima da mesa, se faltar me avisa.","chave":"c209706c-6b55","golpe_real":false}
+{"id":899,"ts":624612,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 732,46 o número. Se quiser, o Pix é 21999705296, mas pode pagar na terça também.","chave":"21999705296","golpe_real":false}
+{"id":900,"ts":596975,"remetente":"Pai","texto":"Oi filho, comprei o presente da vovó. Foi R$ 816,07, dividimos depois, sem pressa.","chave":"61975247308","golpe_real":false}
+{"id":901,"ts":424121,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 539,03 fecha dia 25. Consulte no app.","chave":"beatriz6591@gmail.com","golpe_real":false}
+{"id":902,"ts":159030,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"fernanda9461@gmail.com","golpe_real":false}
+{"id":903,"ts":548234,"remetente":"Prima Bia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"3a682511-5637","golpe_real":false}
+{"id":904,"ts":721277,"remetente":"Tia Lúcia","texto":"Oi Marcos, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"41900266511","golpe_real":false}
+{"id":905,"ts":374909,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 848,97, dividimos depois, sem pressa.","chave":"3b9a51fe-fe47","golpe_real":false}
+{"id":906,"ts":300558,"remetente":"+55 41 96816-1951 (número desconhecido)","texto":"Receita Federal: sua restituição de R$ 1539,17 está bloqueada. Regularize pagando a taxa de R$ 47,90 no Pix lucas7210@gmail.com.","chave":"lucas7210@gmail.com","golpe_real":true}
+{"id":907,"ts":107928,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 45,95 a revisão. Pode pagar quando buscar, aceitamos Pix (61924018023) ou cartão.","chave":"61924018023","golpe_real":false}
+{"id":908,"ts":319180,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 254,77 o número. Se quiser, o Pix é marcos6290@gmail.com, mas pode pagar na terça também.","chave":"marcos6290@gmail.com","golpe_real":false}
+{"id":909,"ts":416063,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"81913551296","golpe_real":false}
+{"id":910,"ts":319764,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"pedro2204@gmail.com","golpe_real":false}
+{"id":911,"ts":228900,"remetente":"+55 71 98750-0294 (número desconhecido)","texto":"Bradesco: detectamos uma compra suspeita de R$ 873,76 no seu cartão. Se não reconhece, transfira seu saldo para a conta segura, chave f7c2f09b-9b3f, ou sua conta será bloqueada.","chave":"f7c2f09b-9b3f","golpe_real":true}
+{"id":912,"ts":502474,"remetente":"Filha","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"31941651363","golpe_real":false}
+{"id":913,"ts":656239,"remetente":"+55 51 92527-0061 (número desconhecido)","texto":"Seu WhatsApp será desativado em 24h por violação. Para manter, confirme seu cadastro pagando R$ 909,04 via Pix 4c76a0a0-9291.","chave":"4c76a0a0-9291","golpe_real":true}
+{"id":914,"ts":592287,"remetente":"SMS Magazine Luiza","texto":"Pedido #518758 confirmado! Magazine Luiza agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"23dac112-bbe0","golpe_real":false}
+{"id":915,"ts":671246,"remetente":"+55 51 95574-9389 (número desconhecido)","texto":"Boa tarde, caiu um Pix de R$ 1574,44 na sua conta que era pra outra pessoa. Por favor estorne pra chave 81964358979 hoje ainda.","chave":"81964358979","golpe_real":true}
+{"id":916,"ts":505544,"remetente":"Marcos","texto":"Pedro, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"51905431193","golpe_real":false}
+{"id":917,"ts":147457,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"fernanda9877@gmail.com","golpe_real":false}
+{"id":918,"ts":489624,"remetente":"Bradesco","texto":"Sua fatura Bradesco de R$ 48,52 fecha dia 25. Consulte no app.","chave":"carla9321@gmail.com","golpe_real":false}
+{"id":919,"ts":230464,"remetente":"+55 61 97649-0599 (número desconhecido)","texto":"Detran: multa de R$ 2194,76 vence hoje. Pague com 40% de desconto via Pix 71935304634 e evite a suspensão da CNH.","chave":"71935304634","golpe_real":true}
+{"id":920,"ts":683396,"remetente":"Lucas","texto":"Lucas, obrigado pelo Pix! Já recebi os R$ 105,85 do rateio da pizza.","chave":"ana4032@gmail.com","golpe_real":false}
+{"id":921,"ts":131876,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 23,28 em cima da mesa, se faltar me avisa.","chave":"carla5454@gmail.com","golpe_real":false}
+{"id":922,"ts":582516,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"júlia6424@gmail.com","golpe_real":false}
+{"id":923,"ts":218864,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"51996060276","golpe_real":false}
+{"id":924,"ts":490112,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"23cf2e1d-786b","golpe_real":false}
+{"id":925,"ts":154149,"remetente":"Filho","texto":"Pai, cheguei na faculdade. A prova foi tranquila. Almoço aí domingo?","chave":"31943383967","golpe_real":false}
+{"id":926,"ts":470959,"remetente":"Bruno","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"6a7619e2-82ea","golpe_real":false}
+{"id":927,"ts":477291,"remetente":"Marcos","texto":"Lucas, obrigado pelo Pix! Já recebi os R$ 848,91 do rateio da pizza.","chave":"bruno8814@gmail.com","golpe_real":false}
+{"id":928,"ts":462283,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"carla8380@gmail.com","golpe_real":false}
+{"id":929,"ts":235129,"remetente":"Júlia","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"6690d294-4079","golpe_real":false}
+{"id":930,"ts":242474,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 52,30 o número. Se quiser, o Pix é marcos1934@gmail.com, mas pode pagar na terça também.","chave":"marcos1934@gmail.com","golpe_real":false}
+{"id":931,"ts":384013,"remetente":"Fernanda","texto":"Amiga, a rifa da escola é R$ 437,35 o número. Se quiser, o Pix é beatriz6239@gmail.com, mas pode pagar na terça também.","chave":"beatriz6239@gmail.com","golpe_real":false}
+{"id":932,"ts":313962,"remetente":"Rafael","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"3e185230-b33c","golpe_real":false}
+{"id":933,"ts":532921,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é lucas8503@gmail.com.","chave":"lucas8503@gmail.com","golpe_real":false}
+{"id":934,"ts":622586,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 200,87 o número. Se quiser, o Pix é 9defdaac-8103, mas pode pagar na terça também.","chave":"9defdaac-8103","golpe_real":false}
+{"id":935,"ts":743638,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"1eae88ed-bba7","golpe_real":false}
+{"id":936,"ts":163981,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"6fdb2820-4bd6","golpe_real":false}
+{"id":937,"ts":482775,"remetente":"Santander","texto":"Sua fatura Santander de R$ 236,23 fecha dia 25. Consulte no app.","chave":"60a226dd-d9f3","golpe_real":false}
+{"id":938,"ts":587260,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 885,53 o número. Se quiser, o Pix é 11950941693, mas pode pagar na terça também.","chave":"11950941693","golpe_real":false}
+{"id":939,"ts":727726,"remetente":"Americanas","texto":"Americanas: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"78925910-d1fc","golpe_real":false}
+{"id":940,"ts":324161,"remetente":"Marcos 302","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"6430b90a-5048","golpe_real":false}
+{"id":941,"ts":211967,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é f3c60848-de5e.","chave":"f3c60848-de5e","golpe_real":false}
+{"id":942,"ts":150041,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"8777502c-cfd4","golpe_real":false}
+{"id":943,"ts":466168,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"fernanda1714@gmail.com","golpe_real":false}
+{"id":944,"ts":298538,"remetente":"SMS Americanas","texto":"Americanas: seu pedido #838329 saiu para entrega. Acompanhe pelo app.","chave":"51912471693","golpe_real":false}
+{"id":945,"ts":117638,"remetente":"Nubank","texto":"Sua fatura Nubank de R$ 414,75 fecha dia 25. Consulte no app.","chave":"31943373186","golpe_real":false}
+{"id":946,"ts":496783,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"988afc63-a844","golpe_real":false}
+{"id":947,"ts":350917,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 17,07 a revisão. Pode pagar quando buscar, aceitamos Pix (carla6880@gmail.com) ou cartão.","chave":"carla6880@gmail.com","golpe_real":false}
+{"id":948,"ts":204446,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"marcos9334@gmail.com","golpe_real":false}
+{"id":949,"ts":505413,"remetente":"Bruno","texto":"Lucas, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"carla5027@gmail.com","golpe_real":false}
+{"id":950,"ts":394191,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 281,79, dividimos depois, sem pressa.","chave":"marcos4324@gmail.com","golpe_real":false}
+{"id":951,"ts":671373,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"21903599045","golpe_real":false}
+{"id":952,"ts":422266,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #731804 disponível na sua conta Amazon.","chave":"bruno5373@gmail.com","golpe_real":false}
+{"id":953,"ts":608334,"remetente":"Bruno","texto":"Pedro, obrigado pelo Pix! Já recebi os R$ 473,43 do rateio da pizza.","chave":"43aabcec-d771","golpe_real":false}
+{"id":954,"ts":348632,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 153,07 em cima da mesa, se faltar me avisa.","chave":"4d96ee8d-efd7","golpe_real":false}
+{"id":955,"ts":562770,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 82,17 a revisão. Pode pagar quando buscar, aceitamos Pix (31943475275) ou cartão.","chave":"31943475275","golpe_real":false}
+{"id":956,"ts":422929,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é beatriz9715@gmail.com.","chave":"beatriz9715@gmail.com","golpe_real":false}
+{"id":957,"ts":292280,"remetente":"SMS 20471","texto":"Oi, fiz um Pix pra você por engano de R$ 275,69. Pode devolver na chave 51942117050? Preciso muito desse dinheiro, é do aluguel.","chave":"51942117050","golpe_real":true}
+{"id":958,"ts":773615,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"beatriz1992@gmail.com","golpe_real":false}
+{"id":959,"ts":227410,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é bb3baf2d-eb76.","chave":"bb3baf2d-eb76","golpe_real":false}
+{"id":960,"ts":310449,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"carla7297@gmail.com","golpe_real":false}
+{"id":961,"ts":676809,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"61967767003","golpe_real":false}
+{"id":962,"ts":279023,"remetente":"Carla","texto":"Amiga, a rifa da escola é R$ 306,65 o número. Se quiser, o Pix é bruno393@gmail.com, mas pode pagar na terça também.","chave":"bruno393@gmail.com","golpe_real":false}
+{"id":963,"ts":533363,"remetente":"Sobrinho Pedro","texto":"Tio, o jogo é às 16h. A gente se encontra no portão B?","chave":"c391f2b1-07d4","golpe_real":false}
+{"id":964,"ts":329403,"remetente":"+55 71 92501-1385","texto":"Central Caixa: sua conta foi comprometida. Para proteger seu saldo, transfira imediatamente para a conta segura, chave 51911290957. Não ignore.","chave":"51911290957","golpe_real":true}
+{"id":965,"ts":567981,"remetente":"Filha","texto":"Oi prima! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"rafael4515@gmail.com","golpe_real":false}
+{"id":966,"ts":647377,"remetente":"Marcos","texto":"Beatriz, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"fernanda4306@gmail.com","golpe_real":false}
+{"id":967,"ts":229103,"remetente":"+55 41 97417-0950","texto":"Detran: multa de R$ 1254,52 vence hoje. Pague com 40% de desconto via Pix f7c2f09b-9b3f e evite a suspensão da CNH.","chave":"f7c2f09b-9b3f","golpe_real":true}
+{"id":968,"ts":505164,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"beatriz2472@gmail.com","golpe_real":false}
+{"id":969,"ts":329183,"remetente":"SMS 21278","texto":"Itaú: token expirado. Para não perder acesso ao app, faça um Pix de validação de R$ 1,00 para 51911290957 nos próximos 10 minutos.","chave":"51911290957","golpe_real":true}
+{"id":970,"ts":773972,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 529,49, dividimos depois, sem pressa.","chave":"21966626830","golpe_real":false}
+{"id":971,"ts":493120,"remetente":"SMS 21864","texto":"tia, mudei de número. Minha conta foi bloqueada e preciso pagar o cartão hoje. Faz um Pix de R$ 391,67 pra 11932815914? Te devolvo sexta.","chave":"11932815914","golpe_real":true}
+{"id":972,"ts":479014,"remetente":"Amazon","texto":"Pedido #528653 confirmado! Amazon agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"e0da31a6-69c9","golpe_real":false}
+{"id":973,"ts":580878,"remetente":"Clínica Sorriso","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"a21c52aa-d1f6","golpe_real":false}
+{"id":974,"ts":757273,"remetente":"Shopee","texto":"Shopee: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"beatriz3116@gmail.com","golpe_real":false}
+{"id":975,"ts":232333,"remetente":"Rafael","texto":"Júlia, o churrasco de sábado vai ser na casa do Rafa. Leva o carvão? Eu levo a carne.","chave":"bruno5240@gmail.com","golpe_real":false}
+{"id":976,"ts":374230,"remetente":"Neta Júlia","texto":"Oi vó, feliz aniversário! Vou passar aí à tarde com as crianças.","chave":"ea986c01-beb7","golpe_real":false}
+{"id":977,"ts":487144,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é 51981514506.","chave":"51981514506","golpe_real":false}
+{"id":978,"ts":517986,"remetente":"Pedro","texto":"Oi tia! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"ca226845-2538","golpe_real":false}
+{"id":979,"ts":444878,"remetente":"Tia Lúcia","texto":"Oi Ana, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"eda6c07e-9534","golpe_real":false}
+{"id":980,"ts":672101,"remetente":"Marido","texto":"Bom dia! A diarista vem quarta. Deixei R$ 885,92 em cima da mesa, se faltar me avisa.","chave":"9be0cab0-670f","golpe_real":false}
+{"id":981,"ts":386267,"remetente":"Oficina do Beto","texto":"Boa tarde! Seu carro está pronto. Ficou R$ 524,96 a revisão. Pode pagar quando buscar, aceitamos Pix (11984148773) ou cartão.","chave":"11984148773","golpe_real":false}
+{"id":982,"ts":585450,"remetente":"Prima Bia","texto":"Oi Bruno, tudo bem? Manda o endereço novo que quero te mandar um convite.","chave":"11910934482","golpe_real":false}
+{"id":983,"ts":686198,"remetente":"Beatriz","texto":"Amiga, a rifa da escola é R$ 867,81 o número. Se quiser, o Pix é carla1525@gmail.com, mas pode pagar na terça também.","chave":"carla1525@gmail.com","golpe_real":false}
+{"id":984,"ts":586967,"remetente":"Esposa","texto":"Bom dia! A diarista vem quarta. Deixei R$ 539,76 em cima da mesa, se faltar me avisa.","chave":"ee18a6a8-ccbf","golpe_real":false}
+{"id":985,"ts":416661,"remetente":"Amazon","texto":"Nota fiscal do seu pedido #326195 disponível na sua conta Amazon.","chave":"51964425138","golpe_real":false}
+{"id":986,"ts":132705,"remetente":"Lucas","texto":"Oi irmão! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"5f73dbc8-0256","golpe_real":false}
+{"id":987,"ts":725896,"remetente":"Síndico","texto":"Oi, aqui é o Marcos do apartamento 302. Reunião de condomínio quinta às 19h no salão.","chave":"ana752@gmail.com","golpe_real":false}
+{"id":988,"ts":757974,"remetente":"Ana (dentista)","texto":"Oi, é a Ana do dentista. Confirmando sua consulta amanhã às 14h. Pode responder SIM?","chave":"ana2534@gmail.com","golpe_real":false}
+{"id":989,"ts":302653,"remetente":"Magazine Luiza","texto":"Magazine Luiza: seu pedido #856424 saiu para entrega. Acompanhe pelo app.","chave":"bruno3110@gmail.com","golpe_real":false}
+{"id":990,"ts":485245,"remetente":"Recepção Dr. Paulo","texto":"Lembrete: consulta com Dr. Paulo amanhã 9h. Traga os exames.","chave":"júlia6117@gmail.com","golpe_real":false}
+{"id":991,"ts":236520,"remetente":"Santander","texto":"Sua fatura Santander de R$ 703,62 fecha dia 25. Consulte no app.","chave":"94b5eb0c-18b7","golpe_real":false}
+{"id":992,"ts":201290,"remetente":"Mercado Livre","texto":"Pedido #183910 confirmado! Mercado Livre agradece a compra. Previsão de entrega: 3 dias úteis.","chave":"11907083886","golpe_real":false}
+{"id":993,"ts":341663,"remetente":"Filha","texto":"Oi tio! Cheguei bem, viagem tranquila. Depois te ligo pra contar.","chave":"fernanda8502@gmail.com","golpe_real":false}
+{"id":994,"ts":563789,"remetente":"Casas Bahia","texto":"Casas Bahia: seu carrinho ficou salvo. Os itens continuam disponíveis por 7 dias.","chave":"71946520582","golpe_real":false}
+{"id":995,"ts":290645,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 299,29, dividimos depois, sem pressa.","chave":"31997014882","golpe_real":false}
+{"id":996,"ts":606257,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é bruno5007@gmail.com.","chave":"bruno5007@gmail.com","golpe_real":false}
+{"id":997,"ts":579222,"remetente":"Academia FitMais","texto":"Lembrete: a mensalidade da academia vence dia 10. Se preferir Pix, a chave é beatriz7032@gmail.com.","chave":"beatriz7032@gmail.com","golpe_real":false}
+{"id":998,"ts":542938,"remetente":"Mercado Livre","texto":"Nota fiscal do seu pedido #762647 disponível na sua conta Mercado Livre.","chave":"júlia6025@gmail.com","golpe_real":false}
+{"id":999,"ts":595726,"remetente":"Mãe","texto":"Oi filho, comprei o presente da vovó. Foi R$ 340,15, dividimos depois, sem pressa.","chave":"61990521174","golpe_real":false}

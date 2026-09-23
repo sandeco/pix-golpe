@@ -55,13 +55,32 @@ Carga dos 10 milhões de transações: cerca de 400 ms, 129 MB.
 
 Regras de justiça: mesmo dataset, mesmas perguntas, mesma concorrência, rastreio serializado nos dois lados, Python sem numpy.
 
-## Dados gerados (pasta `data/`, fora do repositório)
+## Dados para artigo científico
+
+A pasta [paper/](paper/) tem o dataset card, o protocolo experimental, o ambiente, o dado bruto de uma corrida
+completa (`paper/results/*.jsonl`) e os scripts que geram as tabelas, a matriz de confusão, os intervalos de
+confiança e as figuras. Checksums do dataset em `paper/SHA256SUMS`.
+
+## Gerar os dados (pasta `data/`)
+
+O repositório traz os arquivos pequenos de `data/` (mensagens, chaves, verdade de referência e rastreio de
+referência). O binário de transações tem 160 MB e não está no GitHub: você gera na sua máquina, e o resultado
+é idêntico byte a byte, porque o gerador usa semente fixa (ChaCha8, semente 42).
+
+```
+cargo run --release --bin gerar-dados     # cerca de 10 s, escreve os cinco arquivos em data/
+sha256sum -c paper/SHA256SUMS             # rode dentro de data/; os cinco devem dar OK
+```
 
 - `mensagens.jsonl`: 1000 mensagens (75 golpes, 925 legítimas), com `id`, `ts`, `remetente`, `texto`, `chave` e `golpe_real`.
 - `chaves.json`: mapa de chave Pix para id de conta.
-- `transacoes.bin`: binário little-endian, cabeçalho `PIX1`, `u32 n_contas`, `u32 n_transacoes`, depois registros de 16 bytes
-  (`u32 origem`, `u32 destino`, `u32 valor_centavos`, `u32 ts`), ordenados por `ts`.
+- `transacoes.bin`: 9 968 511 transações entre 1 000 000 de contas. Binário little-endian, cabeçalho `PIX1`,
+  `u32 n_contas`, `u32 n_transacoes`, depois registros de 16 bytes (`u32 origem`, `u32 destino`, `u32 valor_centavos`, `u32 ts`),
+  ordenados por `ts`.
 - `meta.json`: verdade de referência das 40 quadrilhas (chave, nó, laranjas, contas de saque, início).
+- `trace_ref.jsonl`: rastreio de referência das 40 quadrilhas, usado para conferir o porte Python.
+
+O gerador sobrescreve os arquivos existentes em `data/`. Como a saída é determinística, isso não muda nada.
 
 ## Conferir a igualdade dos algoritmos
 

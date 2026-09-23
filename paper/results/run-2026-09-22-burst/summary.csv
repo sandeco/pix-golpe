@@ -1,0 +1,3 @@
+side,nome,modelo,mensagens,erros,tempo_total_s,decisao_p50_ms,decisao_p50_ic95,decisao_p95_ms,decisao_media_ms,decisao_dp_ms,rastreios,rastreio_p50_ms,rastreio_p50_ic95,rastreio_p95_ms,TP,FP,FN,TN,acuracia,precisao,recall,f1,suspeita_em_golpe_real,suspeita_em_normal,laranjas_recall,saque_recall,tokens_in,tokens_out,custo_usd,custo_usd_por_1000
+rust,Rust + Jev,jev-1.13.0,1000,0,46.0,358.9,"[355.0, 363.0]",460.1,366.7,51.7,73,28.1,"[27.2, 31.5]",66.6,73,0,2,925,0.998,1.0,0.9733,0.9865,2,9,0.9856,0.9795,611513,148729,0.025684,0.0257
+python,Python + DeepSeek,deepseek-flash,999,1,141.6,1099.6,"[1088.7, 1116.6]",1410.4,1119.4,201.3,75,294.2,"[259.0, 397.1]",1130.3,75,0,0,924,1.0,1.0,1.0,1.0,0,0,0.9851,0.98,320421,39782,0.106426,0.1065

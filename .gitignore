@@ -1,8 +1,8 @@
 .env
 target/
-data/
 .reversa/
 _reversa_forward/
 output/
 *.pdf
 __pycache__/
+data/transacoes.bin

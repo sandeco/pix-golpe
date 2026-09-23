@@ -1,0 +1,20 @@
+\begin{tabular}{lrr}
+\toprule
+Métrica & Rust + Jev & Python + DeepSeek \\
+\midrule
+Mensagens avaliadas & 1000 & 999 \\
+Tempo total (s) & 46.0 & 141.6 \\
+Decisão p50 (ms) [IC 95\%] & 358.9 [355.0, 363.0] & 1099.6 [1088.7, 1116.6] \\
+Decisão p95 (ms) & 460.1 & 1410.4 \\
+Rastreio p50 (ms) [IC 95\%] & 28.1 [27.2, 31.5] & 294.2 [259.0, 397.1] \\
+Rastreio p95 (ms) & 66.6 & 1130.3 \\
+TP / FP / FN / TN & 73 / 0 / 2 / 925 & 75 / 0 / 0 / 924 \\
+Acurácia & 0.9980 & 1.0000 \\
+Precisão & 1.0000 & 1.0000 \\
+Recall & 0.9733 & 1.0000 \\
+F1 & 0.9865 & 1.0000 \\
+Recall de laranjas no rastreio & 0.9856 & 0.9851 \\
+Tokens de entrada / saída & 611513 / 148729 & 320421 / 39782 \\
+Custo (USD) & 0.0257 & 0.1064 \\
+\bottomrule
+\end{tabular}

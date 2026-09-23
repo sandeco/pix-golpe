@@ -1,0 +1,112 @@
+{
+  "captura": {
+    "type": "capture",
+    "mode": "burst",
+    "started_at": "2026-09-23T01:56:14.142510+00:00",
+    "url": "ws://localhost:8080/ws"
+  },
+  "run": {
+    "concurrency": 8,
+    "mode": "burst",
+    "pace_ms": 0,
+    "run_id": 2,
+    "total": 1000,
+    "type": "run",
+    "_recv_s": 0.028205
+  },
+  "done": {
+    "rust": {
+      "cost_usd": 0.02568354599999999,
+      "decision_p50_ms": 359.0989,
+      "decision_p95_ms": 459.9772,
+      "erros": 0,
+      "golpes": 73,
+      "messages": 1000,
+      "total_ms": 45991,
+      "trace_p50_ms": 28.083099999999998,
+      "trace_p95_ms": 53.8008
+    },
+    "python": {
+      "cost_usd": 0.10642632,
+      "decision_p50_ms": 1099.58569999435,
+      "decision_p95_ms": 1410.2641999925254,
+      "erros": 1,
+      "golpes": 75,
+      "messages": 1000,
+      "total_ms": 141606.94640000293,
+      "trace_p50_ms": 294.1706000128761,
+      "trace_p95_ms": 1095.4952000029152
+    }
+  },
+  "erros": [
+    {
+      "id": 7,
+      "message": "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)",
+      "run_id": 2,
+      "side": "python",
+      "type": "error",
+      "_recv_s": 0.197523
+    }
+  ],
+  "report_servidor": {
+    "golpes_reais": 75,
+    "run_id": 2,
+    "sides": {
+      "python": {
+        "acuracia": 1.0,
+        "avaliadas": 999,
+        "fn": 0,
+        "fp": 0,
+        "matriz": {
+          "golpe": {
+            "golpe": 75,
+            "ok": 0,
+            "revisar": 0
+          },
+          "normal": {
+            "golpe": 0,
+            "ok": 924,
+            "revisar": 0
+          }
+        },
+        "precisao": 1.0,
+        "recall": 1.0,
+        "tn": 924,
+        "tp": 75
+      },
+      "rust": {
+        "acuracia": 0.998,
+        "avaliadas": 1000,
+        "fn": 2,
+        "fp": 0,
+        "matriz": {
+          "golpe": {
+            "golpe": 73,
+            "ok": 0,
+            "revisar": 2
+          },
+          "normal": {
+            "golpe": 0,
+            "ok": 916,
+            "revisar": 9
+          }
+        },
+        "precisao": 1.0,
+        "recall": 0.9733333333333334,
+        "tn": 925,
+        "tp": 73
+      }
+    },
+    "total": 1000,
+    "type": "report",
+    "_recv_s": 141.647677
+  },
+  "n_decisoes": {
+    "rust": 1000,
+    "python": 999
+  },
+  "n_rastreios": {
+    "rust": 73,
+    "python": 75
+  }
+}
