@@ -69,7 +69,7 @@ Variáveis de ambiente: `TYPESAFE_API_KEY` (`src/jev.rs:101`), `DEEPSEEK_API_KEY
 | Serviço | Endpoint | Modelo | Custo no código |
 |---|---|---|---|
 | TypeSafe AI (Jev) | `POST https://api.typesafe.ai/v1/systemone` | `jev-latest` | US$ 0,042 / 1M tokens de entrada, saída grátis |
-| DeepSeek | `POST https://api.deepseek.com/chat/completions` | `deepseek-chat` (resolve para `deepseek-flash`) | US$ 0,28 / 1M entrada + US$ 0,42 / 1M saída (estimado, 3 tentativas) |
+| DeepSeek | `POST https://api.deepseek.com/chat/completions` | `deepseek-flash` | US$ 0,28 / 1M entrada + US$ 0,42 / 1M saída (estimado, 3 tentativas) |
 
 ## 6. Bases de dados (arquivos em `data/`) 🟢
 

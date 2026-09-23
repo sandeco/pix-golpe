@@ -38,7 +38,7 @@ Estrutura `Decisao` (Rust) e dict (Python):
 5. Outro status → `bail!("Jev respondeu {status}: {corpo}")`.
 
 ## Fluxo Principal (DeepSeek)
-1. Body `{"model":"deepseek-chat","temperature":0,"response_format":{"type":"json_object"},"messages":[system SYSTEM_PROMPT, user "Remetente: r\nMensagem: t"]}` (`deepseek.py:136-143`).
+1. Body `{"model":"deepseek-flash","temperature":0,"response_format":{"type":"json_object"},"messages":[system SYSTEM_PROMPT, user "Remetente: r\nMensagem: t"]}` (`deepseek.py:136-143`).
 2. Para `attempt` em 0..3: `POST`, mede `latency_ms`; 429/5xx com tentativas restantes → sleep `2^attempt` s → continua; senão `raise_for_status()` (`:144-153`).
 3. `response.json()` → `parse_response(payload, latency_ms)` (`:154-158`).
 4. `parse_response`: extrai `choices[0].message.content`, `usage`, `model`; `json.loads(content)`; exige dict com `golpe, tipo, urgencia, pede_pix`; numéricos finitos não-bool em [0,1], [0,2], [0,1]; `tipo ∈ TIPOS`; `model` str não vazia; tokens `int ≥ 0` (`:79-112`).

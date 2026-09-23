@@ -61,7 +61,7 @@ Headers: `Authorization: Bearer $DEEPSEEK_API_KEY`. Timeout 120 s (connect 20 s)
 ### Request
 ```json
 {
-  "model": "deepseek-chat",
+  "model": "deepseek-flash",
   "temperature": 0,
   "response_format": { "type": "json_object" },
   "messages": [

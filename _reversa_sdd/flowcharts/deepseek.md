@@ -6,7 +6,7 @@ flowchart TD
     K1 -- sim --> K2[usa]
     K1 -- nao --> K3[procura .env no cwd e nos pais] --> K4{achou?}
     K4 -- nao --> KX[ValueError]
-    C[classificar] --> C1[body: deepseek-chat, temperature 0, json_object, system + user]
+    C[classificar] --> C1[body: deepseek-flash, temperature 0, json_object, system + user]
     C1 --> C2[POST chat/completions, mede latency da tentativa]
     C2 --> C3{429 ou 5xx e tentativas restantes?}
     C3 -- sim --> C4[sleep 2^n s] --> C2

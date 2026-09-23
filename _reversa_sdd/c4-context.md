@@ -9,7 +9,7 @@ C4Context
     Person(operador, "Operador", "Gera os dados e sobe o servidor pelo terminal")
     System(pix, "pix-golpe (Pix Race)", "Corrida em tela dividida: Rust+Jev vs Python+DeepSeek detectando golpes e rastreando quadrilhas em dados simulados")
     System_Ext(jev, "TypeSafe AI (Jev)", "API de perguntas tipadas, modelo jev-latest")
-    System_Ext(deepseek, "DeepSeek", "API chat/completions em JSON mode, modelo deepseek-chat")
+    System_Ext(deepseek, "DeepSeek", "API chat/completions em JSON mode, modelo deepseek-flash")
     Rel(apresentador, pix, "Usa", "browser, http://localhost:8080")
     Rel(operador, pix, "cargo run gerar-dados / server", "terminal")
     Rel(pix, jev, "Classifica mensagens", "HTTPS, Bearer")

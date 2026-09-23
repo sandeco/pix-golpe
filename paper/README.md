@@ -45,7 +45,7 @@ Verdade por rastreio: conjunto de laranjas e contas de saque da quadrilha ligada
 | | Rust + Jev | Python + DeepSeek |
 |---|---|---|
 | Linguagem | Rust 1.88 (axum, tokio, reqwest) | Python 3.12, puro (sem numpy), `httpx`, `websockets` |
-| Modelo | `jev-latest`, servido como `jev-1.13.0` | `deepseek-chat`, respondido como `deepseek-flash`, `temperature = 0`, `response_format = json_object` |
+| Modelo | `jev-latest`, servido como `jev-1.13.0` | `deepseek-flash`, `temperature = 0`, `response_format = json_object` |
 | Endpoint | `https://api.typesafe.ai/v1/systemone` | `https://api.deepseek.com/chat/completions` |
 | Perguntas | 4 campos tipados numa passada: `golpe` (nível), `tipo` (escolha entre 8 classes), `urgencia` (score 0 a 2), `pede_pix` (nível) | As mesmas 4 em JSON, com o mesmo texto de instrução |
 | Custo | US$ 0,042 por milhão de tokens de entrada | US$ 0,28 por milhão de entrada, US$ 0,42 por milhão de saída (estimado a partir de `usage`) |

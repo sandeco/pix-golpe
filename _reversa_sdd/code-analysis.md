@@ -160,7 +160,7 @@ Regra de negócio embutida 🟢: `normal()` sorteia qualquer conta ≥ N_HUBS, e
 
 **Propósito:** cliente async do DeepSeek em JSON mode, com validação estrita.
 
-- `API_URL = https://api.deepseek.com/chat/completions`, `MODEL = "deepseek-chat"`, `temperature 0`, `response_format json_object`. Custos estimados: entrada US$ 0,28/M, saída US$ 0,42/M.
+- `API_URL = https://api.deepseek.com/chat/completions`, `MODEL = "deepseek-flash"`, `temperature 0`, `response_format json_object`. Custos estimados: entrada US$ 0,28/M, saída US$ 0,42/M.
 - `load_api_key()`: env `DEEPSEEK_API_KEY` tem precedência; senão procura `.env` no cwd e nos pais, aceita `export`, aspas e comentário `#`.
 - `DeepSeekClient`: `httpx.AsyncClient`, timeout 120 s (connect 20 s), pool de 8 conexões keepalive, TLS via `truststore` (store do sistema) quando disponível.
 - `classificar()`: até `MAX_ATTEMPTS = 3` tentativas em 429/5xx com backoff `2^n s` (1, 2). `latency_ms` mede apenas a tentativa HTTP bem-sucedida (backoff excluído). Outros erros HTTP → `raise_for_status`.

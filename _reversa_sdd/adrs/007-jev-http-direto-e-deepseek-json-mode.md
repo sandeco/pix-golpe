@@ -9,7 +9,7 @@ O Jev não gera texto: recebe `state` e perguntas tipadas (`noul`, `choice`, `sc
 ## Decisão
 
 - Rust chama `POST /v1/systemone` com `reqwest` + `serde`, modelo `jev-latest`, 4 perguntas fixas, `state` em português e instruções em inglês (validado ao vivo em 2026-09-20).
-- Python chama `chat/completions` com `deepseek-chat`, `temperature 0`, `response_format json_object`, prompt de sistema exato do SPEC, e valida o JSON campo a campo (faixas, tipo na lista, tokens inteiros). Falha vira evento `error`, não veredito.
+- Python chama `chat/completions` com `deepseek-flash`, `temperature 0`, `response_format json_object`, prompt de sistema exato do SPEC, e valida o JSON campo a campo (faixas, tipo na lista, tokens inteiros). Falha vira evento `error`, não veredito.
 - Retentativas curtas nos dois lados (429/529 e 429/5xx), 3 tentativas.
 - TLS do Python via `truststore` (store do sistema) por causa de proxy/antivírus com CA própria no Windows.
 
